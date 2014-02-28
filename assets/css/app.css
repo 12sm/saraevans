@@ -9,6 +9,22 @@
 
 body { }
 
+.shapes {
+position:absolute;
+height:2800px;
+width:150px;
+top:0px;
+}
+
+.shape-left {
+background:transparent url(assets/img/topLeft.png) top left scroll no-repeat;
+left:0px;
+}
+
+.shape-right {
+background:transparent url(assets/img/topRight.png) top right scroll no-repeat;	
+right:0px;
+}
 
 
 /* ==========================================================================
