@@ -9,21 +9,29 @@
 
 body { }
 
-.shapes {
-position:absolute;
-height:2800px;
-width:150px;
-top:0px;
-}
-
 .shape-left {
-background:transparent url(assets/img/topLeft.png) top left scroll no-repeat;
-left:0px;
+background: transparent url(../img/shapesLeft.png);
+left: 0px;
+background-position-y: 0px;
+background-position-x: left;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }
 
 .shape-right {
-background:transparent url(assets/img/topRight.png) top right scroll no-repeat;	
-right:0px;
+background: transparent url(../img/shapesRight.png);
+right: 0px;
+background-position-y: 0px;
+background-position-x: right;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.shapes {
+position:fixed;
+height:100%;
+width:150px;
+top:0px;
 }
 
 

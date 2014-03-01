@@ -5,14 +5,14 @@ var ExampleSite = {
   // All pages
   common: {
     init: function() {
-      // JS here
+    
     },
     finalize: function() { }
   },
   // Home page
   home: {
     init: function() {
-      // JS here
+      	
     }
   },
   // About page
@@ -44,3 +44,15 @@ var UTIL = {
 };
 
 $(document).ready(UTIL.loadEvents);
+
+
+
+
+    	function parallax(){
+   			var scrolled = $(window).scrollTop();
+   			$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
+   		}
+    
+   		$(window).scroll(function(e){
+    		parallax();
+    	});
