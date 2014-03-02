@@ -7,7 +7,7 @@
    Base
    ========================================================================== */
 
-body { }
+body {background-color: black; }
 
 .shape-left {
 background: transparent url(../img/shapesLeft.png);
