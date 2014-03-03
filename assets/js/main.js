@@ -54,10 +54,7 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      // JavaScript to be fired on the home page
-
-      // Calling LayerSlider on your selected element after the document loaded
-      $("#layerslider").layerSlider();      
+      // JavaScript to be fired on the home page  
       
     }
   },
