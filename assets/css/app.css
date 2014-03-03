@@ -8,7 +8,9 @@
    ========================================================================== */
 
 body {}
-
+ul{
+   list-style-type: none;
+}
 .row{
 margin: 0px auto!important;
 }
