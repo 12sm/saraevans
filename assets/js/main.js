@@ -34,7 +34,7 @@ var Roots = {
       });
       
       // Target your .container, .wrapper, .post, etc.
-      $(".fitvids").fitVids();
+      //'$(".fitvids").fitVids();
       
       $('#Album-Carousel').flexslider({
 	      animation: "slide",
