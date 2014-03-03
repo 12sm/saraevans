@@ -26,3 +26,25 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--ALBUMS-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="row">
+		<div class="col-md-4">
+		<wpv-loop>
+		<img src="[types field="album-image" output="raw"][/types]" class="img-responsive">
+		</wpv-loop>
+		</div>
+		<div class="col-md-8">
+		[wpv-view name="songs"]
+		</div>
+		</div>
+
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
