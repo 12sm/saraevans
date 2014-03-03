@@ -3,6 +3,9 @@
 <?php echo do_shortcode( '[layerslider id="1"]') ?>
 </div>
 </div>
+
+<div class="container">
+
 <div class="row">
 	<div class="col-md-6">
 		<div class="row">
@@ -20,26 +23,28 @@
 		</div>
 	</div>
 </div>
+
 <div class="row">
 	<div class="col-md-3 fitvids">
-	<div class="row">
-	<div class="col-md-12">
-	<h1>Instagram</h1>
-	</div>
-	</div>
-	<div class="row">
-	<div class="col-md-12">
-	<iframe src="http://www.intagme.com/in/?u=c2FyYWV2YW5zbXVzaWN8aW58MTAwfDJ8M3x8bm98NXx1bmRlZmluZWQ=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:210px; height: 315px" ></iframe>
-	</div>
-	</div>
-	<div class="row">
-	<a href="http://instagram.com/saraevansmusic">
-	<div class="col-md-12">
-		<p> Follow Sara on instagram @saraevansmusic</p>
-	</div>
-	</a>
-	</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Instagram</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<iframe src="http://www.intagme.com/in/?u=c2FyYWV2YW5zbXVzaWN8aW58MTAwfDJ8M3x8bm98NXx1bmRlZmluZWQ=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:210px; height: 315px" ></iframe>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p><a href="http://instagram.com/saraevansmusic">Follow Sara on instagram @saraevansmusic</a></p>
+			</div>
+		</div>
 	</div>
 	<div class="col-md-9 fitvids">
 		<?php echo do_shortcode( '[wpv-view name="video"]' ) ?>
 	</div>
+</div>
+
+</div>
