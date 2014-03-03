@@ -61,15 +61,15 @@ border-color: transparent;
 	
 }
 
-.top-slider h1 {font-size:60px;}
-.top-slider h2 {font-size:50px;}
-.top-slider h3 {font-size:40px;}
-.top-slider h4 {font-size:30px;}
+.top-slider h1 {font-size:70px; line-height: 50px;}
+.top-slider h2 {font-size:60px; line-height: 45px;}
+.top-slider h3 {font-size:50px; line-height: 40px;}
+.top-slider h4 {font-size:40px; line-height: 35px;}
 
 .top-slider h1,
 .top-slider h2,
 .top-slider h3,
-.top-slider h4 {background:#fff; opacity:0.8; font-weight:100; padding:15px!important; color: #802e59;}
+.top-slider h4 {background:#fff; opacity:0.8; font-weight:100; padding:15px!important; color: #802e59; letter-spacing: -2px;}
 
 /* ==========================================================================
    Man Nav
