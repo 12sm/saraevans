@@ -9,6 +9,8 @@
 
 body {}
 
+.col {max-width:1170px; margin:0px auto;}
+
 ul{
    list-style-type: none;
 }

@@ -4,7 +4,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="col">
 
 <div class="row">
 	<div class="col-md-6">
