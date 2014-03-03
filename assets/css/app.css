@@ -59,7 +59,13 @@ border-color: transparent;
    Man Nav
    ========================================================================== */
 
+.navbar-default .navbar-nav>li>a {
+color: #FFF;
+}
 
+#menu-primary-navigation > li {
+background: rgba(205,130,185, 0.7);
+}
 
 
 /* ==========================================================================
