@@ -24,7 +24,30 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       
-       window.alert("I am working");
+      function parallax(){
+      	var scrolled = $(window).scrollTop();
+      	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
+      }
+      
+      $(window).scroll(function(e){
+      	parallax();
+      });
+      
+      // Target your .container, .wrapper, .post, etc.
+      $(".fitvids").fitVids();
+      
+      $('.flexslider').flexslider({
+	      animation: "slide",
+	      animationLoop: false,
+	      itemWidth: 175,
+	      itemMargin: 5,
+	      minItems: 3,
+	      controlNav: false,
+	      smoothHeight: true,
+	      pauseOnHover: true,
+	      prevText: "<span class='fa fa-arrow-circle-left'></span>",
+	      nextText: "<span class='fa fa-arrow-circle-right'><span>",
+	   });
       
     }
   },
@@ -32,6 +55,10 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+
+      // Calling LayerSlider on your selected element after the document loaded
+      $("#layerslider").layerSlider();      
+      
     }
   },
   // About us page, note the change from about-us to about_us.
@@ -64,41 +91,3 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
-
-
-
-    	function parallax(){
-   			var scrolled = $(window).scrollTop();
-   			$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
-   		}
-    
-   		$(window).scroll(function(e){
-    		parallax();
-    	});
- 
-    // jQuery $('document').ready(); function
-    $('document').ready(function(){
- 
-        // Calling LayerSlider on your selected element after the document loaded
-        $("#layerslider").layerSlider();
-    });
-    
-$(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $(".fitvids").fitVids();
-  });
-
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    animationLoop: false,
-    itemWidth: 175,
-    itemMargin: 5,
-    minItems: 3,
-    controlNav: false,
-    smoothHeight: true,
-    pauseOnHover: true,
-    prevText: "<span class='fa fa-arrow-circle-left'></span>",
-    nextText: "<span class='fa fa-arrow-circle-right'><span>",
-  });
-});
