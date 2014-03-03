@@ -41,6 +41,7 @@ var Roots = {
 	      animationLoop: false,
 	      itemWidth: 175,
 	      itemMargin: 5,
+        maxItems: 5,
 	      minItems: 3,
 	      controlNav: false,
 	      smoothHeight: true,
