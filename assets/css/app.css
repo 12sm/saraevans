@@ -95,6 +95,16 @@ background-color: #C9C9C9;
 margin-right: -5px;
 }
 
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #c9c9c9;
+color: #FFF;
+}
+
+.nav-pills>li>a {
+border-radius: 0px;
+}
+
 
 /* ==========================================================================
    Content
