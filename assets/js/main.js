@@ -36,7 +36,7 @@ var Roots = {
       // Target your .container, .wrapper, .post, etc.
       $(".fitvids").fitVids();
       
-      $('.flexslider').flexslider({
+      $('#Album-Carousel').flexslider({
 	      animation: "slide",
 	      animationLoop: false,
 	      itemWidth: 175,
@@ -89,6 +89,4 @@ var UTIL = {
 };
 
 $(document).ready(UTIL.loadEvents);
-
-
 })(jQuery); // Fully reference jQuery after this point.
