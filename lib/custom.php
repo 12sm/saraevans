@@ -2,6 +2,8 @@
 
 define( 'UPLOADS', ''.'assets' );
 
+//what
+
 
 
 ?>
