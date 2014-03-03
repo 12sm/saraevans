@@ -125,6 +125,11 @@ ul> .row{
    margin-top: 5px!important;
 }
 
+#controlsContainer>ul>li{
+   display: inline-block;
+   margin: 0 21%;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes

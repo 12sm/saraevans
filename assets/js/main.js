@@ -47,8 +47,8 @@ var Roots = {
 	      smoothHeight: true,
 	      pauseOnHover: true,
         controlsContainer: "#controlsContainer",
-	      prevText: "<i class='fa fa-arrow-circle-left fa-3'></i>",
-	      nextText: "<i class='fa fa-arrow-circle-right fa-3'><i>",
+	      prevText: "<i class='fa fa-arrow-circle-left fa-3x'></i>",
+	      nextText: "<i class='fa fa-arrow-circle-right fa-3x'><i>",
 	   });
       
     }
