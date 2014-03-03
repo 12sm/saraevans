@@ -83,13 +83,12 @@ $(document).ready(UTIL.loadEvents);
         $("#layerslider").layerSlider();
     });
     
-$(document).ready(function(){
+
     // Target your .container, .wrapper, .post, etc.
     $(".fitvids").fitVids();
-  });
 
 $(window).load(function() {
-  $('.flexslider').flexslider({
+  $('#Album-Carousel').flexslider({
     animation: "slide",
     animationLoop: false,
     itemWidth: 175,
@@ -98,7 +97,7 @@ $(window).load(function() {
     controlNav: false,
     smoothHeight: true,
     pauseOnHover: true,
-    prevText: "<span class='fa fa-arrow-circle-left'></span>",
-    nextText: "<span class='fa fa-arrow-circle-right'><span>",
+    prevText: "<span class='fa fa-arrow-circle-left'></span>Prev",
+    nextText: "<span class='fa fa-arrow-circle-right'></span>Next",
   });
 });
