@@ -6,6 +6,8 @@ var ExampleSite = {
   common: {
     init: function() {
     
+    window.alert("I am working");
+    
     },
     finalize: function() { }
   },
