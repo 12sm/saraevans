@@ -50,6 +50,10 @@ top:0px;
 
 .banner { }
 
+.navbar-default {
+background-color: transparent;
+border-color: transparent;
+}
 
 
 /* ==========================================================================
@@ -129,10 +133,21 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: 768px { }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { }
+@media (min-width: 992px) { 
+
+.navbar-header{display: none;}	
+
+.navbar {
+position: relative;
+min-height: 0px;
+margin-bottom: 0px;
+border: 0px solid transparent;
+}
+	
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: 1200px) { }
