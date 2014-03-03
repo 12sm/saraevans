@@ -125,9 +125,13 @@ ul> .row{
    margin-top: 5px!important;
 }
 
+#controlsContainer>ul{
+   padding-left: 0px;
+}
+
 #controlsContainer>ul>li{
    display: inline-block;
-   margin: 0 21%;
+   margin: 0 15%;
 }
 
 /* ==========================================================================
