@@ -75,11 +75,12 @@ $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     animationLoop: false,
-    itemWidth: 210,
+    itemWidth: 175,
     itemMargin: 5,
     minItems: 3,
     controlNav: false,
     smoothHeight: true,
+    pauseOnHover: true,
     prevText: "<span class='fa fa-arrow-circle-left'></span>",
     nextText: "<span class='fa fa-arrow-circle-right'><span>",
   });
