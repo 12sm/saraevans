@@ -76,5 +76,8 @@ $(window).load(function() {
     itemWidth: 210,
     itemMargin: 5,
     minItems: 3,
+    controlNav: false,
+    prevText: "<span class='fa fa-arrow-circle-left'></span>",
+    nextText: "<span class='fa fa-arrow-circle-right'><span>",
   });
 });
