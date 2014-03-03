@@ -55,6 +55,19 @@ background-color: transparent;
 border-color: transparent;
 }
 
+/* Top Slider */
+
+.top-slider {
+font-weight:100;	
+}
+
+.top-slider h1 {font-size:60px;}
+
+.top-slider h1,
+.top-slider h2,
+.top-slider h3,
+.top-slider h4 {background:#fff; opacity:0.8;}
+
 /* ==========================================================================
    Man Nav
    ========================================================================== */
