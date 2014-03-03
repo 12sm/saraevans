@@ -16,6 +16,9 @@
       get_template_part('templates/header');
     }
   ?>
+  
+  <div class="shapes shape-left"></div>
+  <div class="shapes shape-right"></div>
 
   <div class="wrap container-fuid" role="document">
     <div class="content row">
