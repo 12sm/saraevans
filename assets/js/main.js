@@ -46,8 +46,8 @@ var Roots = {
 	      controlNav: false,
 	      smoothHeight: true,
 	      pauseOnHover: true,
-	      prevText: "<span class='fa fa-arrow-circle-left'></span>",
-	      nextText: "<span class='fa fa-arrow-circle-right'><span>",
+	      prevText: "<span class='fa fa-arrow-circle-left'>Prev</span>",
+	      nextText: "<span class='fa fa-arrow-circle-right'>Next<span>",
 	   });
       
     }
