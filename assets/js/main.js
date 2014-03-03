@@ -39,7 +39,7 @@ var Roots = {
       $('#Album-Carousel').flexslider({
 	      animation: "slide",
 	      animationLoop: false,
-	      itemWidth: 175,
+	      itemWidth: 125,
 	      itemMargin: 5,
         maxItems: 5,
 	      minItems: 3,
@@ -47,8 +47,8 @@ var Roots = {
 	      smoothHeight: true,
 	      pauseOnHover: true,
         controlsContainer: "#controlsContainer",
-	      prevText: "<i class='fa fa-arrow-circle-left fa-3x'></i>",
-	      nextText: "<i class='fa fa-arrow-circle-right fa-3x'><i>",
+	      prevText: "<i class='fa fa-arrow-circle-left fa-2x'></i>",
+	      nextText: "<i class='fa fa-arrow-circle-right fa-2x'><i>",
 	   });
       
     }
