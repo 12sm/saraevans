@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-12 tk-omnes-pro">
 <?php echo do_shortcode( '[layerslider id="1"]') ?>
 </div>
 </div>
