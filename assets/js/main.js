@@ -56,3 +56,15 @@ $(document).ready(UTIL.loadEvents);
    		$(window).scroll(function(e){
     		parallax();
     	});
+ 
+    // jQuery $('document').ready(); function
+    $('document').ready(function(){
+ 
+        // Calling LayerSlider on your selected element after the document loaded
+        $("#layerslider").layerSlider();
+    });
+    
+$(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".fitvids").fitVids();
+  });

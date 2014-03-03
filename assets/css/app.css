@@ -7,8 +7,11 @@
    Base
    ========================================================================== */
 
-body {background-color: black; }
+body {}
 
+.row{
+margin: 0px auto!important;
+}
 .shape-left {
 background: transparent url(../img/shapesLeft.png);
 left: 0px;

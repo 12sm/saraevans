@@ -1,0 +1,28 @@
+<!--VIDEO-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+          <div class="row">
+          	<div class="col-md-12">
+          		<h2>Now Playing:<a href="[types field="video-url" output="raw"][/types]"> [wpv-post-title]</a></h2>
+      		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 fitvids">
+				<iframe width="420" height="345"src="[types field="video-url" output="raw"][/types]">
+</iframe>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+	<a href="/video"><h4>More Videos</h4></a>
+</div>
+</div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
