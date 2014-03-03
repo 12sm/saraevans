@@ -46,6 +46,7 @@ var Roots = {
 	      controlNav: false,
 	      smoothHeight: true,
 	      pauseOnHover: true,
+        controlsContainer: "#controlsContainer"
 	      prevText: "<i class='fa fa-arrow-circle-left'></i>Prev",
 	      nextText: "<i class='fa fa-arrow-circle-right'><i>Next",
 	   });
