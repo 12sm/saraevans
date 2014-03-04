@@ -39,9 +39,9 @@ var Roots = {
       $('#Album-Carousel').flexslider({
 	      animation: "slide",
 	      animationLoop: false,
-	      itemWidth: 125,
+	      itemWidth: 240,
 	      itemMargin: 0,
-        maxItems: 7,
+        maxItems: 9,
 	      minItems: 3,
 	      controlNav: false,
 	      smoothHeight: true,
