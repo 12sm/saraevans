@@ -51,7 +51,7 @@ var Roots = {
 	      nextText: "<i class='fa fa-arrow-circle-right fa-2x'><i>",
 	   }); */
 	   
-	   var owl = $("#album-carousel");
+	   var owl = $("#gallery-carousel");
  
 	   owl.owlCarousel({
 		   itemsCustom : [
@@ -65,6 +65,19 @@ var Roots = {
 		   scrollPerPage : true
       });
 	   
+      var owl = $("#album-carousel");
+ 
+     owl.owlCarousel({
+       itemsCustom : [
+       [0, 2],
+       [480, 3],
+       [768, 4],
+       [1200, 5],
+       [1600, 6]
+       ],
+       navigation : false,
+       scrollPerPage : true
+      });
       
     }
   },
