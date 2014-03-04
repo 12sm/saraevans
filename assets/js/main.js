@@ -51,7 +51,7 @@ var Roots = {
 	      nextText: "<i class='fa fa-arrow-circle-right fa-2x'><i>",
 	   }); */
 	   
-	   var owl = $("#owl-demo");
+	   var owl = $("#album-carousel");
  
 	   owl.owlCarousel({
 		   itemsCustom : [
