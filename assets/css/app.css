@@ -257,6 +257,8 @@ border-bottom: none;
    margin: 0 15%;
 }
 
+#Album-Carousel .slides {padding:0px; margin:0px;}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
