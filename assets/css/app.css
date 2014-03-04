@@ -228,6 +228,11 @@ tr.bit-bottom {
 display: none!important;
 }
 
+td.bit-venue {
+width: 50%!important;
+background-color: #FFF!important;
+}
+
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
