@@ -217,7 +217,7 @@ background-color: #DFDFDF!important;
 }
 
 .bit-date a {
-font-family: "omnes-pro",sans-serif;
+font-family: "omnes-pro",sans-serif!important;
 font-size: 20px!important;
 text-transform: uppercase!important;
 font-weight: 100!important;
@@ -235,7 +235,7 @@ color: red!important;
 }
 
 td.bit-venue a {
-color: red!important;
+color: #919191!important;
 font-family: "museo-sans",sans-serif!important;
 }
 
