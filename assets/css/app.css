@@ -212,12 +212,19 @@ border-top: none!important;
 width: 12%;
 }
 
+td.bit-date {
+width: 16%;
+padding: 1%;
+text-align: center;
+background-color: #C9C9C9;
+}
+
 .bit-date a {
 font-family: "omnes-pro",sans-serif!important;
 font-size: 20px!important;
-text-transform: uppercase;
+text-transform: uppercase!important;
 font-weight: 100!important;
-color:#81194a;!important;
+color:#81194a!important;
 }
 
 /* ==========================================================================
