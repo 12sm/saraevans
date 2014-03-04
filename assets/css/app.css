@@ -298,7 +298,11 @@ margin-top:5px;
 }
 
 #gallery-carousel .owl-item{
-   margin: 0 10px;
+   border: 1px solid #FFF;
+}
+
+.gal-title-box{
+   background-color: #EAEAEA;
 }
 
 /* ==========================================================================
