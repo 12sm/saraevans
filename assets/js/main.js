@@ -55,8 +55,8 @@ var Roots = {
  
 	   owl.owlCarousel({
 		   itemsCustom : [
-		   [0, 2],
-		   [480, 3],
+		   [0, 4],
+		   [480, 4],
 		   [768, 4],
 		   [1200, 5],
 		   [1600, 6]
@@ -78,7 +78,7 @@ var Roots = {
        navigation : false,
        scrollPerPage : true
       });
-      
+
     }
   },
   // Home page
