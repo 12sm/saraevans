@@ -235,6 +235,9 @@ border-bottom: none;
 .songs-list{
    padding: 0px!important;
 }
+.song-play{
+   color:#6EBDC0;
+}
 .track-info{
    margin:0px!important;
    padding: 0px!important;
