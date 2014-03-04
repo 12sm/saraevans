@@ -205,7 +205,7 @@ display: none;
 }
 
 #bit-events[data-bit-widget-id='1393958431833'] .bit-events td {
-border-top: none;
+border-top: none!important;
 }
 
 #bit-event-7664929 > td.bit-date {
