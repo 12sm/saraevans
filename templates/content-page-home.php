@@ -15,6 +15,11 @@
 		</div>
 	</div>
 	<div class="col-md-6 bands-in-town-section">
+    	<div class="row">
+			<div class="col-md-12">
+				<h1 class="bands-in-town-h1">Sara on Tour</h1>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-12 bands-in-town-embed">
 			<script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script>
