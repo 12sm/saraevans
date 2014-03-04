@@ -231,6 +231,12 @@ display: none!important;
 td.bit-venue {
 width: 50%!important;
 background-color: #FFF!important;
+color: red!important;
+}
+
+td.bit-venue a {
+color: #919191!important;
+font-family: "museo-sans",sans-serif!important;
 }
 
 td.bit-location {
@@ -239,7 +245,6 @@ background-color: #FFF!important;
 
 td.bit-location a {
 color: #8B8B8B!Important;
-background-color: #70bcbf!important;
 font-family: "museo-sans",sans-serif!important;
 }
 

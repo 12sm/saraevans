@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="col-md-12 bands-in-town-embed">
 			<script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script>
-<a href='http://www.bandsintown.com' class='bit-widget-initializer' data-display-limit="7" data-text-color="#FFFFFF" data-artist='Sara Evans'>Bandsintown</a>
+<a href='http://www.bandsintown.com' class='bit-widget-initializer' data-display-limit="7" data-text-color="none" data-artist='Sara Evans'>Bandsintown</a>
 			</div>
 		</div>
 	</div>
