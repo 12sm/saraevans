@@ -11,6 +11,8 @@ body {}
 
 .col {max-width:1220px; margin:0px auto;}
 
+.col img {width:100%; max-width:100%; height:auto;}
+
 ul{
    list-style-type: none;
 }
