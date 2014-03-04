@@ -56,10 +56,10 @@ var Roots = {
 	   owl.owlCarousel({
 		   itemsCustom : [
 		   [0, 2],
-		   [450, 3],
-		   [700, 4],
-		   [1000, 6],
-		   [1600, 8]
+		   [480, 2],
+		   [992, 3],
+		   [1200, 5],
+		   [1600, 6]
 		   ],
 		   navigation : false,
 		   scrollPerPage : true
