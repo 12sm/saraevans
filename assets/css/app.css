@@ -214,6 +214,7 @@ width: 16%!important;
 padding: 1%!important;
 text-align: center!important;
 background-color: #DFDFDF!important;
+color:#81194a!important;
 }
 
 .bit-date a {
@@ -231,7 +232,8 @@ display: none!important;
 td.bit-venue {
 width: 50%!important;
 background-color: #FFF!important;
-color: red!important;
+color: #919191!important;
+
 }
 
 td.bit-venue a {
@@ -241,6 +243,7 @@ font-family: "museo-sans",sans-serif!important;
 
 td.bit-location {
 background-color: #FFF!important;
+color:#81194a!important;
 }
 
 td.bit-location a {
@@ -262,7 +265,7 @@ background-color: #70bcbf!important;
 text-transform: uppercase!important;
 font-family: "museo-sans",sans-serif!important;
 padding: 9%!important;
-width: 100%!important;
+width: 101%!important;
 }
 
 /* ==========================================================================
