@@ -192,18 +192,6 @@ margin-top: 0;
 display: none!important;
 }
 
-td.bit-description-links {
-display: none;
-}
-
-#bit-events > table:nth-child(2) > tbody > tr:nth-child(2) { /* this may not work */
-display: none;
-}
-
-.bit-rsvp {
-display: none;
-}
-
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
