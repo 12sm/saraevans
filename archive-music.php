@@ -1,1 +1,5 @@
-test music archive
+<?php 
+
+echo do_shortcode( '[wpv-view name="music"]' )
+
+?>
