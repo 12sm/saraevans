@@ -179,6 +179,10 @@ background-color: #c9c9c9;
 display: none!important;
 }
 
+#bit-events[data-bit-widget-id='1393894934845'] a.bit-track-artist-header {
+border-top: none;
+border-bottom: none;
+}
 
 /* ==========================================================================
    Primary Content
