@@ -297,7 +297,7 @@ margin-top:5px;
    margin-left: 13%;
 }
 
-#gallery-carousel>.owl-item{
+#gallery-carousel .owl-item{
    margin: 0 10px;
 }
 
