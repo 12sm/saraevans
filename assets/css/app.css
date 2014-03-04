@@ -452,7 +452,7 @@ border: 0px solid transparent;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-.col {margin:0px auto; padding:0px 10%;}
+.col {margin:0px auto; padding:0px 12%;}
 
 	
 }

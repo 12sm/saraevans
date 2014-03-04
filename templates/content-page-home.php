@@ -9,7 +9,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="row">
-			<div class="col-m2-12">
+			<div class="col-md-12">
 			<?php echo do_shortcode( '[wpv-view name="home-banner"]' ) ?>
 			</div>
 		</div>
