@@ -213,10 +213,10 @@ width: 12%;
 }
 
 td.bit-date {
-width: 16%;
-padding: 1%;
-text-align: center;
-background-color: #C9C9C9;
+width: 16%!important;
+padding: 1%!important;
+text-align: center!important;
+background-color: #C9C9C9!important;
 }
 
 .bit-date a {
