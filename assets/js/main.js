@@ -36,7 +36,7 @@ var Roots = {
       // Target your .container, .wrapper, .post, etc.
       //'$(".fitvids").fitVids();
       
-      $('#Album-Carousel').flexslider({
+    /*  $('#album-carousel').flexslider({
 	      animation: "slide",
 	      animationLoop: false,
 	      itemWidth: 100,
@@ -49,7 +49,10 @@ var Roots = {
         controlsContainer: "#controlsContainer",
 	      prevText: "<i class='fa fa-arrow-circle-left fa-2x'></i>",
 	      nextText: "<i class='fa fa-arrow-circle-right fa-2x'><i>",
-	   });
+	   }); */
+	   
+	   $("#album-carousel").owlCarousel();
+	   
       
     }
   },
