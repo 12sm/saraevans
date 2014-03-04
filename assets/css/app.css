@@ -269,12 +269,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-.navbar-collapse {margin-top:10%;}
+.navbar-collapse {margin-top:10%; z-index:9999;}
 
 .navbar-header{display: none;}	
 
@@ -284,6 +281,13 @@ min-height: 0px;
 margin-bottom: 0px;
 border: 0px solid transparent;
 }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
 	
 }
 
