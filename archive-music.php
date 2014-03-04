@@ -1,5 +1,5 @@
 <?php 
 
-echo do_shortcode( '[wpv-view name="music"]' )
+echo do_shortcode( '[wpv-view name="albums"]' )
 
 ?>
