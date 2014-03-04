@@ -29,9 +29,9 @@ var Roots = {
       	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
       }
       
-      //$(window).scroll(function(e){
-      //	parallax();
-      //});
+      $(window).scroll(function(e){
+      	parallax();
+      });
       
       // Target your .container, .wrapper, .post, etc.
       $(".fitvids").fitVids();
