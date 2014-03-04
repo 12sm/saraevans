@@ -57,7 +57,7 @@ top:0px;
 .left {text-align: left;}
 .center {text-align: center;}
 
-h1, h2 {
+h1.instagram-h1, h2 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
 font-weight:100;
