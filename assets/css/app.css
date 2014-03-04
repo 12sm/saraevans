@@ -212,6 +212,11 @@ border-top: none!important;
 width: 12%;
 }
 
+.bit-date a {
+font-family: "omnes-pro",sans-serif!important;
+font-size: 25px!important;
+}
+
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
