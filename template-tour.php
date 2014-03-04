@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Sara Template
+Template Name: Tour Template
 */
 ?>
 
