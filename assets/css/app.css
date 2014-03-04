@@ -50,6 +50,8 @@ top:0px;
 h1 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
+font-weight:100;
+word-spacing:.1em;
 }
 
 /* ==========================================================================
