@@ -214,6 +214,7 @@ width: 16%!important;
 padding: 1%!important;
 text-align: center!important;
 background-color: #DFDFDF!important;
+color:#81194a!important;
 }
 
 .bit-date a {
@@ -242,6 +243,7 @@ font-family: "museo-sans",sans-serif!important;
 
 td.bit-location {
 background-color: #FFF!important;
+color:#81194a!important;
 }
 
 td.bit-location a {
