@@ -58,8 +58,8 @@ var Roots = {
 		   [0, 4],
 		   [480, 4],
 		   [768, 4],
-		   [1200, 5],
-		   [1600, 6]
+		   [1200, 4],
+		   [1600, 4]
 		   ],
 		   navigation : false,
 		   scrollPerPage : true
