@@ -286,7 +286,7 @@ margin-top:5px;
 padding: 0px!important;
 }
 
-.song-list li a span {
+.song-list li a div span {
 display: table-cell;
 padding: 13px 15px 13px 0;
 line-height: 1;
