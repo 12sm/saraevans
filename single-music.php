@@ -1,4 +1,3 @@
-<div class="col">
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <div class="entry-content">
@@ -10,4 +9,3 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php endwhile; ?>
-</div>
