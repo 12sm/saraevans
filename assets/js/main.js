@@ -61,7 +61,8 @@ var Roots = {
 		   [1000, 6],
 		   [1600, 8]
 		   ],
-		   navigation : true
+		   navigation : false,
+		   scrollPerPage : true
       });
 	   
       
