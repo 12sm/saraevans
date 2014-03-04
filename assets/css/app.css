@@ -30,9 +30,6 @@ color: #D46685;
 text-decoration: none;
 }
 
-.row{
-margin: 0px auto!important;
-}
 .shape-left {
 background: transparent url(../img/shapesLeft.png);
 left: 0px;
@@ -249,9 +246,10 @@ margin-top:5px;
 .songs-row{
    margin: 10px auto!important;
 }
-.songs-list{
-   padding: 0px!important;
-   border: 1px solid #ccc;
+
+.songs-list {
+padding: 0px!important;
+border: 1px solid #ededed;
 }
 
 .song-list li a span {
@@ -262,8 +260,9 @@ text-transform: none;
 }
 
 .song a {
-border-bottom: 1px solid #ccc;
+border-bottom: 1px solid #ededed;
 display: block;
+-webkit-box-shadow: 0px 0px 15px 1px #ededed;
 }
 
 .song a:hover {background: rgba(205,130,185, 0.7); color:#fff;}
@@ -276,6 +275,11 @@ display: block;
 #controlsContainer>ul>li{
    display: inline-block;
    margin: 0 15%;
+}
+
+#album-carousel {
+border-bottom: 1px solid #ededed;
+margin-bottom: 20px;
 }
 
 #album-carousel .slides {padding:0px; margin:0px;}
