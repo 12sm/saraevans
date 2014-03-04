@@ -237,6 +237,13 @@ td.bit-location {
 background-color: #FFF!important;
 }
 
+#bit-events[data-bit-widget-id='1393961176240'] td a {
+color: #FFF!Important;
+background-color:#70bcbf!important;
+text-transform:uppercase!important;
+font-family:"museo-sans",sans-serif!important;
+}
+
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
