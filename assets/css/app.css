@@ -319,6 +319,12 @@ margin-top:5px;
    text-align: center;
 }
 
+.gal-thumb{
+   padding-top: 25%;
+background-size: contain;
+border: 1px solid #fff;
+background-repeat: no-repeat;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */

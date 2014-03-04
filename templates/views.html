@@ -179,3 +179,26 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Gallery Images-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+<div class="row">
+   			<div class="col-sm-12 gal-title-box">
+   			<h2>[wpv-taxonomy-link]</h2>
+   			</div>
+		</div>			
+<wpv-loop>
+  <div class="row">
+              <a href="[wpv-post-url]"><div class="col-sm-3 gal-title-box">
+                <img src="[wpv-post-featured-image raw='true']" class="img-responsive" />
+                </div></a>
+  </div>
+          </wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
