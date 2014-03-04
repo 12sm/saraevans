@@ -8,7 +8,7 @@
    ========================================================================== */
 
 body {
-background:#fff url('../img/back.jpg') top center scroll no-repeat;
+background:#fff url('../img/back.jpg') top center fixed no-repeat;
 background-size:cover; 
 }
 
