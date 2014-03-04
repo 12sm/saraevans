@@ -264,7 +264,7 @@ border-bottom: none;
 *	v1.3.2
 */
 
-.owl-wrapper-outer{
+#album-carousel>.owl-wrapper-outer{
    height: 200px;
 }
 
