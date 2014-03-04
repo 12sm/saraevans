@@ -264,6 +264,10 @@ border-bottom: none;
 *	v1.3.2
 */
 
+.owl-wrapper-outer{
+   height: 200px;
+}
+
 .owl-theme .owl-controls{
 	margin-top: 10px;
 	text-align: center;
