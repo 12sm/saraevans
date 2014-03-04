@@ -238,7 +238,13 @@ margin-top:5px;
    border: 1px solid #ccc;
 }
 
-.song a {border-bottom: 1px solid #ccc;}
+.song a {
+border-bottom: 1px solid #ccc;
+display: block;
+padding: 10px 0px;
+}
+
+
 
 .song a:hover {background: rgba(205,130,185, 0.7); color:#fff;}
 
