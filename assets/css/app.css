@@ -276,17 +276,12 @@ margin-top:5px;
 /* ==========================================================================
    Music
    ========================================================================== */
-.songs-row{
-   margin: 10px auto!important;
-}
-
-.album-info {border: 1px solid #ededed;}
 
 .songs-list {
 padding: 0px!important;
 }
 
-.song-list li a div span {
+.songs-list li a span {
 display: table-cell;
 padding: 13px 15px 13px 0;
 line-height: 1;
@@ -310,6 +305,8 @@ display: block;
    display: inline-block;
    margin: 0 15%;
 }
+
+.album-info {border: 1px solid #ededed;}
 
 #album-carousel {
 border-bottom: 1px solid #ededed;
