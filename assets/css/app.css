@@ -555,6 +555,10 @@ border: 0px solid transparent;
 }
 
  }
+/*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
+ @media (max-width: 992px){
+
+ }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
