@@ -8,7 +8,10 @@
    ========================================================================== */
 
 body {
-background: url('http://saraevans.12southdev.com/assets/clean-white-polygon-backgrounds-1.jpg') no-repeat cover fixed;
+background-image: url('http://saraevans.12southdev.com/assets/clean-white-polygon-backgrounds-1.jpg'); 
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: fixed;
 }
 
 .col img {width:100%; max-width:100%; height:auto;}
