@@ -174,8 +174,8 @@ display: none!important;
 }
 
 #bit-events[data-bit-widget-id='1393894934845'] a.bit-track-artist-header {
-border-top: none;
-border-bottom: none;
+border-top: none!important;
+border-bottom: none!important;
 }
 
 h1.bands-in-town-h1 {
@@ -207,9 +207,10 @@ background: #81194a;
 border: none;
 color: #FFF;
 font-family: "museo-sans",sans-serif;
-font-size: .7em;
+font-size: 1em;
 width: 100%;
-padding: 4%;	
+padding: 1%;
+margin-top:5px;
 }
 
 /* ==========================================================================
