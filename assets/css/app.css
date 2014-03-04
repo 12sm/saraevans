@@ -169,7 +169,10 @@ letter-spacing: .1em;
    Music
    ========================================================================== */
 ul> .row{
-   margin-top: 5px!important;
+   margin: 10px auto!important;
+}
+ul>li>div>h1{
+   margin:0px!important;
 }
 
 #controlsContainer>ul{
