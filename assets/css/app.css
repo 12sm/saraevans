@@ -202,6 +202,16 @@ font-size:30px!important;
 text-align:left;
 }
 
+button.videos-button {
+background: #81194a;
+border: none;
+color: #FFF;
+font-family: "museo-sans",sans-serif;
+font-size: .7em;
+width: 100%;
+padding: 4%;	
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
