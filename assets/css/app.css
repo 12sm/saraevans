@@ -136,7 +136,7 @@ margin-bottom:3%;
    ========================================================================== */
    
 /* ==========================================================================
-   Instagram Feed Section
+   Instagram Feed [Home]
    ========================================================================== */
 
 .content { }
@@ -166,7 +166,7 @@ background-color: #c9c9c9;
 } 
 
 /* ==========================================================================
-   Bands in Town Section
+   Bands in Town [Home]
    ========================================================================== */
    
 .bit-invert, .bit-notify {
@@ -177,6 +177,21 @@ display: none!important;
 border-top: none;
 border-bottom: none;
 }
+
+h1.bands-in-town-h1 {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight:100;
+word-spacing:.1em;
+color:#878787;
+font-size:30px!important;
+text-align:left;
+margin-left: -17px;
+}
+
+/* ==========================================================================
+   Videos [Home]
+   ========================================================================== */
 
 h2.video-h2 {
 font-family: "omnes-pro",sans-serif;
