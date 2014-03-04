@@ -9,8 +9,6 @@
 
 body {}
 
-.col {max-width:1220px; margin:0px auto;}
-
 .col img {width:100%; max-width:100%; height:auto;}
 
 ul{
@@ -379,6 +377,7 @@ border: 0px solid transparent;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
+.col {margin:0px auto; padding:0px 10%;}
 
 	
 }
