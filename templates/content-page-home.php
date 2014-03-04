@@ -48,7 +48,7 @@
 		</div>
 	</div>
 	<div class="col-md-9 fitvids">
-		<?php echo do_shortcode( '[wpv-view name="video"]' ) ?>
+		<?php echo do_shortcode( '[wpv-view name="video home"]' ) ?>
 	</div>
 </div>
 
