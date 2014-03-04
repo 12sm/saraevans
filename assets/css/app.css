@@ -192,6 +192,29 @@ margin-top: 0;
 display: none!important;
 }
 
+<<<<<<< HEAD
+=======
+td.bit-description-links {
+display: none;
+}
+
+#bit-events > table:nth-child(2) > tbody > tr:nth-child(2) { /* this may not work */
+display: none;
+}
+
+.bit-rsvp {
+display: none;
+}
+
+#bit-events[data-bit-widget-id='1393957248534'] .bit-events td {
+border:none!important;
+}
+
+#bit-event-7664929 > td.bit-date {
+width: 12%;
+}
+
+>>>>>>> FETCH_HEAD
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
