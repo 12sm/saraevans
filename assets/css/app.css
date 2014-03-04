@@ -7,7 +7,12 @@
    Base
    ========================================================================== */
 
-body {}
+body {
+background-image: url('http://saraevans.12southdev.com/assets/clean-white-polygon-backgrounds-1.jpg'); 
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: fixed;
+}
 
 .col img {width:100%; max-width:100%; height:auto;}
 
@@ -131,9 +136,6 @@ float: left;
 margin-bottom:3%;
 }
 
-/* ==========================================================================
-   Content
-   ========================================================================== */
    
 /* ==========================================================================
    Instagram Feed [Home]
@@ -186,6 +188,7 @@ word-spacing:.1em;
 color:#878787;
 font-size:30px!important;
 text-align:left;
+margin-top: 0;
 }
 
 /* ==========================================================================
@@ -225,37 +228,6 @@ margin-top:5px;
 
 
 /* ==========================================================================
-   Sidebar
-   ========================================================================== */
-
-.sidebar { }
-
-
-
-/* ==========================================================================
-   Posts
-   ========================================================================== */
-
-.hentry header { }
-.hentry time { }
-.hentry .byline { }
-.hentry .entry-content { }
-.hentry footer { }
-
-
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
-.content-info { }
-
-#social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
-#social li a {padding: 10px;}
-
-
-/* ==========================================================================
    Music
    ========================================================================== */
 .songs-row{
@@ -263,7 +235,13 @@ margin-top:5px;
 }
 .songs-list{
    padding: 0px!important;
+   border: 1px solid #ccc;
 }
+
+.song a {border-bottom: 1px solid #ccc;}
+
+.song a:hover {background: rgba(205,130,185, 0.7); color:#fff;}
+
 .song-play{
    color:#6EBDC0;
 }
@@ -366,6 +344,41 @@ margin-top:5px;
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+#social ul {margin:0px; padding:0px; list-style: none;}
+#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social li a {padding: 10px;}
+
+
+
 
 /* ==========================================================================
    WordPress Generated Classes
