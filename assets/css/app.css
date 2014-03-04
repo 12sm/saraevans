@@ -15,6 +15,16 @@ ul{
    list-style-type: none;
 }
 
+a {
+color: #70bcbf;
+text-decoration: none;
+}
+
+a:hover {
+color: #D46685;
+text-decoration: none;
+}
+
 .row{
 margin: 0px auto!important;
 }
@@ -55,6 +65,7 @@ word-spacing:.1em;
 color:#878787;
 font-size:30px!important;
 text-align:left;
+margin-left: -17px;
 }
 
 /* ==========================================================================
