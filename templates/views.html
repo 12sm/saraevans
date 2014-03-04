@@ -37,9 +37,12 @@
 		<wpv-loop>
        <div class="row">
        	<div class="col-sm-12">
-       		<a href></a>
-   		
-   			<a href><h2> Gallery Title</h2></a>
+       		<a href="[wpv-taxonomy-url]"></a>
+   		</div>
+   		</div>
+   		<div class="row">
+   			<div class="col-sm-12">
+   			<h2>[wpv-taxonomy-link]</h2>
    			</div>
 		</div>
 		</wpv-loop>
@@ -130,6 +133,48 @@
           
           
           [/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+<!--Video Page-->
+<div class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-6"> 
+	<div class="row">
+	<h1> [wpv-post-title]</h1>
+	</div>
+	<div class="row fitvids">
+				[types field="video-url" width="1280" height="720"][/types]
+	</div>
+	</div>
+</div>
+[wpv-view name="Gallery Carousel"]
+
+<!--Gallery View-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="row">
+		<div class="col-sm-12">
+          <h1 class="vid-gal-title">Video Galleries</h1>
+			<div id="gallery-carousel" class="owl-carousel col">
+		<wpv-loop>
+       <div class="row">
+       	<div class="col-sm-12">
+          <!--debug-->
+       		[wpv-view name="gallery-images" wpvgalleries="[wpv-taxonomy-slug]"]
+   		</div>
+   		</div>
+		</wpv-loop>
+		</div>
+		</div>
+		</div>
+		</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
 	[wpv-no-items-found]
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
