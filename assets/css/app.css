@@ -255,9 +255,10 @@ margin-top:5px;
    margin: 10px auto!important;
 }
 
+.album-info {border: 1px solid #ededed;}
+
 .songs-list {
 padding: 0px!important;
-border: 1px solid #ededed;
 }
 
 .song-list li a span {
