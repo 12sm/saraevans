@@ -152,6 +152,8 @@ border: none;
 color: #FFF;
 font-family: "museo-sans",sans-serif;
 font-size: .8em;
+width: 100%;
+padding: 4%;
 }
 
 /* ==========================================================================
