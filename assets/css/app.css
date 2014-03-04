@@ -49,7 +49,7 @@ top:0px;
 
 h1, h2, {
 font-family: "omnes-pro",sans-serif;
-text-transform: uppercase;
+text-transform: uppercase!important;
 }
 
 /* ==========================================================================
