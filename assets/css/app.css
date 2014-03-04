@@ -219,7 +219,7 @@ width: 12%;
    Videos [Home]
    ========================================================================== */
 
-h2.video-h2 {
+.fitvids h2.video-h2 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
 font-weight:100;
