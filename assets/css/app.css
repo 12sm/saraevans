@@ -8,10 +8,8 @@
    ========================================================================== */
 
 body {
-background-image: url('http://saraevans.12southdev.com/assets/clean-white-polygon-backgrounds-1.jpg'); 
-background-repeat: no-repeat;
-background-size: cover; 
-background-position: fixed;
+background:#fff url('../img/back.jpg') top center fixed no-repeat;
+background-size:cover; 
 }
 
 .col img {width:100%; max-width:100%; height:auto;}
@@ -58,6 +56,8 @@ top:0px;
 .right {text-align: right;}
 .left {text-align: left;}
 .center {text-align: center;}
+
+.add-margin {margin-top:10px;margin-bottom:10px;}
 
 
 /* ==========================================================================
@@ -249,6 +249,7 @@ color:#81194a!important;
 td.bit-location a {
 color: #8B8B8B!Important;
 font-family: "museo-sans",sans-serif!important;
+width: 26%!important;
 }
 
 #bit-events[data-bit-widget-id='1393961176240'] td a {
@@ -272,6 +273,28 @@ color: #FFF!Important;
 background-color: #70bcbf!important;
 text-transform: uppercase!important;
 font-family: "museo-sans",sans-serif!important;
+}
+
+table.bit-events {
+color: #333!important;
+}
+table.bit-events a:hover {
+color: #333!important;
+}
+
+.bands-in-town-section button {
+background: #81194a;
+border: none;
+color: #FFF;
+font-family: "museo-sans",sans-serif;
+font-size: 1em;
+width: 100%;
+padding: 1%;
+margin-top:5px;
+}
+
+#bit-events > a {
+display: none!important;
 }
 
 /* ==========================================================================
