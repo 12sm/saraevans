@@ -9,7 +9,7 @@
       <!-- < ?php get_template_part('templates/entry-meta'); ?> -->
     </header>
     
-    <div class="row">
+    <div class="row blog-post-content">
     	<div class="col-md-4 col-sm-4">
         	<?php echo get_the_post_thumbnail($post_id, 'full', array('class' => 'post-image')); ?>
         </div>
