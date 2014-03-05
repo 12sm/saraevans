@@ -258,7 +258,7 @@ border-top: none!important;
 border-bottom: none!important;
 }
 
-h1.bands-in-town-h1 {
+body.home h1.bands-in-town-h1 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
 font-weight:100;
