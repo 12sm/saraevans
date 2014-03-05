@@ -67,9 +67,7 @@ var Roots = {
        scrollPerPage : true
       });
       
-       /**
-         * Handle Track Clicks and Lyrics Display
-         */
+       /** Lyrics display         */
         $('.play').on('click', function(e){
             var lyrics = $(this).find('.lyric-output').clone();
 
@@ -93,6 +91,10 @@ var Roots = {
             }
 
         });
+        
+		$('.album-link').on('click', function(event){
+			window.location = $(this).attr("href");
+		});        
       
 
     }
