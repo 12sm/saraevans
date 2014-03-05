@@ -374,6 +374,10 @@ padding: 1%;
 margin-top:5px;
 }
 
+.bands-in-town-section button:hover {
+background-color: #c9c9c9;
+} 
+
 #bit-events > a {
 display: none!important;
 }
@@ -402,6 +406,10 @@ width: 100%;
 padding: 1%;
 margin-top:5px;
 }
+
+button.videos-button:hover {
+background-color: #c9c9c9;
+} 
 
 /* ==========================================================================
    Videos [Page]
@@ -804,6 +812,10 @@ padding: 1%;
 margin-top:5px;
 }
 
+body.single .btn-primary:hover {
+background-color: #c9c9c9;
+} 
+
 h1.entry-title {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
@@ -849,7 +861,7 @@ padding: 1%;
 .content-info { }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
 
