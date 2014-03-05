@@ -584,7 +584,9 @@ height: initial;
 font-size: 28px;
 margin-bottom: 3%!important;
 }
-
+.nav{
+   margin-top: -55px;
+}
 nav .navbar{
    width: initial;
 }
