@@ -819,6 +819,13 @@ margin-top: 20px;
 background-color: #FFF;
 padding: 2%;
 }
+
+.individual-post {
+background-color: #FFF;
+padding-top: 1%;
+border: 1px solid rgb(238, 238, 238);
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
