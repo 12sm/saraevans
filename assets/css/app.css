@@ -90,6 +90,11 @@ border-color: transparent;
 /* ==========================================================================
    Man Nav
    ========================================================================== */
+.music-btn{
+margin-top: 75px;
+background-color: #7BC2BF;   
+}
+
 body > header > nav{
    overflow: visible!important;
 }
