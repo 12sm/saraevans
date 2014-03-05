@@ -81,7 +81,8 @@ border-color: transparent;
 /* Top Slider */
 
 .top-slider {
-	
+height: 0px;
+padding-bottom: 58%;
 }
 
 .top-slider h1 {font-size:70px; line-height: 50px;}
@@ -783,9 +784,9 @@ opacity: 0.5;
 }
 
 .hentry .entry-content {
--moz-column-count: 3;
+-moz-column-count: 2;
 -moz-column-gap: 20px;
--webkit-column-count: 3;
+-webkit-column-count: 2;
 -webkit-column-gap: 30px;
 }
 
@@ -800,6 +801,17 @@ padding: 1%;
 margin-top:5px;
 }
 
+h1.entry-title {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 52px!important;
+text-align: left;
+}
+
+.blog-post-content {margin-top:50px;}
 
 /* ==========================================================================
    Footer
