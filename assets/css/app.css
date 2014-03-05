@@ -540,6 +540,10 @@ font-family: "museo-sans",sans-serif!important;
 font-weight: bold!important;
 }
 
+.vco-storyjs p {
+font-family: "museo-sans",sans-serif!important;
+}
+
 .vco-storyjs .vco-feature .slider, .vco-storyjs .vco-feature .vco-slider {
 width: 100%;
 float: left;
