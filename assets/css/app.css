@@ -785,6 +785,18 @@ opacity: 0.5;
 -webkit-column-gap: 30px;
 }
 
+body.single .btn-primary {
+background: #81194a;
+border: none;
+color: #FFF;
+font-family: "museo-sans",sans-serif;
+font-size: 14px;
+width: 100%;
+padding: 1%;
+margin-top:5px;
+}
+
+
 /* ==========================================================================
    Footer
    ========================================================================== */
