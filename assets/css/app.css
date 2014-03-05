@@ -809,10 +809,15 @@ word-spacing: .1em;
 color: #878787;
 font-size: 52px!important;
 text-align: left;
+background-color:#FFF;
+padding:1%;
 }
 
-.blog-post-content {margin-top:50px;}
-
+.blog-post-content {
+margin-top: 20px;
+background-color: #FFF;
+padding: 2%;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
