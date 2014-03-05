@@ -90,8 +90,9 @@ border-color: transparent;
 /* ==========================================================================
    Man Nav
    ========================================================================== */
-nav .navbar-collapse .in{
+body > header > nav{
    overflow: visible!important;
+   width: 100%;
 }
 .navbar-default .navbar-nav>li>a {
 color: #FFF;
@@ -100,6 +101,7 @@ color: #FFF;
 .nav-pills>li>a{
 width: 100%;
 text-align: center;
+margin-bottom: 0px;
 }
 
 nav .navbar{
