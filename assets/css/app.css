@@ -90,7 +90,7 @@ border-color: transparent;
 /* ==========================================================================
    Man Nav
    ========================================================================== */
-.nav .navbar-collapse{
+nav .navbar-collapse{
    overflow: visible;
 }
 .navbar-default .navbar-nav>li>a {
