@@ -803,6 +803,9 @@ text-align: center;
 text-decoration: none;
 vertical-align: top;
 white-space: nowrap;
+text-transform: uppercase!important;
+font-family: "museo-sans",sans-serif!important;
+padding: 9%!important;
 }
 
 
