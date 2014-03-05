@@ -531,6 +531,12 @@ font-size:30px!important;
 text-align:left!important;
 }
 
+.vco-slider .slider-item .content .content-container .text .container h2.date {
+font-size: 12px!important;
+background:rgba(205,130,185, 0.7)!important;
+color:#FFF!important;
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
