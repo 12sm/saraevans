@@ -370,11 +370,17 @@ margin: 15px 0px;
 font-family: "omnes-pro",sans-serif;
 font-weight:100;
 text-transform:uppercase;
+width: 100%;
+display: block;
 }
 
 .gal-title-box>h2{
 text-align: center;
 margin: 10px 0px!important;
+}
+
+.gal-title-box:hover {
+background: rgba(255,255,255,1.0);
 }
 
 .gal-thumb{
