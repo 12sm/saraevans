@@ -595,10 +595,31 @@ background: #81194a!important;
    Music
    ========================================================================== */
 
-.songs-list {
+.songs-list,
+.songs-list-container {
 padding: 0px!important;
 }
 
+.lyrics-container {
+box-shadow: 0px 0px 15px 1px #ededed;
+-webkit-box-shadow: 0px 0px 15px 1px #ededed;
+border: 1px solid #ededed;
+}
+
+.lyrics-container pre {
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+font-family: "omnes-pro",sans-serif;
+line-height: 1.428571429;
+word-break: break-all;
+word-wrap: break-word;
+color: #000;
+background:transparent;
+border: 0px solid #ccc;
+ border-radius: 0px;
+}
 .songs-list li a span {
 display: table-cell;
 padding: 13px 15px 13px 0;
@@ -609,9 +630,11 @@ text-transform: none;
 .song a {
 border-bottom: 1px solid #ededed;
 display: inline-flex;
+box-shadow: 0px 0px 15px 1px #ededed;
 -webkit-box-shadow: 0px 0px 15px 1px #ededed;
 width: 100%;
 padding: 0px;
+margin:0px;
 }
 
 .song a:before {display:none;}
