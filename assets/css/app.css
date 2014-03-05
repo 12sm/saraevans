@@ -212,12 +212,18 @@ body.home .insta-grid li:nth-child(3) a {width:100%;}
    Instagram Feed [Photos Page]
    ========================================================================== */
    
-body.photos .insta-grid {}
+body.photos .insta-grid {padding:0px;}
 
 body.photos .insta-grid li a {
 display: block;
 float: left;
 width: 50%;	
+}
+
+body.photos .insta-grid li a img {
+width:100%;
+max-width:100%;
+height:auto;
 }
 
 
