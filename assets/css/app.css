@@ -574,6 +574,7 @@ border: 0px solid transparent;
 .nav-pills>li>a{
 width: initial;
 text-align: left;
+height: initial;
 }
 
 nav .navbar{
