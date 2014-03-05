@@ -12,7 +12,7 @@
 
 <div class="col">
 	<div class="row">
-    	<div class="col-md-12 col-sm-12">
+    	<div class="col-md-12 col-sm-12 books-heading">
         	<h1>Books</h1>
             <h2>Sara as an Author</h2>
         </div>
