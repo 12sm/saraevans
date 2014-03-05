@@ -373,7 +373,8 @@ text-transform:uppercase;
 }
 
 .gal-title-box>h2{
-   text-align: center;
+text-align: center;
+margin: 10px 0px!important;
 }
 
 .gal-thumb{
