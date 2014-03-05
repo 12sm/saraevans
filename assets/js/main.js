@@ -67,7 +67,7 @@ var Roots = {
        scrollPerPage : true
       });
       
-       /** Lyrics display         */
+       /** Lyrics display **/
         $('.play').on('click', function(e){
             var lyrics = $(this).find('.lyric-output').clone();
 
@@ -89,9 +89,13 @@ var Roots = {
                     inlinePlayer.stopSound(inlinePlayer.lastSound);
                 };
             }
-
         });
         
+        /** Load first lyric **/
+        var lyrics = $(".songs-list:first-child").find('.lyric-output').clone();
+        $("#lyrics-base").html(lyrics);
+        
+        /** Make album click work **/
 		$('.album-link').on('click', function(event){
 			window.location = $(this).attr("href");
 		});        
