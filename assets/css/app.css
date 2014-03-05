@@ -118,7 +118,7 @@ margin-right: -5px;
 .nav{
    margin-top: 75px;
 }
-#menu-primary-navigation{
+body > header > nav{
    padding-left: 0px;
 }
 .navbar-brand{
