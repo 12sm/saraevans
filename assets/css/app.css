@@ -563,6 +563,20 @@ background-color: #AFAFAF!important;
 z-index: 1;
 }
 
+.vco-timeline .vco-navigation .timenav .content .marker.active .line {
+z-index: 199;
+background: #81194a!important;
+width: 1px;
+}
+
+.vco-timeline .vco-navigation .timenav-background {
+background-color: #F3F3F3!important;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker.active .dot {
+background: #81194a!important;
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
