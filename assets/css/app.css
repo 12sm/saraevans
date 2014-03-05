@@ -670,6 +670,7 @@ margin:0px;
 border-bottom: 1px solid #ededed;
 margin-bottom: 20px;
 width: inherit!important;
+margin-top: 20px;
 }
 
 #album-carousel .slides {padding:0px; margin:0px;}
@@ -809,10 +810,15 @@ word-spacing: .1em;
 color: #878787;
 font-size: 52px!important;
 text-align: left;
+background-color:#FFF;
+padding:1%;
 }
 
-.blog-post-content {margin-top:50px;}
-
+.blog-post-content {
+margin-top: 20px;
+background-color: #FFF;
+padding: 2%;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
