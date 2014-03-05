@@ -65,7 +65,7 @@ var Roots = {
 		   scrollPerPage : true
       });
 	   
-      var owl = $("#album-carousel");
+     var owl = $("#album-carousel");
  
      owl.owlCarousel({
        itemsCustom : [
@@ -75,7 +75,9 @@ var Roots = {
        [1200, 5],
        [1600, 6]
        ],
-       navigation : false,
+       navigation : true,
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       pagination: false,
        scrollPerPage : true
       });
 
