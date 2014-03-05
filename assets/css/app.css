@@ -244,10 +244,7 @@ height:auto;
    ========================================================================== */
 
 .bit-events th, .bit-events td {
-width: auto;
-text-align: left;
-padding: 3%;
-vertical-align: middle;
+padding: 3%!important;
 }
    
 .bit-invert, .bit-notify {
