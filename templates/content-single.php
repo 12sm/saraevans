@@ -23,7 +23,13 @@
     <footer>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
-    <?php comments_template('/templates/comments.php'); ?>
+    
+    <div class="row">
+    	<div class="col-md-12 col-sm-12">
+    		<?php comments_template('/templates/comments.php'); ?>
+        </div>
+    </div>
+    
   </article>
   </div>
 <?php endwhile; ?>

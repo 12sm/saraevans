@@ -58,6 +58,7 @@ position:fixed;
 height:100%;
 width:150px;
 top:0px;
+display:none;
 }
 
 .right {text-align: right;}
@@ -665,6 +666,7 @@ margin:0px;
 }
 
 .album-info {border: 1px solid #ededed;}
+.album-image {padding:0px;}
 
 #album-carousel {
 border-bottom: 1px solid #ededed;
@@ -826,6 +828,20 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 }
 
+#respond > h3 {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 32px!important;
+text-align: left;
+background-color: #FFF;
+padding: 1%;
+}
+
+#respond {background-color:#FFF;}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
@@ -873,6 +889,8 @@ border: 0px solid transparent;
 }
 
 body.photos .insta-grid li a {width: 33.333%;}
+
+.shapes {display:block;}
 
 }
 
