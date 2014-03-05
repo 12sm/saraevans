@@ -4,7 +4,7 @@
 
 <div class="col">
   <article <?php post_class(); ?>>
-    <?php echo get_the_post_thumbnail(); ?> 
+    <?php echo get_the_post_thumbnail($post_id, 'medium'); ?> 
     <header>
       <h1 class="entry-title"><?php the_title(); ?></h1>
       <?php get_template_part('templates/entry-meta'); ?>
