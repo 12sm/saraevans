@@ -22,8 +22,8 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
       
+      // Parallax
       function parallax(){
       	var scrolled = $(window).scrollTop();
       	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
@@ -33,12 +33,16 @@ var Roots = {
       	parallax();
       });
       
-      // Target your .container, .wrapper, .post, etc.
+       // audio.js player init
+       audiojs.events.ready(function() {
+	       var as = audiojs.createAll();
+	   });
+      
+      // FitVids init
       $(".fitvids").fitVids();
   
-	   
+	   // Video Gallery Carousel
 	   var owl = $("#gallery-carousel");
- 
 	   owl.owlCarousel({
 		   itemsCustom : [
 		   [0, 4],
@@ -51,8 +55,9 @@ var Roots = {
 		   scrollPerPage : true
       });
 	   
+	   
+	 // Music Album Carousel  
      var owl = $("#album-carousel");
- 
      owl.owlCarousel({
        itemsCustom : [
        [0, 2],

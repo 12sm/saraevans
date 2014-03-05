@@ -1,5 +1,4 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <!-- removing container around nav <div class="container"> -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -21,6 +20,7 @@
       <i class="fa fa-music fa-2x"></i>
       </button></a>
     </nav>
+    
+    <?php echo do_shortcode( '[wpv-view name="audio-player"]' ) ?>
 
-  <!-- </div> -->
 </header>
