@@ -105,7 +105,12 @@ nav .navbar{
 #menu-primary-navigation > li {
 background: rgba(205,130,185, 0.7);
 }
-
+.navbar-toggle{
+   float: left;
+   position: fixed;
+   margin-top: 35px;
+   color: #DEA4CB;
+}
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
