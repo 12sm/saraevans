@@ -17,9 +17,9 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav nav-pills nav-stacked'));
         endif;
       ?>
-      <button type="button" class="btn btn-default music-btn">
+      <a href="/music"><button type="button" class="btn btn-default music-btn">
       <i class="fa fa-music fa-2x"></i>
-      </button>
+      </button></a>
     </nav>
 
   <!-- </div> -->
