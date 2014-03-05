@@ -430,6 +430,14 @@ opacity: .8;
 -webkit-column-gap : 50px;
 }
 
+blockquote {
+/* padding: 10px 20px; */
+margin: 0;
+font-family: "omnes-pro",sans-serif;
+font-weight: 100;
+text-transform: uppercase;
+}
+
 
 /* ==========================================================================
    Primary Content
