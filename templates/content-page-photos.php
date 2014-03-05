@@ -6,4 +6,4 @@
 <?php endwhile; ?>
 </div>
 
-<?php echo do_shortcode( '[yinstagram]' ) ?>
+<ul class="insta-grid"></ul>

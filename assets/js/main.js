@@ -94,10 +94,16 @@ var Roots = {
       
     }
   },
-  // About us page, note the change from about-us to about_us.
-  about_us: {
+  // Photos Page.
+  photos: {
     init: function() {
-      // JavaScript to be fired on the about us page
+     
+     $('.insta-grid').embedagram({
+       	instagram_id: 185380813,
+       	thumb_width: 306,
+       	limit: 20
+      });
+      
     }
   }
 };
