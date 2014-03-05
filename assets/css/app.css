@@ -8,8 +8,7 @@
    ========================================================================== */
 /*Kill page header*/
 .page-header{
-   display: none;
-}
+   display: none;}
 
 
 body {
@@ -692,7 +691,9 @@ opacity: 0.5;
 .hentry .entry-content { }
 .hentry footer { }
 
-
+.blog-top{
+   margin-top: 4%;
+}
 
 /* ==========================================================================
    Footer
