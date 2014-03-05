@@ -826,6 +826,20 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 }
 
+#respond > h3 {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 32px!important;
+text-align: left;
+background-color: #FFF;
+padding: 1%;
+}
+
+#respond {background-color:#FFF;}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
