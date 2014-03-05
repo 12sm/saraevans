@@ -668,6 +668,7 @@ width: inherit!important;
 
 #album-carousel .slides {padding:0px; margin:0px;}
 
+#album-carousel a {display:block;}
 
 .owl-theme .owl-controls {
 text-align: center;
