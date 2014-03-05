@@ -97,7 +97,7 @@ nav .navbar-collapse{
 color: #FFF;
 }
 
-.nav-pills>li.>a{
+.nav-pills>li>a{
 width: 100%;
 text-align: center;
 }
@@ -568,13 +568,13 @@ border: 0px solid transparent;
  }
 /*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
  @media (min-width: 845px){
-.nav-pills>li.>a{
+.nav-pills>li>a{
 width: initial;
 text-align: left;
 }
 
 nav .navbar{
-   width: 100%
+   width: initial;
 }
  }
 
