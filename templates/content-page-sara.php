@@ -11,9 +11,15 @@
 
 
 <div class="col">
+	<div class="row">
+    	<div class="col-md-12 col-sm-12">
+        	<h1>Books</h1>
+            <h2>Sara as an Author</h2>
+        </div>
+    </div>
     <div class="row">
        <div class="col-md-4 col-sm-4">
-          <img src="http://lorempixel.com/280/400" />
+          <img src="http://lorempixel.com/280/300" />
        </div>
        <div class="col-md-8 col-sm-8">
           <h3>Title of the Book</h3>
