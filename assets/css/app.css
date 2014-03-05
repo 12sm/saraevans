@@ -389,6 +389,16 @@ background-size: contain;
 border: 1px solid #fff;
 background-repeat: no-repeat;
 }
+
+.video-page-h1 h1 {
+color: #878787;
+text-transform: uppercase;
+font-weight: 100;
+text-align: center;
+background: rgba(20,20,20,.2);
+padding: 1%;
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
