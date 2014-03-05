@@ -35,21 +35,7 @@ var Roots = {
       
       // Target your .container, .wrapper, .post, etc.
       $(".fitvids").fitVids();
-      
-    /*  $('#album-carousel').flexslider({
-	      animation: "slide",
-	      animationLoop: false,
-	      itemWidth: 100,
-	      itemMargin: 0,
-	      maxItems: 8,
-	      minItems: 4,
-	      controlNav: false,
-	      smoothHeight: true,
-	      pauseOnHover: true,
-        controlsContainer: "#controlsContainer",
-	      prevText: "<i class='fa fa-arrow-circle-left fa-2x'></i>",
-	      nextText: "<i class='fa fa-arrow-circle-right fa-2x'><i>",
-	   }); */
+  
 	   
 	   var owl = $("#gallery-carousel");
  
@@ -80,6 +66,34 @@ var Roots = {
        pagination: false,
        scrollPerPage : true
       });
+      
+       /**
+         * Handle Track Clicks and Lyrics Display
+         */
+        $('.play').on('click', function(e){
+            var lyrics = $(this).find('.lyric-output').clone();
+
+            if (lyrics.length) {
+                $("#lyrics-base").html(lyrics).parent().removeClass("closed");
+                $("#lyrics-base").children().removeClass("hide");
+                $("#lyrics-base").scrollTop(0,0);
+            }else{
+                $("#lyrics-base").parent().addClass("closed");
+            }
+
+            if (inlinePlayer) {
+                inlinePlayer.events.finish = function() {
+
+                    // Remove Playing Class
+                    $('a.sm2_playing').removeClass('sm2_playing');
+
+                    // Blow away the last played track
+                    inlinePlayer.stopSound(inlinePlayer.lastSound);
+                };
+            }
+
+        });
+      
 
     }
   },
