@@ -12,7 +12,7 @@
 
 <div class="col books-section">
 	<div class="row">
-    	<div class="col-md-3 col-sm-1"></div>
+    	<div class="col-md-1 col-sm-1"></div>
     	<div class="col-md-9 col-sm-11 books-heading">
         	<h1>Books</h1>
             <h2>Sara as an Author</h2>
