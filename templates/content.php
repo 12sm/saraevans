@@ -1,4 +1,8 @@
-<article <?php post_class(); ?>>
+
+<div class="row">
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-10"><article <?php post_class(); ?>>
   <header>
   <div class="row">
     <div class="col-sm-12">
@@ -13,5 +17,6 @@
     <?php the_excerpt(); ?>
   </div>
   </div>
-  </div>
 </article>
+</div>
+</div>
