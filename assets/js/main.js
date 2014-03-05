@@ -86,8 +86,10 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page  
       
-      $('.instagra-grid').embedagram({
-       	instagram_id: 185380813
+      $('.insta-grid').embedagram({
+       	instagram_id: 185380813,
+       	thumb_width: 150,
+       	limit: 5
        });
       
     }

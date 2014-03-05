@@ -194,6 +194,18 @@ padding: 4%;
 background-color: #c9c9c9;
 } 
 
+.insta-grid {
+	
+} 
+
+.insta-grid li a {
+display:block;
+float: left;
+width: 50%;
+}
+
+.insta-grid li:nth-child(3) a {width:100%;}
+
 /* ==========================================================================
    Bands in Town [Home]
    ========================================================================== */

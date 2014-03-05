@@ -46,8 +46,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 instagra-grid">
-			</div>
+			<ul class="col-md-12 insta-grid">
+			</ul>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
