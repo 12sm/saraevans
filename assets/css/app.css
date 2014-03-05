@@ -92,7 +92,6 @@ border-color: transparent;
    ========================================================================== */
 body > header > nav{
    overflow: visible!important;
-   width: 100%;
 }
 .navbar-default .navbar-nav>li>a {
 color: #FFF;
