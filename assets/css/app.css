@@ -611,7 +611,9 @@ width: 100%;
 padding: 0px;
 }
 
-.song a:before {content:"";}
+.song a:before {display:none;}
+
+.song .lyric-output {display:none;}
 
 .song a.sm2_playing {background: rgba(205,130,185, 0.7); color:#fff;}
 .song a.sm2_playing .song-play:before {content:"\f04c";}
@@ -717,7 +719,6 @@ opacity: 0.5;
 }
 
 
-.song .lyric-output {display:none;}
 
 
 
