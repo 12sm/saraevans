@@ -161,7 +161,7 @@ color: #70bcbf;
 
 .nav-pills>li>a {
 border-radius: 0px;
-font-family: "omnes-pro",sans-serif;
+font-family: museo-sans, sans-serif;
 text-transform: uppercase;
 padding: 5px 5px 5px 15px;
 color: #FFF;
@@ -604,6 +604,11 @@ padding: 0px!important;
 box-shadow: 0px 0px 15px 1px #ededed;
 -webkit-box-shadow: 0px 0px 15px 1px #ededed;
 border: 1px solid #ededed;
+}
+
+.lyrics-base {
+max-height: 600px;
+overflow: scroll;
 }
 
 .lyrics-container pre {
