@@ -28,7 +28,7 @@
 		</div>
         <div class="row">
 			<div class="col-md-12">
-				<button type="button" onclick="window.location.href='/tour' href="/tour">More Dates</button>
+				<button type="button" onclick="window.location.href='/tour'" href="/tour">More Dates</button>
 			</div>
 		</div>
 	</div>
@@ -51,7 +51,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<button type="button" onclick="window.location.href='http://instagram.com/saraevansmusic' href="http://instagram.com/saraevansmusic"><i class="fa fa-instagram"></i> @saraevansmusic</button>
+				<button type="button" onclick="window.location.href='http://instagram.com/saraevansmusic'" href="http://instagram.com/saraevansmusic"><i class="fa fa-instagram"></i> @saraevansmusic</button>
 			</div>
 		</div>
 	</div>
