@@ -440,16 +440,12 @@ border-bottom: 1px solid #ededed;
 margin-bottom: 20px;
 }
 
-#album-carousel .slides {padding:0px; margin:0px;}
+#album-carousel .slides {padding:0px; margin:0px; width: inherit!important;}
 
 /*
 * 	Owl Carousel Owl Demo Theme 
 *	v1.3.2
 */
-
-#album-carousel>.owl-wrapper-outer{
-   height: 200px;
-}
 
 .owl-theme .owl-controls{
 	margin-top: 10px;
