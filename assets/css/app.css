@@ -791,7 +791,19 @@ background-color:#70bcbf!important;
 color:#FFF!important;
 }
 
-
+#bit-events td .bit-uiButton {
+background: none!important;
+border: none!important;
+border-bottom-color:none!important;
+box-shadow:none!important;
+-moz-box-shadow: none!important;
+font-size: 11px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+vertical-align: top;
+white-space: nowrap;
+}
 
 
 
