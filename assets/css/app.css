@@ -135,9 +135,10 @@ body > header > nav{
    display: none;
 }
 .nav-pills>li.active>a {
-color: #fff;
 margin-right: -5px;
-background: rgba(205,130,185, 0.7);
+background: rgba(255,255,255, 0.7);
+font-weight: 300;
+color: #70bcbf;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
@@ -145,6 +146,12 @@ text-decoration: none;
 background-color: #c9c9c9;
 color: #FFF;
 padding-left: 25px;
+}
+
+.nav-pills>li.active>a:hover {
+background: rgba(255,255,255, 0.7);
+font-weight: 300;
+color: #70bcbf;
 }
 
 .nav-pills>li>a {
