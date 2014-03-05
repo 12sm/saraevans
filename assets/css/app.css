@@ -81,7 +81,8 @@ border-color: transparent;
 /* Top Slider */
 
 .top-slider {
-	
+height: 0px;
+padding-bottom: 58%;
 }
 
 .top-slider h1 {font-size:70px; line-height: 50px;}
