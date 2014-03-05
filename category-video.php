@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Video Template
+Template Name: Video Slug Template
 */
 ?>
 
