@@ -103,6 +103,7 @@ width: 100%;
 text-align: center;
 margin-bottom: 0px;
 height: 30px;
+font-size: 18px;
 }
 
 nav .navbar{
@@ -575,6 +576,7 @@ border: 0px solid transparent;
 width: initial;
 text-align: left;
 height: initial;
+font-size: initial;
 }
 
 nav .navbar{
