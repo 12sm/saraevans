@@ -75,6 +75,7 @@ var Roots = {
 
             if (lyrics.length) {
                 $("#lyrics-base").html(lyrics).parent().removeClass("closed");
+                $("#lyrics-base").child().removeClass("hide");
                 $("#lyrics-base").scrollTop(0,0);
             }else{
                 $("#lyrics-base").parent().addClass("closed");
