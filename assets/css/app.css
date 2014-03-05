@@ -58,6 +58,7 @@ position:fixed;
 height:100%;
 width:150px;
 top:0px;
+display:none;
 }
 
 .right {text-align: right;}
@@ -888,6 +889,8 @@ border: 0px solid transparent;
 }
 
 body.photos .insta-grid li a {width: 33.333%;}
+
+.shapes {display:block;}
 
 }
 
