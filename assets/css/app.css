@@ -96,7 +96,9 @@ body > header > nav{
 .navbar-default .navbar-nav>li>a {
 color: #FFF;
 }
-
+.navbar{
+   min-height: 0px!important;
+}
 #menu-primary-navigation > li {
 background: rgba(205,130,185, 0.7);
 }
@@ -113,7 +115,12 @@ background: rgba(205,130,185, 0.7);
 color: #fff;
 margin-right: -5px;
 }
-
+.nav{
+   margin-top: 75px;
+}
+#menu-primary-navigation{
+   padding-left: 0px;
+}
 .nav-pills>li.active>a {
 color: #fff;
 margin-right: -5px;
