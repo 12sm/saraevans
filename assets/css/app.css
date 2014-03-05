@@ -468,9 +468,10 @@ display: block;
 #album-carousel {
 border-bottom: 1px solid #ededed;
 margin-bottom: 20px;
+width: inherit!important;
 }
 
-#album-carousel .slides {padding:0px; margin:0px; width: inherit!important;}
+#album-carousel .slides {padding:0px; margin:0px;}
 
 /*
 * 	Owl Carousel Owl Demo Theme 
