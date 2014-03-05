@@ -161,7 +161,7 @@ color: #70bcbf;
 
 .nav-pills>li>a {
 border-radius: 0px;
-font-family: museo-sans, sans-serif;
+font-family: "omnes-pro",sans-serif;
 text-transform: uppercase;
 padding: 5px 5px 5px 15px;
 color: #FFF;
@@ -616,7 +616,7 @@ display: block;
 padding: 9.5px;
 margin: 0 0 10px;
 font-size: 13px;
-font-family: "omnes-pro",sans-serif;
+font-family: "museo-sans", sans-serif;
 line-height: 1.428571429;
 word-break: break-all;
 word-wrap: break-word;
