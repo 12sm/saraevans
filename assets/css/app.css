@@ -242,6 +242,13 @@ height:auto;
 /* ==========================================================================
    Bands in Town [Home]
    ========================================================================== */
+
+.bit-events th, .bit-events td {
+width: auto;
+text-align: left;
+padding: 3%;
+vertical-align: middle;
+}
    
 .bit-invert, .bit-notify {
 display: none!important;
