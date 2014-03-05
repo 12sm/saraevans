@@ -98,10 +98,6 @@ body > header > nav{
 color: #FFF;
 }
 
-nav .navbar{
-   width: 100%
-}
-
 #menu-primary-navigation > li {
 background: rgba(205,130,185, 0.7);
 }
@@ -126,24 +122,17 @@ color: #FFF;
 padding-left: 25px;
 }
 
-.nav-pills>li>a {
-border-radius: 0px;
-font-family: "omnes-pro",sans-serif;
-text-transform: uppercase;
-padding: 5px 5px 5px 15px;
-color: #FFF;
-font-weight: 100;
-letter-spacing: .1em;
-background: rgba(205,130,185, 0.7);
-float: left;
-margin-bottom:3%;
-width: 100%;
-text-align: center;
-margin-bottom: 0px!important;
-height: 30px;
-font-size: 18px;
+.nav-pills>li>a{
+width: initial;
+text-align: left;
+height: initial;
+font-size: 28px;
+margin-bottom: 3%!important;
 }
 
+nav .navbar{
+   width: initial;
+}
    
 /* ==========================================================================
    Instagram Feed [Home]
@@ -567,17 +556,26 @@ border: 0px solid transparent;
 
  }
 /*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
- @media (min-width: 845px){
-.nav-pills>li>a{
-width: initial;
-text-align: left;
-height: initial;
-font-size: 28px;
-margin-bottom: 3%!important;
+ @media (max-width: 845px){
+.nav-pills>li>a {
+border-radius: 0px;
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase;
+padding: 5px 5px 5px 15px;
+color: #FFF;
+font-weight: 100;
+letter-spacing: .1em;
+background: rgba(205,130,185, 0.7);
+float: left;
+margin-bottom:3%;
+width: 100%;
+text-align: center;
+margin-bottom: 0px!important;
+height: 30px;
+font-size: 18px;
 }
-
 nav .navbar{
-   width: initial;
+   width: 100%
 }
  }
 
