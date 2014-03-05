@@ -6,6 +6,11 @@
 /* ==========================================================================
    Base
    ========================================================================== */
+/*Kill page header*/
+.page-header{
+   display: none;
+}
+
 
 body {
 background:#fff url('../img/back.jpg') top center fixed no-repeat;
