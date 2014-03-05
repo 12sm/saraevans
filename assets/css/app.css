@@ -801,6 +801,15 @@ padding: 1%;
 margin-top:5px;
 }
 
+h1.entry-title {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 52px!important;
+text-align: left;
+}
 
 /* ==========================================================================
    Footer
