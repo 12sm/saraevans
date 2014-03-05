@@ -609,6 +609,7 @@ border: 1px solid #ededed;
 #lyrics-base {
 max-height: 600px;
 overflow: scroll;
+display:none;
 }
 
 .lyrics-container pre {
@@ -852,6 +853,9 @@ nav .navbar{
 
 body.photos .insta-grid li a {width: 25%;}
 
+#lyrics-base {
+display: block;
+}
 	
 }
 
