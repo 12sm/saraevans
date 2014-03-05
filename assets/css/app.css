@@ -476,6 +476,27 @@ color:#70bcbf;
 
 .timeline {margin-bottom:50px;}
 
+.books-header h1 {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #70bcbf;
+font-size: 40px!important;
+text-align: left;
+}
+
+.books-header h2 {
+font-family: "omnes-pro",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 30px!important;
+text-align: left;
+margin-top:0;
+}
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
