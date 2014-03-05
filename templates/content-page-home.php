@@ -7,14 +7,14 @@
 <div class="col">
 
 <div class="row">
-	<div class="col-md-6">
+	<div class="col-md-6 col-sm-6">
 		<div class="row">
 			<div class="col-md-12">
 			<?php echo do_shortcode( '[wpv-view name="home-banner"]' ) ?>
 			</div>
 		</div>
 	</div>
-	<div class="col-md-6 bands-in-town-section">
+	<div class="col-md-6 col-sm-6 bands-in-town-section">
     	<div class="row">
 			<div class="col-md-12">
 				<h1 class="bands-in-town-h1">Sara on Tour</h1>
@@ -39,7 +39,7 @@
 </div>
 
 <div class="row">
-	<div class="col-md-3 fitvids instagram-section">
+	<div class="col-md-3 col-sm-3 fitvids instagram-section">
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="instagram-h1">Instagram</h1>
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-9 fitvids">
+	<div class="col-md-9 col-sm-9 fitvids">
 		<?php echo do_shortcode( '[wpv-view name="video home"]' ) ?>
 	</div>
 </div>
