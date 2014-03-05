@@ -47,7 +47,6 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 instagra-grid">
-				<iframe src="http://www.intagme.com/in/?u=c2FyYWV2YW5zbXVzaWN8aW58MTAwfDJ8M3x8bm98NXx1bmRlZmluZWQ=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:210px; height: 315px" ></iframe>
 			</div>
 		</div>
 		<div class="row">

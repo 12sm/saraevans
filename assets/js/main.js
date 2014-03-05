@@ -86,6 +86,10 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page  
       
+      $('.instagra-grid').embedagram({
+       	instagram_id: 185380813
+       });
+      
     }
   },
   // About us page, note the change from about-us to about_us.
