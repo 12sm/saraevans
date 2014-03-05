@@ -35,6 +35,10 @@
 </div>
 
 <div class="row">
+	<div class="col-md-12">&nbsp;</div>
+</div>
+
+<div class="row">
 	<div class="col-md-3 fitvids instagram-section">
 		<div class="row">
 			<div class="col-md-12">
