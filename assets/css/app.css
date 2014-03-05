@@ -784,9 +784,9 @@ opacity: 0.5;
 }
 
 .hentry .entry-content {
--moz-column-count: 3;
+-moz-column-count: 2;
 -moz-column-gap: 20px;
--webkit-column-count: 3;
+-webkit-column-count: 2;
 -webkit-column-gap: 30px;
 }
 
