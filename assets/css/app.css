@@ -273,6 +273,13 @@ text-transform: uppercase!important;
 font-family: "museo-sans",sans-serif!important;
 }
 
+table.bit-events {
+color: #333!important;
+}
+table.bit-events a:hover {
+color: #333!important;
+}
+
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
