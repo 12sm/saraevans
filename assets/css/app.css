@@ -258,7 +258,7 @@ border-top: none!important;
 border-bottom: none!important;
 }
 
-h1.bands-in-town-h1 {
+body.home h1.bands-in-town-h1 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
 font-weight:100;
@@ -269,23 +269,23 @@ text-align:left;
 margin-top: 0;
 }
 
-.bit-header {
+body.home .bit-header {
 display: none!important;
 }
 
-td.bit-description-links {
+body.home td.bit-description-links {
 display: none;
 }
 
-#bit-events > table:nth-child(2) > tbody > tr:nth-child(2) { /* this may not work */
+body.home #bit-events > table:nth-child(2) > tbody > tr:nth-child(2) { /* this may not work */
 display: none;
 }
 
-.bit-rsvp {
+body.home .bit-rsvp {
 display: none;
 }
 
-#bit-events[data-bit-widget-id='1393958431833'] .bit-events td {
+body.home #bit-events[data-bit-widget-id='1393958431833'] .bit-events td {
 border-top: none!important;
 }
 
@@ -306,7 +306,7 @@ font-weight: 100!important;
 color:#81194a!important;
 }
 
-tr.bit-bottom {
+body.home tr.bit-bottom {
 display: none!important;
 }
 
@@ -378,7 +378,7 @@ margin-top:5px;
 background-color: #c9c9c9;
 } 
 
-#bit-events > a {
+body.home #bit-events > a {
 display: none!important;
 }
 
@@ -785,6 +785,8 @@ color:#878787;
 font-size:30px!important;
 text-align:left;
 }
+
+
 
 
 
