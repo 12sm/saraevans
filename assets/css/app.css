@@ -480,7 +480,8 @@ color:#70bcbf;
 height: auto!important;
 text-align: center;
 margin: 0 auto;
-width: 50%!important;
+width: auto;
+max-height: 240px;
 }
 .books-heading h1 {
 font-family: "omnes-pro",sans-serif;
@@ -502,6 +503,17 @@ color: #878787;
 font-size: 20px!important;
 text-align: left;
 margin-top:0;
+}
+
+.books-section h3 {
+font-family: "museo-sans",sans-serif;
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #70bcbf;
+font-size: 20px!important;
+text-align: left;
+margin-bottom: 3px;
 }
 
 /* ==========================================================================
