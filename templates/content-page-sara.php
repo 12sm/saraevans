@@ -10,7 +10,7 @@
 </div>
 
 
-<div class="col">
+<div class="col books-section">
 	<div class="row">
     	<div class="col-md-12 col-sm-12 books-heading">
         	<h1>Books</h1>

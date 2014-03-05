@@ -476,6 +476,8 @@ color:#70bcbf;
 
 .timeline {margin-bottom:50px;}
 
+.books-section img {size:auto!important;text-align:center;margin:0 auto;}
+
 .books-heading h1 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
