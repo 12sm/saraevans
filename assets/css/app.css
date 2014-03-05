@@ -10,6 +10,7 @@
 body {
 background:#fff url('../img/back.jpg') top center fixed no-repeat;
 background-size:cover; 
+overflow-x: hidden;
 }
 
 .col img {width:100%; max-width:100%; height:auto;}
