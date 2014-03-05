@@ -19,7 +19,7 @@
     </div>
     <div class="row">
        <div class="col-md-4 col-sm-4">
-          <img src="http://lorempixel.com/180/200" />
+          <img src="http://saraevans.12southdev.com/assets/9781608145690_p0_v2_s260x420.jpg" />
           <h3>Title of the Book</h3>
           <p>Happily married and owner of two successful boutiques, Jade longs to begin a family with her husband, Max. But when she discovers that Max has an illegitimate son—who he wants her to help raise—Jade’s life is turned upside down.</p>
     
@@ -28,7 +28,7 @@
     <p>Order a copy of Sara's new book "Softly and Tenderly" today!</p>
        </div>
        <div class="col-md-4 col-sm-4">
-          <img src="http://lorempixel.com/180/200" />
+          <img src="http://saraevans.12southdev.com/assets/lovelifted2g.jpg" />
           <h3>Title of the Book</h3>
           <p>Happily married and owner of two successful boutiques, Jade longs to begin a family with her husband, Max. But when she discovers that Max has an illegitimate son—who he wants her to help raise—Jade’s life is turned upside down.</p>
     
@@ -37,7 +37,7 @@
     <p>Order a copy of Sara's new book "Softly and Tenderly" today!</p>
        </div>
        <div class="col-md-4 col-sm-4">
-          <img src="http://lorempixel.com/180/200" />
+          <img src="http://saraevans.12southdev.com/assets/SEnewbookcover.jpg" />
           <h3>Title of the Book</h3>
           <p>Happily married and owner of two successful boutiques, Jade longs to begin a family with her husband, Max. But when she discovers that Max has an illegitimate son—who he wants her to help raise—Jade’s life is turned upside down.</p>
     
