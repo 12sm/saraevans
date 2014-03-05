@@ -88,7 +88,7 @@ var Roots = {
       
       $('.insta-grid').embedagram({
        	instagram_id: 185380813,
-       	thumb_width: 150,
+       	thumb_width: 306,
        	limit: 5
        });
       

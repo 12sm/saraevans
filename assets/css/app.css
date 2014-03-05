@@ -199,9 +199,10 @@ background-color: #c9c9c9;
 } 
 
 .insta-grid li a {
-display:block;
+display: block;
 float: left;
 width: 50%;
+border: 1px solid #70bcbf;
 }
 
 .insta-grid li:nth-child(3) a {width:100%;}
