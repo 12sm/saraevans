@@ -523,13 +523,12 @@ margin-bottom: 3px;
 }
 
 .vco-storyjs h3 {
-font-family: "omnes-pro",sans-serif;
+font-family: "omnes-pro",sans-serif!important;
 text-transform: uppercase!important;
-font-weight:100;
-word-spacing:.1em;
-color:#70bcbf;
+word-spacing:.1em!important;
+color:#70bcbf!important;
 font-size:30px!important;
-text-align:left;
+text-align:left!important;
 }
 
 /* ==========================================================================
