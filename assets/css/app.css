@@ -121,6 +121,9 @@ margin-right: -5px;
 #menu-primary-navigation{
    padding-left: 0px;
 }
+.navbar-brand{
+   display: none;
+}
 .nav-pills>li.active>a {
 color: #fff;
 margin-right: -5px;
