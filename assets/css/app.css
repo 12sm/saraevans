@@ -665,6 +665,7 @@ margin:0px;
 }
 
 .album-info {border: 1px solid #ededed;}
+.album-image {padding:0px;}
 
 #album-carousel {
 border-bottom: 1px solid #ededed;
