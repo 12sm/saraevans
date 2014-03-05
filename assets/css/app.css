@@ -280,6 +280,17 @@ table.bit-events a:hover {
 color: #333!important;
 }
 
+.bands-in-town-section button {
+background: #81194a;
+border: none;
+color: #FFF;
+font-family: "museo-sans",sans-serif;
+font-size: 1em;
+width: 100%;
+padding: 1%;
+margin-top:5px;
+}
+
 /* ==========================================================================
    Videos [Home]
    ========================================================================== */
