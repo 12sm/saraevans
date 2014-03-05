@@ -483,6 +483,11 @@ margin: 0 auto;
 width: auto;
 max-height: 240px;
 }
+
+.single-book {
+background-color:#FFF;
+padding:10px;
+}
 .books-heading h1 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;

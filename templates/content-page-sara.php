@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="row">
-       <div class="col-md-4 col-sm-4">
+       <div class="col-md-4 col-sm-4 single-book">
           <img src="http://saraevans.12southdev.com/assets/9781608145690_p0_v2_s260x420.jpg" align="center" />
           <h3>The Sweet By and By</h3>
           <p>Jade Fitzgerald left the pain of her past in the dust when she headed out for college a decade ago. Now she's thriving in her career and glowing in the light of Max Benson's love. But then Jade's hippie mother, Beryl Hill, arrives in Whisper Hollow, Tennessee, for Jade's wedding along with Willow, her wild younger sister. Their arrival forces Jade to throw open the dark closets of her past--the insecurity of living with a restless, wandering mother, the silence of her absent father, and the heart-ripping pain of first-love's rejection.</p>
