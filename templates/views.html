@@ -202,3 +202,62 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Music Archive thing-->
+[wpv-layout-start]
+	[wpv-items-found]
+
+<div class="row">
+	<div class="col-sm-12">
+		[wpv-view name="Album Carousel"]
+		<wpv-loop>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="[types field="album-image" output="raw"][/types]" class="img-responsive" />
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-8">
+						<div class="row">
+							<div class="col-sm-12">
+								<h2>[wpv-post-title] </h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<p>text here</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="col-sm-12">
+								<p>Order On</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<p>Store placeholder</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-7">
+						[wpv-view name="songs"]
+					</div>
+					<div class="col-sm-5">
+						<h3>Lyrics</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</wpv-loop>	
+	</div>
+</div>
+
+[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
