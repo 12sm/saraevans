@@ -605,9 +605,13 @@ text-transform: none;
 
 .song a {
 border-bottom: 1px solid #ededed;
-display: block;
+display: inline-flex;
 -webkit-box-shadow: 0px 0px 15px 1px #ededed;
+width: 100%;
+padding: 0px;
 }
+
+.song a:before {content:"";}
 
 .song a.sm2_playing {background: rgba(205,130,185, 0.7); color:#fff;}
 .song a.sm2_playing .song-play:before {content:"\f04c";}
@@ -714,6 +718,8 @@ opacity: 0.5;
 
 
 .song .lyric-output {display:none;}
+
+
 
 
 /* ==========================================================================
