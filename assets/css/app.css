@@ -109,7 +109,8 @@ background: rgba(205,130,185, 0.7);
    float: left;
    position: fixed;
    margin-top: 35px;
-   color: #DEA4CB;
+   background-color: #DEA4CB!important;
+   border: solid 0px #fff!important;
 }
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
