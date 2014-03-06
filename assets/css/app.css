@@ -936,11 +936,13 @@ display: inline-block;
 }
 
 footer{
-   color: #EEEEEE;
-   margin-left: 0px;
-   margin-right: 0px;
+   background-color: #EEEEEE;
+   margin-left: 0px!important;
+   margin-right: 0px!important;
 }
-
+.footer-nave{
+   float: right;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
