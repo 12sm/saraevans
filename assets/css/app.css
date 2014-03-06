@@ -478,11 +478,9 @@ margin: 10px 0px!important;
 background: rgba(255,255,255,1.0);
 }
 
-.gal-thumb{
-padding-top: 25%;
-background-size: contain;
+.gal-thumb {
 border: 1px solid #fff;
-background-repeat: no-repeat;
+padding: 0px;
 }
 
 .video-page-h1 h1 {
