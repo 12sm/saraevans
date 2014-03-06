@@ -1094,6 +1094,18 @@ display:none;
 margin:0 15px;
 }
 
+.buy-links a {
+margin-top: 10px!important;
+text-align: center;
+display: block;
+background: #81194a;
+border: none;
+color: #FFF;
+font-family: "museo-sans",sans-serif;
+font-size: 14px;
+width: 100%;
+padding: 1%;
+}
 
 }
 
