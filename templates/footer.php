@@ -15,8 +15,8 @@
           <div class="col-sm-12">
             <div class="row col">
               <div class="col-sm-6">
-              <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758490/c5eee1896752e5ac19a3a0bb34fbab4b/7712/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
-              <button class="btn btn-default" type="submit" name="Submit" value="Submit"> Test </button>
+              <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758490/c5eee1896752e5ac19a3a0bb34fbab4b/7712/?v=a"></script><input id="e2ma_signup_submit_button" class="btn btn-default" type="submit" name="Submit" value="Submit"> Test </button><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
+            
               </div>
               <div class="col-sm-6">
       <div id="social" class="row social-nav">

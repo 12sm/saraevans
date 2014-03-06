@@ -234,7 +234,7 @@ font-size: 18px;
    background-color: #81194A;
    color: #fff;
 }
-.e2ma_signup_form_element{
+.e2ma_signup_form_element>input{
    width: 100%;
 }
 /* ==========================================================================
