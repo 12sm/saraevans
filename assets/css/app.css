@@ -602,7 +602,7 @@ background-color: #c9c9c9;
 }
 
 .gal-title-box {
-background: rgba(200,200,200,.3);
+background: rgba(255,255,255,.8);
 margin: 45px 0px 15px 0px;
 }
 
@@ -1016,10 +1016,12 @@ width: 100%;
 display: block;
 }
 
-/*.meta-date-share {
+.meta-date-share > .addthis-toolbox {display:none;}
+
+.meta-date-share {
 padding: 1%;	
 background-color:#FFF;
-}*/
+}
 
 .addthis_toolbox {
 background-color: #FFF;
