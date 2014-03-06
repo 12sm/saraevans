@@ -79,10 +79,17 @@ display:none;
 
 #social-float>ul{
    float: right;
+   margin-top: 25px;
    margin-right: 30px;
    position: fixed;
    right: 0;
-   margin-top: 25px;
+   background-color: rgba(128,122,128, .33);
+   padding-left: 0px;
+}
+  #social-float>ul>li{
+   color: #fff;
+   text-decoration: none;
+  } 
 }
 
 .navbar-default {
