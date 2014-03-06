@@ -15,7 +15,7 @@
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-6">
-              <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758482/c5eee189... id="load_che
+              <link href="https://app.e2ma.net/css/signup.lrg.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758482/c5eee189... id="load_che
 ck" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758482/7712/?v=a">; Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
               </div>
               <div class="col-sm-6">
