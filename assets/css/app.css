@@ -77,6 +77,14 @@ display:none;
 
 .banner { }
 
+#social-float>ul{
+   float: right;
+   margin-right: 30px;
+   position: fixed;
+   right: 0;
+   margin-top: 25px;
+}
+
 .navbar-default {
 background-color: transparent;
 border-color: transparent;
