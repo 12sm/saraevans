@@ -35,6 +35,7 @@ var Roots = {
 
       //ImgLiquid
       $(".blog-img-container").imgLiquid();
+      $(".gal-thumb").imgLiquid();
 
       // FitVids init
       $(".fitvids").fitVids();
