@@ -220,7 +220,14 @@ $(document).ready(UTIL.loadEvents);
 
 
 
+//* Add CSS to Emma Signup *//
+$(document).ready(function() {
 
+    $('#emmaSignup').load(function(){
+        $('#emmaSignup').contents().find('head').append('<link type="stylesheet" rel="stylesheet" href="/wp-content/themes/saraevans/assets/css/app.css">');
+    });
+
+});
 
 
 
