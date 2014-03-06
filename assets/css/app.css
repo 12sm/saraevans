@@ -136,7 +136,7 @@ background-color: #DEA4CB!important;
 border: solid 0px #fff!important;
 margin-left: 20px;
 }
-
+nav-pills>li.active:hover,
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
