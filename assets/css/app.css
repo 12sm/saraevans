@@ -935,6 +935,12 @@ padding: 1%;
 display: inline-block;
 }
 
+footer{
+   color: #EEEEEE;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
 
 /* ==========================================================================
    WordPress Generated Classes
