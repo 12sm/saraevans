@@ -1363,7 +1363,9 @@ min-height: 0px;
 margin-bottom: 0px;
 border: 0px solid transparent;
 }
-
+.join-list{
+   font-size: 24px;
+}
 body.photos .insta-grid li a {width: 33.333%;}
 
 .shapes {display:block;}
