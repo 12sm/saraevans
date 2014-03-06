@@ -83,6 +83,7 @@ display:none;
    margin-right: 30px;
    position: fixed;
    right: 0;
+   bottom: 0;
    background-color: rgba(128,122,128, .33);
    padding: 5px 0px 5px 9px;
 }
@@ -94,7 +95,9 @@ display:none;
    float: left;
    margin-right: 22px;;
 }
-
+footer>.row{
+   height: 80px;
+}
 .navbar-default {
 background-color: transparent;
 border-color: transparent;
