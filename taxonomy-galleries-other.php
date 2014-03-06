@@ -1,1 +1,1 @@
-<?php echo do_shortcode('[wpv-view name="video-page"]')
+<?php echo do_shortcode('[wpv-view name="video-page"]') ?>
