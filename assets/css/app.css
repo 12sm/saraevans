@@ -26,10 +26,12 @@ ul{
    list-style-type: none;
 }
 
-a {
+a, button {
 color: #70bcbf;
 text-decoration: none;
+outline:none;
 }
+
 
 a:hover {
 color: #D46685;
@@ -145,9 +147,7 @@ margin-right: -5px;
 body > header > nav{
    padding-left: 0px;
 }
-.navbar-brand{
-   display: none;
-}
+
 .nav-pills>li.active>a {
 margin-right: -5px;
 background: rgba(255,255,255, 0.7);
@@ -984,6 +984,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Phones */
 @media (max-width: 768px) {
 
+.wrap {padding-top: 30px;}
+
 .navbar-collapse {
 height: auto;
 width: 100%;
@@ -993,16 +995,18 @@ padding:0px;
 
 .nav-pills>li>a {
 width: 100%;
-height:auto;
+height: auto;
 text-align: center;
 background: rgba(205,130,185, 0.9);
-padding:10px;
+padding: 10px;
+margin-bottom: 0px!important;
+border-bottom: 1px solid #ededed;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
 text-decoration: none;
 background-color: #c9c9c9;
-opacity: 0.8;
+opacity: 1;
 color: #FFF;
 padding: 10px;
 }
