@@ -938,9 +938,12 @@ footer{
    background-color: #EEEEEE;
    margin-left: 0px;
    margin-right: 0px;
+   width: 100%;
 }
 .footer-nav{
    float: right;
+   margin-right: 7%;
+   margin-top: 1%;
 }
 #menu-primary-navigation-1>li>a{
    font-family: "omnes-pro",sans-serif;
