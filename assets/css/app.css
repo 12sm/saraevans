@@ -602,20 +602,21 @@ background-color: #c9c9c9;
 }
 
 .gal-title-box {
-background: rgba(255,255,255,.8);
+background: rgba(255,255,255,.5);
 margin: 45px 0px 15px 0px;
+border: 1px solid #ededed;
 }
 
 .gal-title-box h2 a {
-font-family: "omnes-pro",sans-serif;
-font-weight:100;
-text-transform:uppercase;
+font-family: "museo-sans",sans-serif;
+font-weight: 600;
+text-transform: uppercase;
 width: 100%;
 display: block;
 }
 
 .gal-title-box>h2{
-text-align: center;
+text-align: left;
 margin: 10px 0px!important;
 }
 
