@@ -1068,9 +1068,7 @@ nav .navbar{
    width: initial;
 }
 
-body.home h1.bands-in-town-h1 {
-color: #C00B0B!important;
-}
+
 
 }
 
@@ -1081,6 +1079,10 @@ body.photos .insta-grid li a {width: 25%;}
 
 #lyrics-base {
 display: block;
+}
+
+body.home h1.bands-in-town-h1 {
+color: #C00B0B!important;
 }
 	
 }
