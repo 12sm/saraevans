@@ -84,6 +84,9 @@ display:none;
    color: #fff;
    text-decoration: none;
   } 
+ #social-float>#menu-social-navigation > li:nth-child(6){
+   margin-right: 10px;
+  }
 #social-float>#menu-social-navigation>li{
    float: left;
    margin-right: 22px;;
