@@ -185,7 +185,7 @@ font-size: 18px;
 .audio-player {
 position: fixed;
 top: 0px;
-left: 0px;
+left: -460px;
 margin-top: 7%;
 width: 460px;
 height: auto;
