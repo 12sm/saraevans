@@ -11,11 +11,11 @@
     </div>
 
    <div id="social-float" class="row social-nav">
-  <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/saraevans"><i class="fa fa-facebook fa-2x"></i></a></li>
-<li class="menu-"><a href="https://twitter.com/saraevansmusic"><i class="fa fa-twitter fa-2x"></i></a></li>
-<li class="menu-"><a href="http://instagram.com/saraevansmusic"><i class="fa fa-instagram fa-2x"></i></a></li>
-<li class="menu-"><a href="http://www.pinterest.com/saraevansmusic/‎"><i class="fa fa-pinterest fa-2x"></i></a></li>
-<li class="menu-"><a href="http://www.youtube.com/user/saraevans"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+  <ul id="menu-social-navigation" class=""><li class="menu-"><li class="menu-"><a href="https://www.facebook.com/saraevans" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+<li class="menu-"><a href="https://twitter.com/saraevansmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+<li class="menu-"><a href="http://instagram.com/saraevansmusic" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+<li class="menu-"><a href="http://www.pinterest.com/saraevansmusic" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a></li>
+<li class="menu-"><a href="http://www.youtube.com/user/saraevans" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 </ul>
               </div>
 
