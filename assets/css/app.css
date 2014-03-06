@@ -953,7 +953,7 @@ font-size: 10px;
 text-transform: uppercase;
 }
 
-.individual-post .poster-footer .addthis_toolbox {float:right;}
+.individual-post .post-footer .addthis_toolbox {float:right;}
 
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
