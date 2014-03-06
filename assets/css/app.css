@@ -1211,7 +1211,10 @@ display:none;
 .hentry .entry-content {
 -moz-column-count: auto;
 -webkit-column-count: auto;
+margin-top: 30px;
+margin-bottom: 30px;
 }
+
 #social{
    float: right;
    margin-right: 12%;
@@ -1256,6 +1259,10 @@ background: rgba(205,130,185, 1);
 
 #menu-primary-navigation {
 margin-top: 40px;
+}
+
+body.archive .addthis_toolbox a {
+text-align: right;
 }
 
 }
