@@ -214,10 +214,7 @@ font-size: 18px;
 /* ==========================================================================
    Email Signup
    ========================================================================== */
-/*display none all non-essential elements */
-.emmaEditDotBox > table > tbody > tr:nth-child(1) {display: none!important;} 
-.emmaEditDotBox > table > tbody > tr:nth-child(2) { display: none!important;} 
-#Manage > table > tbody > tr:nth-child(2) > td > div {display: none!important;}
+
 
 /* ==========================================================================
    Audio Player [Home]
