@@ -985,10 +985,6 @@ body.photos .insta-grid li a {width: 33.333%;}
 
 }
 
-
-
-/*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
- @media (min-width: 845px){
 .nav-pills>li>a{
 width: initial;
 text-align: left;
@@ -1002,6 +998,12 @@ margin-bottom: 3%!important;
 nav .navbar{
    width: initial;
 }
+
+
+
+
+/*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
+ @media (min-width: 845px){
 
 }
 
