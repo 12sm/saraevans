@@ -249,7 +249,7 @@ border-bottom:1px solid #e9e9e9;
    
 .audio-player .playlist-title {font-size: 15px;}
 
-.audio-player .playlist-album img {max-height:40px; height:auto;}
+.audio-player .playlist-album img {max-height:40px; width:auto;}
 
 /* ==========================================================================
    Instagram Feed [Home]
@@ -320,6 +320,10 @@ height:auto;
 
 .bit-events th, .bit-events td {
 padding: 1%!important;
+}
+
+#bit-events[data-bit-widget-id='1394133542711'] .bit-events td {
+border-top: none!important;
 }
    
 .bit-invert, .bit-notify {
