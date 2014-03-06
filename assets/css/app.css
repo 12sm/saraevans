@@ -1032,29 +1032,6 @@ color: #FFF;
 padding: 10px;
 }
 
-
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-.col {margin:0 10%;}
-
-.navbar-collapse {margin-top:4%; z-index:9999;}
-
-.navbar-header{display: none;}	
-
-.navbar {
-position: relative;
-min-height: 0px;
-margin-bottom: 0px;
-border: 0px solid transparent;
-}
-
-body.photos .insta-grid li a {width: 33.333%;}
-
-.shapes {display:block;}
-
 body.home h1.bands-in-town-h1 {
 color: #878787!important;
 margin-top: 40px;
@@ -1094,6 +1071,31 @@ display:none;
    margin-right: 12%;
    display: block;
 }
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+.col {margin:0 10%;}
+
+.navbar-collapse {margin-top:4%; z-index:9999;}
+
+.navbar-header{display: none;}	
+
+.navbar {
+position: relative;
+min-height: 0px;
+margin-bottom: 0px;
+border: 0px solid transparent;
+}
+
+body.photos .insta-grid li a {width: 33.333%;}
+
+.shapes {display:block;}
+
+
 
 }
 
