@@ -215,6 +215,7 @@ var UTIL = {
   }
 };
 
+//Inject values into mail button
 $(document).ready(UTIL.loadEvents);
 })(jQuery); // Fully reference jQuery after this point.
 $("#e2ma_signup_submit_button" ).ready(function(){
