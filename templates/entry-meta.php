@@ -1,8 +1,8 @@
 <div class="row">
-	<div class="col-md-6 col-sm-6">
+	<div class="col-md-6 col-sm-6 col-xs-6">
         <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date(); ?></time>
     </div>
-    <div class="col-md-6 col-sm-6">
+    <div class="col-md-6 col-sm-6 col-xs-6">
         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
             <a class="addthis_button_facebook"></a>
             <a class="addthis_button_twitter"></a>
