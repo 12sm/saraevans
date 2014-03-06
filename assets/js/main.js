@@ -218,7 +218,7 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 })(jQuery); // Fully reference jQuery after this point.
 
-
+$( "<p>Test</p>" ).insertAfter( "#e2ma_signup_submit_button" );
 
 
 
