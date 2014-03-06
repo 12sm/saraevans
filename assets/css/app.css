@@ -229,7 +229,7 @@ font-size: 18px;
    width: 60%;
 }
 #e2ma_signup_submit_button{
-   float: right;
+   float: left;
    display: inline-block;
    background-color: #81194A;
    color: #fff;
