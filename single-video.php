@@ -7,12 +7,12 @@
   	<header>
       <h1 class="entry-title"><?php the_title(); ?></h1>
       <div class="row meta-date-share">
-	<div class="col-md-6 col-sm-6 col-xs-6">
+	<div class="col-md-6 col-sm-8 col-xs-12">
         <?php if ( function_exists('yoast_breadcrumb') ) {
 	        	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 	     } ?>
     </div>
-    <div class="col-md-6 col-sm-6 col-xs-6">
+    <div class="col-md-6 col-sm-4 col-xs-12">
         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
             <a class="addthis_button_facebook"></a>
             <a class="addthis_button_twitter"></a>
