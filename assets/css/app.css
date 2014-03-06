@@ -319,6 +319,10 @@ height:auto;
 .bit-events th, .bit-events td {
 padding: 1%!important;
 }
+
+#bit-events[data-bit-widget-id='1394133542711'] .bit-events td {
+border-top: none!important;
+}
    
 .bit-invert, .bit-notify {
 display: none!important;
