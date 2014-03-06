@@ -116,16 +116,25 @@ color: #FFF;
 .navbar{
    min-height: 0px!important;
 }
+
+.navbar-header {
+background: #fff;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+
 #menu-primary-navigation > li {
 background: rgba(205,130,185, 0.7);
 }
-.navbar-toggle{
-   float: left;
-   position: fixed;
-   margin-top: 35px;
-   background-color: #DEA4CB!important;
-   border: solid 0px #fff!important;
+
+.navbar-toggle {
+float: left;
+background-color: #DEA4CB!important;
+border: solid 0px #fff!important;
+margin-left: 20px;
 }
+
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
@@ -970,6 +979,36 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
+
+
+/* Phones */
+@media (max-width: 768px) {
+
+.navbar-collapse {
+height: auto;
+width: 100%;
+top: 50px;	
+padding:0px;
+}
+
+.nav-pills>li>a {
+width: 100%;
+height:auto;
+text-align: center;
+background: rgba(205,130,185, 0.9);
+padding:10px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #c9c9c9;
+opacity: 0.8;
+color: #FFF;
+padding: 10px;
+}
+
+
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
