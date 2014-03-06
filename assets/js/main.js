@@ -156,6 +156,7 @@ var Roots = {
 	// Move audio player	
 	$(function(){
     var c=-460;
+    $(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
     $(".music-btn").click(function(){
         $(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
     });  
