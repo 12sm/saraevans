@@ -15,7 +15,7 @@
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-6">
-              <iframe src="https://app.e2ma.net/app2/audience/signup/1758482/7712/?v..." width="510" height="500" frameborder="0"></iframe>
+              <iframe src="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a" width="510" height="175" frameborder="0"></iframe>
               </div>
               <div class="col-sm-6">
       <div id="social" class="row social-nav">
