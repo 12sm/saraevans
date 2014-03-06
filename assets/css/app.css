@@ -942,8 +942,9 @@ overflow: hidden;
 }
 
 .individual-post .post-footer {
-padding:10px;
-text-align:center;
+padding: 10px;
+text-align: left;
+border-top: 1px solid #ededed;
 }
 
 .individual-post .post-footer .post-date {
@@ -951,6 +952,8 @@ color: #ccc!important;
 font-size: 10px;
 text-transform: uppercase;
 }
+
+.individual-post .poster-footer .addthis_toolbox {float:right;}
 
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
