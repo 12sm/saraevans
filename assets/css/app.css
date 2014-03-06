@@ -1097,6 +1097,10 @@ display:none;
    display: block;
 }
 
+.album-image {
+margin:0 15px;
+}
+
 
 }
 
