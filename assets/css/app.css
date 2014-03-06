@@ -948,6 +948,17 @@ height: 155px;
 overflow: hidden;	
 }
 
+.individual-post .post-footer {
+padding:10px;
+text-align:center;
+}
+
+.individual-post .post-footer .post-date {
+color: #ccc!important;
+font-size: 10px;
+text-transform: uppercase;
+}
+
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
