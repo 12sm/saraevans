@@ -604,6 +604,8 @@ background-color: #c9c9c9;
    margin-left: 13%;
 }
 
+.gallery-box {margin-top:50px;}
+
 #gallery-carousel .owl-item{
    border: 1px solid #FFF;
 }
@@ -635,6 +637,7 @@ margin-right: 15px;
 .gal-title-box .videos-button {
 float:right;
 margin:15px;
+padding: 6px;
 }
 
 .gal-title-box:hover {
