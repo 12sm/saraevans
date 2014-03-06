@@ -21,6 +21,8 @@
       </button></a>
     </nav>
     
-    <?php echo do_shortcode( '[wpv-view name="audio-player"]' ) ?>
+    <div class="audio-player">
+    	<?php echo do_shortcode( '[wpv-view name="audio-player"]' ) ?>
+    </div>
 
 </header>
