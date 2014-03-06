@@ -220,7 +220,7 @@ font-size: 18px;
 #e2ma_signup_reset_button{
    display: none;
 }
-.e2ma_signup_reset_button{
+#e2ma_signup_reset_button{
    display: none;
 }
 .e2ma_signup_form_row{
