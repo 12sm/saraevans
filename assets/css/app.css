@@ -938,10 +938,10 @@ footer{
    margin-left: 0px;
    margin-right: 0px;
 }
-#menu-primary-navigation-1{
+.footer-nav{
    float: right;
 }
-#menu-primary-navigation-1{
+#menu-primary-navigation-1>li>a{
    font-family: "omnes-pro",sans-serif;
    text-decoration: none;
    color: #A3A3A3;
