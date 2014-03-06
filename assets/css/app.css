@@ -1125,6 +1125,17 @@ padding: 1%;
 background-color:#898989;
 }
 
+.navbar-default .navbar-brand {
+color: #777;
+text-indent: -9999px;
+background-image: url("http://saraevans.12southdev.com/assets/brand-logo.png");
+background-size: contain;
+background-repeat: no-repeat;
+height: 30px;
+width: 120px;
+margin-top: 10px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
