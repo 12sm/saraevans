@@ -226,10 +226,16 @@ font-size: 18px;
 .e2ma_signup_form_row{
    display: inline-block;
    float: left;
+   width: 80%;
 }
 #e2ma_signup_submit_button{
    float: right;
    display: inline-block;
+}
+.e2ma_signup_form_element{
+   width: 100%;
+   background-color: #81194A;
+   color: #fff;
 }
 /* ==========================================================================
    Audio Player [Home]
