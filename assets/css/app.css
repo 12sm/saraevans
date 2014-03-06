@@ -1068,7 +1068,6 @@ nav .navbar{
    width: initial;
 }
 
-<<<<<<< HEAD
 body.home h1.bands-in-town-h1 {
 color: #C00B0B!important;
 }
@@ -1077,8 +1076,6 @@ color: #C00B0B!important;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-=======
->>>>>>> FETCH_HEAD
 
 body.photos .insta-grid li a {width: 25%;}
 
