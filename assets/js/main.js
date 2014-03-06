@@ -34,9 +34,9 @@ var Roots = {
       });
       
        // audio.js player init
-       audiojs.events.ready(function() {
-	       var as = audiojs.createAll();
-	   });
+       //audiojs.events.ready(function() {
+	   //    var as = audiojs.createAll();
+	   //});
       
       // FitVids init
       $(".fitvids").fitVids();
