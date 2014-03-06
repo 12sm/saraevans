@@ -1,4 +1,4 @@
-<div class="row col">
+<div class="row col-video">
   <div class="col-md-12"> 
   <div class="row">
   <h1><?php echo do_shortcode('[wpv-post-title]')?></h1>
@@ -14,4 +14,4 @@
       </div>
   </div>
 </div>
-<?php echo do_shortcode('[wpv-view name="Gallery Carousel"]')?>
+<?php echo do_shortcode('[wpv-view name="Gallery images"]')?>
