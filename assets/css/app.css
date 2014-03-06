@@ -237,6 +237,7 @@ height: auto;
 background: #fff;
 z-index: 9999;
 -webkit-box-shadow: 5px 5px 20px 5px;
+overflow: hidden;
 }
 
 .audio-player ol,
@@ -256,7 +257,14 @@ border-bottom:1px solid #e9e9e9;
 
 .audio-player .playlist-album img {max-height:40px; width:auto;}
 
-.audio-player .audio-footer {padding:10px; background: #7BC2BF!important; color:#ededed; border-top:1px solid #ededed;}
+.audio-player .audio-footer {
+padding: 10px 0px;
+background: #7BC2BF!important;
+border-top: 1px solid #ededed;
+text-align: center;
+}
+
+.audio-player .audio-footer a {color: #ededed!important;}
 
 .audiojs .play-pause {
 width: 40px;
