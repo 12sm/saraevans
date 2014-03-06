@@ -24,8 +24,7 @@
               </div>
               </div>
               <div class="row col">
-              <div class="col-sm-12">
-      <div id="social" class="social-nav">
+              <div id="social" class="col-sm-12 social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/saraevans_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
 <li class="menu-"><a href="https://twitter.com/saraevansmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 <li class="menu-"><a href="http://instagram.com/saraevansmusic" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
@@ -33,7 +32,6 @@
 <li class="menu-"><a href="http://www.youtube.com/user/saraevans" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 </ul>
               </div>
-            </div>
             </div>
       <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
     </div>
