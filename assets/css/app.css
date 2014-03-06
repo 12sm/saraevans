@@ -852,6 +852,11 @@ padding:1%;
 background-color:#FFF;
 }
 
+table.bit-events {
+background-color: #FFF;
+font-family: 'museo-sans', sans-serif;
+}
+
 .bit-rsvp, .bit-rsvp a {
 background-color:#EBD1E3!important;
 color:#FFF!important;
