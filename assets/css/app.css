@@ -959,6 +959,10 @@ nav .navbar{
    width: initial;
 }
 
+body.home h1.bands-in-town-h1 {
+color: #C00B0B!important;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
