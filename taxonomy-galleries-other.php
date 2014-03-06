@@ -1,1 +1,1 @@
-<h1>Do you fucking work?</h1>
+<?php echo do_shortcode('[wpv-view name="video-page"]')
