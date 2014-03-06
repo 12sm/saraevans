@@ -1082,8 +1082,8 @@ display:none;
 }
 
 .hentry .entry-content {
--moz-column-count: 0;
--webkit-column-count: 0;
+-moz-column-count: auto;
+-webkit-column-count: auto;
 }
 
 }
