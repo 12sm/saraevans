@@ -861,9 +861,9 @@ background-color: #FFF!important;
    margin-top: 4%;
 }
 
-.blog-img-container{
-   height: 160px;
-width: 215px;
+.blog-img-container {
+height: 300px;
+background-position: 50% 0px!important;
 }
 
 .hentry .entry-content {
