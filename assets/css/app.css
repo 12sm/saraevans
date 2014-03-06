@@ -625,7 +625,9 @@ background: rgba(255,255,255,1.0);
 
 .gal-thumb {
 border: 1px solid #fff;
-padding: 0px;
+padding: 0px 0px 14% 0px;
+background-size: contain;
+background-position: 50% 0px;
 }
 
 .video-page-h1 h1 {
