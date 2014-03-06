@@ -233,9 +233,13 @@ font-size: 18px;
    display: inline-block;
    background-color: #81194A;
    color: #fff;
+   margin-top: 15px;
 }
 .e2ma_signup_form_element>input{
    width: 100%;
+}
+.e2ma_signup_form_label{
+   display: none;
 }
 /* ==========================================================================
    Audio Player [Home]
