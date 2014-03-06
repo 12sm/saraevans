@@ -23,7 +23,7 @@
               </div>
               </div>
               </div>
-              <div class="row">
+              <div class="row col">
               <div class="col-sm-12">
       <div id="social" class="row social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/saraevans_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
