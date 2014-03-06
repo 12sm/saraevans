@@ -1051,6 +1051,10 @@ body.photos .insta-grid li a {width: 33.333%;}
 /*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
  @media (min-width: 845px){
 
+body.home h1.bands-in-town-h1 {
+color: #C00B0B!important;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1069,11 +1073,19 @@ nav .navbar{
 }
 
 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
 body.photos .insta-grid li a {width: 25%;}
 
 #lyrics-base {
 display: block;
 }
+
+
 	
 }
 
