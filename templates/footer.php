@@ -24,7 +24,9 @@
               </div>
               </div>
               <div class="row col">
-              <div id="social" class="col-sm-12 social-nav">
+              <div class="col-xs-3">
+              </div>
+              <div id="social" class="col-xs-6 social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/saraevans_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
 <li class="menu-"><a href="https://twitter.com/saraevansmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 <li class="menu-"><a href="http://instagram.com/saraevansmusic" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
