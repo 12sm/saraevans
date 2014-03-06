@@ -140,8 +140,8 @@ margin-left: 20px;
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
-color: #fff;
-margin-right: -5px;
+color: #fff!important;
+margin-right: -5px!important;
 }
 
 body > header > nav{
