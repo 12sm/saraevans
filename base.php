@@ -21,11 +21,9 @@
   <div class="shapes shape-right"></div>
 
   <div class="wrap container-fluid" role="document">
-    <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
-    </div><!-- /.content -->
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
