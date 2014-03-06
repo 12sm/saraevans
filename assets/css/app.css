@@ -1021,6 +1021,10 @@ width: 100%;
 display: block;
 }
 
+.individual-post .post-footer .addthis_toolbox {
+float: right;
+width: 60%;
+}
 
 .meta-date-share {
 padding: 1%;	
