@@ -1050,6 +1050,10 @@ color: #FFF;
 padding: 10px;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+
 body.home h1.bands-in-town-h1 {
 color: #878787!important;
 margin-top: 40px;
