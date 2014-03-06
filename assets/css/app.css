@@ -957,8 +957,11 @@ padding: 1%;
 display: inline-block;
 margin-right: 10px;
 }
+#social{
+   float: right;
+}
 #menu-social-navigation>li{
-   float: left;
+   float: right;
    margin-right: 15px;
 }
 footer{
