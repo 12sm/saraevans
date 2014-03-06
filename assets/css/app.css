@@ -125,8 +125,11 @@ padding-bottom: 58%;
    Man Nav
    ========================================================================== */
 .music-btn{
-background-color: #7BC2BF!important;   
+background-color: #7BC2BF!important;
+border: none!important;
+border-radius: 0px!important;
 }
+
 .music-btn>i{
    color: #fff;
 }
