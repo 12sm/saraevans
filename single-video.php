@@ -8,26 +8,9 @@
       <h1 class="entry-title"><?php the_title(); ?></h1>
       <div class="row meta-date-share">
 	<div class="col-md-6 col-sm-6 col-xs-6">
-        <h3>Gallery: 
-<?php        $terms = get_terms( 'species' );
-
-foreach ( $terms as $term ) {
-
-    // Sanitize the term, since we will be displaying it.
-    $term = sanitize_term( $term, 'species' );
-
-    $term_link = get_term_link( $term, 'species' );
-   
-    // If there was an error, continue to the next term.
-    if ( is_wp_error( $term_link ) ) {
-        continue;
-    }
-
-    // We successfully got a link. Print it out.
-    echo '<a href="' . esc_url( $term_link ) . '">' . $term->name . '</a>, ';
-}
-
-?></h3>
+        <?php if ( function_exists('yoast_breadcrumb') ) {
+	        	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+	     } ?>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6">
         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
