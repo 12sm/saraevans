@@ -949,7 +949,8 @@ display: inline-block;
 margin-right: 10px;
 }
 #menu-social-navigation>li{
-   float: right;
+   float: left;
+   margin-right: 15px;
 }
 footer{
    background-color: #EEEEEE;
