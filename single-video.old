@@ -14,4 +14,4 @@
       </div>
   </div>
 </div>
-<?php echo do_shortcode('[wpv-view name="Gallery images"]')?>
+<?php echo do_shortcode('[wpv-view name="Related Videos"]')?>
