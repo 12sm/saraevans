@@ -942,7 +942,9 @@ padding: 1%;
 display: inline-block;
 margin-right: 10px;
 }
-
+#menu-social-navigation>li{
+   float: right;
+}
 footer{
    background-color: #EEEEEE;
    margin-left: 0px;
