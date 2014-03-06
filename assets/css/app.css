@@ -190,9 +190,20 @@ left: -460px;
 margin-top: 7%;
 width: 460px;
 height: auto;
-background: #ccc;
+background: #fff;
 z-index: 9999;
 }
+
+.audio-player ol,
+.audio-player ol li {padding:0px; margin:0px; width:100%;}
+
+.audio-player ol li a {
+display: inline-block;
+width: 100%;
+border-bottom:1px solid #e9e9e9;	
+}
+
+.audio-player ol li a .col-md-6 {padding: 26px 0px;}
    
 /* ==========================================================================
    Instagram Feed [Home]
