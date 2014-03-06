@@ -1280,6 +1280,14 @@ body.archive .addthis_toolbox a {
 text-align: right;
 }
 
+.individual-post .excerpt {
+height: auto;
+}
+
+.individual-post {
+margin-bottom:30px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
