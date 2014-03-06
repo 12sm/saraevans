@@ -84,12 +84,15 @@ display:none;
    position: fixed;
    right: 0;
    background-color: rgba(128,122,128, .33);
-   padding-left: 0px;
+   padding-left: 5px;
 }
-  #social-float>ul>li{
+  #social-float>ul>li>a>i{
    color: #fff;
    text-decoration: none;
   } 
+#social-float>#menu-social-navigation>li{
+   float: left;
+   margin-right: 15px;
 }
 
 .navbar-default {
