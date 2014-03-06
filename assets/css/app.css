@@ -862,8 +862,9 @@ background-color: #FFF!important;
 }
 
 .blog-img-container {
-height: 300px;
+height: 0px;
 background-position: 50% 0px!important;
+padding-bottom: 60%;
 }
 
 .hentry .entry-content {
@@ -912,6 +913,11 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 }
 
+.individual-post .excerpt {
+height: 155px;
+overflow: hidden;	
+}
+
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
@@ -925,6 +931,8 @@ padding: 1%;
 }
 
 #respond {background-color:#FFF;}
+
+
 
 /* ==========================================================================
    Footer
