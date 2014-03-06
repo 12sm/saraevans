@@ -1,7 +1,5 @@
-<div class="row">
-  <div class="col-md-2">
-  </div>
-  <div class="col-md-8"> 
+<div class="row col">
+  <div class="col-md-12"> 
   <div class="row">
   <h1><?php echo do_shortcode('[wpv-post-title]')?></h1>
   </div>
