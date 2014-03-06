@@ -993,17 +993,19 @@ background-color: #FFF!important;
 font-family: 'museo-sans', sans-serif;
 color: #CCC;
 font-size: 12px;
-background-color: #FFF;
 width: 100%;
 display: block;
-padding: 1% 1% 0 1%;
+}
+
+.meta-date-share {
+padding: 1%;	
+background-color:#FFF;
 }
 
 .addthis_toolbox {
 background-color: #FFF;
 display: block;
 width: 100%;
-padding: 1%;
 opacity:.7;
 }
 
