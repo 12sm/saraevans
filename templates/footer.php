@@ -15,7 +15,7 @@
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-6">
-              <iframe src="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a" width="510" height="175" frameborder="0"><link rel="stylesheet" href="/wp-content/themes/saraevans/assets/css/app.css"></iframe>
+              <iframe src="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a" width="510" height="175" frameborder="0"><link type="stylesheet" rel="stylesheet" href="/wp-content/themes/saraevans/assets/css/app.css"></iframe>
               </div>
               <div class="col-sm-6">
       <div id="social" class="row social-nav">
