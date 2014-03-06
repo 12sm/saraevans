@@ -1302,7 +1302,7 @@ margin-top: 40px;
 }
 
 body.archive .addthis_toolbox a {
-text-align: right;
+width:60%
 }
 
 .individual-post .excerpt {
