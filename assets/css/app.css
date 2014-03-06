@@ -1016,10 +1016,12 @@ width: 100%;
 display: block;
 }
 
-/*.meta-date-share {
+.meta-date-share > .addthis-toolbox {display:none;}
+
+.meta-date-share {
 padding: 1%;	
 background-color:#FFF;
-}*/
+}
 
 .addthis_toolbox {
 background-color: #FFF;
