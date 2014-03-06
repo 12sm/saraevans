@@ -9,7 +9,7 @@
       <div class="row meta-date-share">
 	<div class="col-md-6 col-sm-8 col-xs-12">
         <?php if ( function_exists('yoast_breadcrumb') ) {
-	        	yoast_breadcrumb('<div class="breadcrumbs">','</class>');
+	        	yoast_breadcrumb('<div class="breadcrumbs">','</div>');
 	     } ?>
     </div>
     <div class="col-md-6 col-sm-4 col-xs-12">
