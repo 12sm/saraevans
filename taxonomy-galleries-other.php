@@ -16,4 +16,4 @@
       </div>
   </div>
 </div>
-<?php echo do_shortcode('[wpv-view name="taxonomy-gallery-view"]')
+<?php echo do_shortcode('[wpv-view name="taxonomy-gallery-view"]') ?>
