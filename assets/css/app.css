@@ -132,9 +132,7 @@ background: rgba(205,130,185, 0.7);
 color: #fff;
 margin-right: -5px;
 }
-.nav{
-   margin-top: 75px;
-}
+
 body > header > nav{
    padding-left: 0px;
 }
@@ -974,7 +972,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .col {margin:0 10%;}
 
-.navbar-collapse {margin-top:10%; z-index:9999;}
+.navbar-collapse {margin-top:4%; z-index:9999;}
 
 .navbar-header{display: none;}	
 
@@ -1010,9 +1008,7 @@ height: initial;
 font-size: 28px;
 margin-bottom: 3%!important;
 }
-.nav{
-   margin-top: -55px;
-}
+
 nav .navbar{
    width: initial;
 }
