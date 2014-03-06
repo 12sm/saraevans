@@ -1,1 +1,1 @@
-<?php echo do_shortcode('[wpv-view name="taxonomy-gallery-view" slug="[wpv-post-slug]"]') ?>
+<?php echo do_shortcode('[wpv-view name="taxonomy-gallery-view" slug="other"]') ?>
