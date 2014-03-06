@@ -1136,6 +1136,10 @@ width: 120px;
 margin-top: 13px;
 }
 
+#menu-primary-navigation > li {
+background: rgba(205,130,185, 1);
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
