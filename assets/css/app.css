@@ -844,6 +844,11 @@ background-color: #FFF!important;
    margin-top: 4%;
 }
 
+.blog-img-container{
+   height: 125px;
+width: 215px;
+}
+
 .hentry .entry-content {
 -moz-column-count: 2;
 -moz-column-gap: 20px;

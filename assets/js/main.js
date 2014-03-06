@@ -33,6 +33,9 @@ var Roots = {
       	parallax();
       });
 
+      //ImgLiquid
+      $(".blog-img-container").imgLiquid();
+
       // FitVids init
       $(".fitvids").fitVids();
   
