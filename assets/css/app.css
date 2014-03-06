@@ -233,7 +233,8 @@ font-size: 18px;
    display: inline-block;
    background-color: #81194A;
    color: #fff;
-   margin-top: 15px;
+   margin-top: -3px;
+   margin-left: 5px;
 }
 .e2ma_signup_form_element>input{
    width: 100%;
@@ -1159,6 +1160,9 @@ margin-right: 10px;
 #social{
    display: none;
 }
+#menu-primary-navigation-1{
+float: right;
+}
 #menu-social-navigation>li{
    float: right;
    margin-right: 15px;
@@ -1173,6 +1177,7 @@ footer{
    float: right;
    margin-right: 7%;
    margin-top: 1%;
+   width: 100%;
 }
 #menu-primary-navigation-1>li>a{
    font-family: "omnes-pro",sans-serif;

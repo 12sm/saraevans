@@ -15,13 +15,16 @@
           ?>
       </div>
             <div class="row col">
-              <div class="col-sm-4">
+              <div class="col-sm-6">
               <h2 class="join-list">JOIN THE MAILING LIST</h2>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6">
               <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758490/c5eee1896752e5ac19a3a0bb34fbab4b/7712/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
               </div>
-              <div class="col-sm-4">
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-sm-12">
       <div id="social" class="row social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/saraevans_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
 <li class="menu-"><a href="https://twitter.com/saraevansmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -30,6 +33,7 @@
 <li class="menu-"><a href="http://www.youtube.com/user/saraevans" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 </ul>
               </div>
+            </div>
             </div>
           </div>
         </div>
