@@ -17,7 +17,8 @@ background-size:cover;
 overflow-x: hidden;
 }
 
-.col img {width:100%; max-width:100%; height:auto;}
+.col img,
+.img-res {width:100%; max-width:100%; height:auto;}
 
 .col {margin:0 10%;}
 
