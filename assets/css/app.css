@@ -86,7 +86,7 @@ display:none;
   } 
   
 #social-float>ul>li>a>i:hover {
-color: #81194a;
+color: #81194a!important;
 }
 
  #social-float>#menu-social-navigation > li:nth-child(6){
