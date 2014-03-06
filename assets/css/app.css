@@ -1118,6 +1118,10 @@ width: 100%;
 padding: 1%;
 }
 
+.buy-links a:hover {
+background-color:#898989;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
