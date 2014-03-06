@@ -936,13 +936,11 @@ display: inline-block;
 }
 
 footer{
-   background-color: #EEEEEE;
-   margin-left: 0px!important;
-   margin-right: 0px!important;
+   color: #EEEEEE;
+   margin-left: 0px;
+   margin-right: 0px;
 }
-.footer-nave{
-   float: right;
-}
+
 
 /* ==========================================================================
    WordPress Generated Classes
@@ -985,6 +983,18 @@ body.photos .insta-grid li a {width: 33.333%;}
 
 }
 
+
+
+
+
+/*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
+ @media (min-width: 845px){
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
 .nav-pills>li>a{
 width: initial;
 text-align: left;
@@ -999,16 +1009,6 @@ nav .navbar{
    width: initial;
 }
 
-
-
-
-/*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
- @media (min-width: 845px){
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
 
 body.photos .insta-grid li a {width: 25%;}
 
