@@ -1,4 +1,4 @@
-<div class="row meta-date-share">
+<div class="row">
 	<div class="col-md-6 col-sm-6 col-xs-6">
         <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date(); ?></time>
     </div>
