@@ -1285,8 +1285,8 @@ margin-bottom: 30px;
 }
 
 #social{
-   float: left;
    display: block;
+   margin-left: 0 auto!important;
 }
 
 .album-image {
