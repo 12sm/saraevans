@@ -217,8 +217,10 @@ var UTIL = {
 
 $(document).ready(UTIL.loadEvents);
 })(jQuery); // Fully reference jQuery after this point.
+$("#e2ma_signup").load(function(){
+  $("#e2ma_signup_submit_button" ).val( "JOIN" );
+})
 
-$( "#e2ma_signup_submit_button" ).val( "JOIN" );
 
 
 
