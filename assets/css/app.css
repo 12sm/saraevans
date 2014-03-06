@@ -280,10 +280,11 @@ width: 40px;
 height: 40px;
 margin: 0px;
 cursor: pointer;
+font-family:FontAwesome;
 }
 
 .audiojs .play {
-background: transaprent;
+background:none!important;
 color: #fff;
 padding: 10px 15px;
 }
@@ -293,7 +294,7 @@ content: "\f04b";
 }
 
 .audiojs .pause {
-background: transaprent;
+background:none!important;
 color: #fff;
 padding: 10px 15px;
 }
@@ -303,7 +304,7 @@ content: "\f04c";
 }
 
 .audiojs .loadings {
-background: transaprent;
+background:none!important;
 color: #fff;
 padding: 10px 15px;
 }
@@ -313,7 +314,7 @@ content: "\f110";
 }
 
 .audiojs .error {
-background: transaprent;
+background:none!important;
 color: #fff;
 padding: 10px 15px;
 }
