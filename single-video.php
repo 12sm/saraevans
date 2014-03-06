@@ -9,7 +9,7 @@
       <div class="row meta-date-share">
 	<div class="col-md-6 col-sm-8 col-xs-12">
         <?php if ( function_exists('yoast_breadcrumb') ) {
-	        	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+	        	yoast_breadcrumb('<div class="breadcrumbs">','</class>');
 	     } ?>
     </div>
     <div class="col-md-6 col-sm-4 col-xs-12">
@@ -24,7 +24,7 @@
 </div>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-522809fc5a657fd3"></script>
-      </header>
+</header>
   </div>
   <div class="row fitvids">
       <?php echo do_shortcode('[types field="video-url" width="1280" height="720"][/types]')?>  
