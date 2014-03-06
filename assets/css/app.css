@@ -1089,6 +1089,11 @@ display:none;
 -moz-column-count: auto;
 -webkit-column-count: auto;
 }
+#social{
+   float: right;
+   margin-right: 12%;
+   display: block;
+}
 
 }
 
@@ -1102,11 +1107,6 @@ display:none;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-#social{
-   float: right;
-   margin-right: 12%;
-   display: block;
-}
 .nav-pills>li>a{
 width: initial;
 text-align: left;
