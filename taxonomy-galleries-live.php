@@ -1,1 +1,1 @@
-<?php echo the_content(); ?>
+<?php echo do_shortcode('[wpv-view name="taxonomy-gallery-view"]') ?>
