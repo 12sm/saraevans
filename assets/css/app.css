@@ -900,10 +900,27 @@ background-color: #FFF!important;
    ========================================================================== */
 
 .hentry header { }
-.hentry time { }
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
+
+.hentry time {
+font-family: 'museo-sans', sans-serif;
+color: #CCC;
+font-size: 12px;
+background-color: #FFF;
+width: 100%;
+display: block;
+padding-bottom: 10px;
+}
+
+.addthis_toolbox {
+background-color: #FFF;
+display: block;
+width: 100%;
+padding: 1%;
+opacity:.7;
+}
 
 .blog-top{
    margin-top: 4%;
