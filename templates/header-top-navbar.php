@@ -16,11 +16,13 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav nav-pills nav-stacked'));
         endif;
       ?>
-      <a href="/music"><button type="button" class="btn btn-default music-btn">
+      <a href="#"><button type="button" class="btn btn-default music-btn">
       <i class="fa fa-music fa-2x"></i>
       </button></a>
     </nav>
     
-    <?php echo do_shortcode( '[wpv-view name="audio-player"]' ) ?>
+    <div class="audio-player">
+    	<?php echo do_shortcode( '[wpv-view name="audio-player"]' ) ?>
+    </div>
 
 </header>

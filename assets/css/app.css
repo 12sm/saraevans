@@ -17,18 +17,21 @@ background-size:cover;
 overflow-x: hidden;
 }
 
-.col img {width:100%; max-width:100%; height:auto;}
+.col img,
+.img-res {width:100%; max-width:100%; height:auto;}
 
-.col {margin:0 10%;}
+.col {margin:0 1%;}
 
 ul{
    list-style-type: none;
 }
 
-a {
+a, button {
 color: #70bcbf;
 text-decoration: none;
+outline:none;
 }
+
 
 a:hover {
 color: #D46685;
@@ -115,31 +118,36 @@ color: #FFF;
 .navbar{
    min-height: 0px!important;
 }
+
+.navbar-header {
+background: #fff;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+
 #menu-primary-navigation > li {
 background: rgba(205,130,185, 0.7);
 }
-.navbar-toggle{
-   float: left;
-   position: fixed;
-   margin-top: 35px;
-   background-color: #DEA4CB!important;
-   border: solid 0px #fff!important;
+
+.navbar-toggle {
+float: left;
+background-color: #DEA4CB!important;
+border: solid 0px #fff!important;
+margin-left: 20px;
 }
+
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
 color: #fff;
 margin-right: -5px;
 }
-.nav{
-   margin-top: 75px;
-}
+
 body > header > nav{
    padding-left: 0px;
 }
-.navbar-brand{
-   display: none;
-}
+
 .nav-pills>li.active>a {
 margin-right: -5px;
 background: rgba(255,255,255, 0.7);
@@ -177,6 +185,32 @@ height: 30px;
 font-size: 18px;
 }
 
+
+/* ==========================================================================
+   Audio Player [Home]
+   ========================================================================== */
+
+.audio-player {
+position: fixed;
+top: 0px;
+left: -460px;
+margin-top: 7%;
+width: 460px;
+height: auto;
+background: #fff;
+z-index: 9999;
+}
+
+.audio-player ol,
+.audio-player ol li {padding:0px; margin:0px; width:100%;}
+
+.audio-player ol li a {
+display: inline-block;
+width: 100%;
+border-bottom:1px solid #e9e9e9;	
+}
+
+.audio-player ol li a .col-md-6 {padding: 26px 0px;}
    
 /* ==========================================================================
    Instagram Feed [Home]
@@ -424,7 +458,7 @@ background-color: #c9c9c9;
 
 .gal-title-box {
 background: rgba(200,200,200,.3);
-margin: 15px 0px;
+margin: 45px 0px 15px 0px;
 }
 
 .gal-title-box h2 a {
@@ -444,11 +478,9 @@ margin: 10px 0px!important;
 background: rgba(255,255,255,1.0);
 }
 
-.gal-thumb{
-padding-top: 25%;
-background-size: contain;
+.gal-thumb {
 border: 1px solid #fff;
-background-repeat: no-repeat;
+padding: 0px;
 }
 
 .video-page-h1 h1 {
@@ -829,6 +861,12 @@ background-color: #FFF!important;
    margin-top: 4%;
 }
 
+.blog-img-container {
+height: 0px;
+background-position: 50% 0px!important;
+padding-bottom: 60%;
+}
+
 .hentry .entry-content {
 -moz-column-count: 2;
 -moz-column-gap: 20px;
@@ -875,6 +913,11 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 }
 
+.individual-post .excerpt {
+height: 155px;
+overflow: hidden;	
+}
+
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
@@ -889,6 +932,8 @@ padding: 1%;
 
 #respond {background-color:#FFF;}
 
+
+
 /* ==========================================================================
    Footer
    ========================================================================== */
@@ -899,7 +944,29 @@ padding: 1%;
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
+#menu-primary-navigation-1 > li {
+display: inline-block;
+margin-right: 10px;
+}
+#menu-social-navigation>li{
+   float: right;
+}
+footer{
+   background-color: #EEEEEE;
+   margin-left: 0px;
+   margin-right: 0px;
+   width: 100%;
+}
+.footer-nav{
+   float: right;
+   margin-right: 7%;
+   margin-top: 1%;
+}
+#menu-primary-navigation-1>li>a{
+   font-family: "omnes-pro",sans-serif;
+   text-decoration: none;
+   color: #A3A3A3;
+}
 
 
 /* ==========================================================================
@@ -921,10 +988,46 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+
+/* Phones */
+@media (max-width: 768px) {
+
+.wrap {padding-top: 30px;}
+
+.navbar-collapse {
+height: auto;
+width: 100%;
+top: 50px;	
+padding:0px;
+}
+
+.nav-pills>li>a {
+width: 100%;
+height: auto;
+text-align: center;
+background: rgba(205,130,185, 0.9);
+padding: 10px;
+margin-bottom: 0px!important;
+border-bottom: 1px solid #ededed;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #c9c9c9;
+opacity: 1;
+color: #FFF;
+padding: 10px;
+}
+
+
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.navbar-collapse {margin-top:10%; z-index:9999;}
+.col {margin:0 10%;}
+
+.navbar-collapse {margin-top:4%; z-index:9999;}
 
 .navbar-header{display: none;}	
 
@@ -943,8 +1046,16 @@ body.photos .insta-grid li a {width: 33.333%;}
 
 
 
+
+
 /*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
  @media (min-width: 845px){
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
 .nav-pills>li>a{
 width: initial;
 text-align: left;
@@ -952,13 +1063,12 @@ height: initial;
 font-size: 28px;
 margin-bottom: 3%!important;
 }
-.nav{
-   margin-top: -55px;
-}
+
 nav .navbar{
    width: initial;
 }
 
+<<<<<<< HEAD
 body.home h1.bands-in-town-h1 {
 color: #C00B0B!important;
 }
@@ -967,6 +1077,8 @@ color: #C00B0B!important;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+=======
+>>>>>>> FETCH_HEAD
 
 body.photos .insta-grid li a {width: 25%;}
 
