@@ -20,7 +20,7 @@ overflow-x: hidden;
 .col img,
 .img-res {width:100%; max-width:100%; height:auto;}
 
-.col {margin:0 10%;}
+.col {margin:0 1%;}
 
 ul{
    list-style-type: none;
@@ -963,6 +963,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.col {margin:0 10%;}
 
 .navbar-collapse {margin-top:10%; z-index:9999;}
 
