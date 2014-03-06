@@ -1081,6 +1081,13 @@ text-align:center;
 display:none;
 }
 
+.hentry .entry-content {
+-moz-column-count: 0;
+-moz-column-gap: 0;
+-webkit-column-count: 0;
+-webkit-column-gap: 0;
+}
+
 }
 
 
