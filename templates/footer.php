@@ -15,7 +15,7 @@
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-6">
-              <iframe id="emmaSignup" src="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a" width="510" height="175" frameborder="0"></iframe>
+              <link href="https://app.e2ma.net/css/signup.sml.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758490/c5eee1896752e5ac19a3a0bb34fbab4b/7712/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
               </div>
               <div class="col-sm-6">
       <div id="social" class="row social-nav">
