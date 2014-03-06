@@ -4,10 +4,10 @@
     	<div class="row sidebar-footer">
       		<?php dynamic_sidebar('sidebar-footer'); ?>
       	</div>
-      	<
+      	
          <div class="row">
           <div class="col-sm-12">
-          div class="row footer-nav">  
+          <div class="row footer-nav">  
           <?php
             if (has_nav_menu('footer_navigation')) :
               wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
