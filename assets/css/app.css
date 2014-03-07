@@ -6,15 +6,11 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-/*Kill page header*/
-.page-header{
-   display: none;}
-
 
 body {
 background:#fff url('../img/back.jpg') top center fixed no-repeat;
 background-size:cover; 
-overflow-x: hidden;
+-webkit-font-smoothing: subpixel-antialiased;
 }
 
 .col img,
@@ -69,6 +65,10 @@ display:none;
 .center {text-align: center;}
 
 .add-margin {margin-top:10px;margin-bottom:10px;}
+
+/*Kill page header*/
+.page-header{
+   display: none;}
 
 
 /* ==========================================================================
