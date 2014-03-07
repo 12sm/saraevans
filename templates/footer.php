@@ -13,15 +13,14 @@
             <div class="row col">
               <div class="col-md-8 col-sm-8 mailing-list">
                 <div class="row">
-                <div class="col-sm-6">
+                  <div class="col-sm-6">
               		<h2 class="join-list">JOIN THE MAILING LIST</h2>
                   </div>
                   <div class="col-sm-6">
                   <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1758490/c5eee1896752e5ac19a3a0bb34fbab4b/7712/?v=a"></script>
                     <div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div>
 					<script type="text/javascript">signupFormObj.drawForm();</script>
-              	</div>
-                </div>
+              	   </div>
                 <div class="col-md-4 col-sm-4 footer-nav">
               	<?php
 					if (has_nav_menu('footer_navigation')) :
