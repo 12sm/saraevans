@@ -1490,7 +1490,9 @@ body.photos .insta-grid li a {width: 25%;}
 display: block;
 }
 
-
+.credits{
+   text-align: center;
+}
 	
 }
 
