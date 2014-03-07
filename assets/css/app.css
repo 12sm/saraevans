@@ -1154,8 +1154,6 @@ font-size: 10px;
 text-transform: uppercase;
 }
 
-.individual-post .post-footer .addthis_toolbox {float:right;}
-
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
@@ -1282,6 +1280,7 @@ opacity: 1;
 color: #FFF;
 padding: 10px;
 }
+
 .nav-hover{
    text-decoration: none;
 background-color: #c9c9c9;
@@ -1289,8 +1288,24 @@ opacity: 1;
 color: #FFF;
 padding: 10px;
 }
+
+
+.nav-pills>li.active>a {
+background: rgba(205,130,185, 0.9);
+color: #fff;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #FFF;
+}
+
+.top-slider h1, .top-slider h2, .top-slider h3, .top-slider h4 {
+background: #fff;
+opacity: 0.8;
+font-weight: 100;
+padding: 3px!important;
+color: #802e59;
+letter-spacing: 0px!important;
 }
 
 body.home h1.bands-in-town-h1 {
@@ -1371,12 +1386,8 @@ margin-top: 13px;
 background: rgba(205,130,185, 1);
 }
 
-#menu-primary-navigation {
-margin-top: 40px;
-}
-
 body.archive .addthis_toolbox a {
-width:60%
+width: 20px;
 }
 
 .individual-post .excerpt {
@@ -1385,6 +1396,17 @@ height: auto;
 
 .individual-post {
 margin-bottom:30px;
+padding-top: 15px;
+}
+
+.individual-post .post-footer .post-date {
+font-size: 14px;
+padding: 2.2%;
+}
+
+.individual-post .post-footer .addthis_toolbox {
+float: right;
+padding: 4%;
 }
 
 }
