@@ -1056,6 +1056,11 @@ width: 100%;
 display: block;
 }
 
+body.single .hentry time {
+font-size: 16px;
+padding: 5px;
+}
+
 .individual-post .post-footer .addthis_toolbox {
 float: right;
 width: 70%;
