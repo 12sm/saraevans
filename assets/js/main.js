@@ -180,9 +180,9 @@ var Roots = {
        	limit: 5
        });
       
-    }
+    },
   //Jquery hover
-  $('li>a').hover(function(){$(this).toggleClass('nav-hover');});
+  $('nav>li>a').hover(function(){$(this).toggleClass('nav-hover');});
 
   },
   // Photos Page.
