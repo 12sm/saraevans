@@ -1188,13 +1188,14 @@ position: relative;
 
 #menu-primary-navigation-1 > li {
 display: inline-block;
-margin-right: 10px;
+margin-right: 8px;
 }
 #social{
    display: none;
 }
 #menu-primary-navigation-1{
 float: right;
+padding-left: 0px;
 }
 #menu-social-navigation>li{
    float: right;

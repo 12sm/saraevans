@@ -11,7 +11,7 @@
           
       </div>
             <div class="row col">
-              <div class="col-md-8 col-sm-8 mailing-list">
+              <div class="col-md-7 col-sm-7 mailing-list">
                 <div class="row">
                   <div class="col-sm-6">
               		<h2 class="join-list">JOIN THE MAILING LIST</h2>
@@ -23,7 +23,7 @@
               	   </div>
                    </div>
                    </div>
-                <div class="col-md-4 col-sm-4 footer-nav">
+                <div class="col-md-5 col-sm-5 footer-nav">
               	<?php
 					if (has_nav_menu('footer_navigation')) :
 					  wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
