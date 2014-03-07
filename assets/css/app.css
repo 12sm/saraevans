@@ -236,13 +236,15 @@ font-size: 18px;
    float: left;
    width: 60%;
 }
-#e2ma_signup_submit_button{
-   float: left;
-   display: inline-block;
-   background-color: #81194A;
-   color: #fff;
-   margin-top: -3px;
-   margin-left: 5px;
+#e2ma_signup_submit_button {
+float: right;
+display: inline-block;
+background-color: #81194A;
+color: #fff;
+margin-top: -3px;
+margin-left: 5px;
+border-radius: 0px;
+border: none;
 }
 .e2ma_signup_form_element>input{
    width: 100%;
