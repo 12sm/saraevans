@@ -22,6 +22,7 @@
 					<script type="text/javascript">signupFormObj.drawForm();</script>
               	   </div>
                    </div>
+                   </div>
                 <div class="col-md-4 col-sm-4 footer-nav">
               	<?php
 					if (has_nav_menu('footer_navigation')) :
