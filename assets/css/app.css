@@ -1292,6 +1292,15 @@ color: #fff;
 background-color: #FFF;
 }
 
+.top-slider h1, .top-slider h2, .top-slider h3, .top-slider h4 {
+background: #fff;
+opacity: 0.8;
+font-weight: 100;
+padding: 3px!important;
+color: #802e59;
+letter-spacing: 0px!important;
+}
+
 body.home h1.bands-in-town-h1 {
 color: #878787!important;
 margin-top: 40px;
