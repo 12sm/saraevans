@@ -375,7 +375,7 @@ content: "\f06a";
    Instagram Feed [Home]
    ========================================================================== */
 
-.content { }
+.content { margin: 0px; }
 
 h1.instagram-h1 {
 font-family: "omnes-pro",sans-serif;
