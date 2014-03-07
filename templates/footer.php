@@ -29,6 +29,11 @@
 					  wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
 					endif;
 				  ?>
+                  <div class="row col">
+      <div class="col-sm-12">  
+      <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+      </div>
+      </div>
               </div>
               </div>
               
@@ -46,11 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="row col">
-      <div class="col-sm-12">  
-      <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
-      </div>
-      </div>
+      
     </div>
   </div>
 </footer>
