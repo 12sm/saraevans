@@ -1057,7 +1057,8 @@ display: block;
 }
 
 body.single .hentry time {
-font-size: 20px;
+font-size: 16px;
+padding: 5px;
 }
 
 .individual-post .post-footer .addthis_toolbox {
