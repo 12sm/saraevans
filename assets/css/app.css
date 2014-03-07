@@ -1282,7 +1282,13 @@ opacity: 1;
 color: #FFF;
 padding: 10px;
 }
-
+.nav-hover{
+   text-decoration: none;
+background-color: #c9c9c9;
+opacity: 1;
+color: #FFF;
+padding: 10px;
+}
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #FFF;
 }
