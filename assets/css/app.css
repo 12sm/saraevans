@@ -1283,6 +1283,11 @@ color: #FFF;
 padding: 10px;
 }
 
+.nav-pills>li.active>a {
+background: rgba(205,130,185, 0.9);
+color: #fff;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #FFF;
 }
