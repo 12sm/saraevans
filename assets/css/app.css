@@ -901,7 +901,7 @@ border-bottom: 1px solid #ededed;
 margin-bottom: 20px;
 width: inherit!important;
 margin-top: 20px;
-height: 199px;
+min-height: 137px;
 }
 
 #album-carousel .slides {padding:0px; margin:0px;}
