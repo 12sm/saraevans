@@ -1218,11 +1218,10 @@ opacity:1.0!important;
    color: #A3A3A3;
 }
 
-.mailing-list {background-color:#FFF; margin-top: 2%;}
+.mailing-list {background-color: #F7F7F7; margin-top: 2%;}
 
 .join-list {
 font-size: 30px;
-color: #C8C8C8;
 font-weight: 100;
 margin-bottom: -10px;
 }
