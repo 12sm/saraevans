@@ -1483,7 +1483,9 @@ nav .navbar{
    width: initial;
 }
 
-
+.vid-title h4{
+font-size: 18px;
+}
 
 }
 
