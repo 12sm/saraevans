@@ -1453,6 +1453,9 @@ body.photos .insta-grid li a {width: 33.333%;}
    display: block;
 }
 
+.vid-title h4{
+font-size: 14px;
+}
 }
 
 
