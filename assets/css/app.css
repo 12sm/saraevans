@@ -236,13 +236,15 @@ font-size: 18px;
    float: left;
    width: 60%;
 }
-#e2ma_signup_submit_button{
-   float: left;
-   display: inline-block;
-   background-color: #81194A;
-   color: #fff;
-   margin-top: -3px;
-   margin-left: 5px;
+#e2ma_signup_submit_button {
+float: right;
+display: inline-block;
+background-color: #81194A;
+color: #fff;
+margin-top: -3px;
+margin-left: 5px;
+border-radius: 0px;
+border: none;
 }
 .e2ma_signup_form_element>input{
    width: 100%;
@@ -1068,7 +1070,11 @@ background-color:#FFF;
 background-color: #FFF;
 display: block;
 width: 100%;
-opacity:.7;
+opacity: .7;
+}
+
+.meta-date-share .addthis_toolbox {
+width:250px;	
 }
 
 .blog-top{
@@ -1161,6 +1167,9 @@ padding: 1%;
 #respond {background-color:#FFF;}
 
 
+body.category-news .addthis_default_style .at15t_compact {
+display: none;
+}
 
 /* ==========================================================================
    Footer
@@ -1212,9 +1221,9 @@ margin-bottom: -10px;
 }
 
 .e2ma_signup_form_element>input {
-width: 90%;
+width: 140%;
 border: 1px solid #CCC;
-height: 35px;
+height: 28px;
 border-radius: 2px;
 margin: 0px;
 margin-bottom: 20px;
