@@ -182,7 +182,7 @@ var Roots = {
       
     }
   //Jquery hover
-  $('.nav>li>a').hover(function(){$(this).toggleClass('nav-hover');});
+  $('li>a').hover(function(){$(this).toggleClass('nav-hover');});
 
   },
   // Photos Page.
