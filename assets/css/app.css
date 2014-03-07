@@ -1206,6 +1206,21 @@ opacity:1.0!important;
 
 .mailing-list {background-color:#FFF;}
 
+.join-list {
+font-size: 24px;
+color: #C8C8C8;
+font-weight: 100;
+margin-bottom: -10px;
+}
+
+.e2ma_signup_form_element>input {
+width: 90%;
+border: 1px solid #CCC;
+height: 35px;
+border-radius: 2px;
+margin: 0px;
+margin-bottom: 20px;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
