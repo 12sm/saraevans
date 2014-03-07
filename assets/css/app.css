@@ -125,8 +125,11 @@ padding-bottom: 58%;
    Man Nav
    ========================================================================== */
 .music-btn{
-background-color: #7BC2BF!important;   
+background-color: #7BC2BF!important;
+border: none!important;
+border-radius: 0px!important;
 }
+
 .music-btn>i{
    color: #fff;
 }
@@ -263,8 +266,8 @@ width: 460px;
 height: auto;
 background: #fff;
 z-index: 9999;
--webkit-box-shadow: -10px 5px 20px 5px;
-box-shadow: -10px 5px 20px 5px;
+-webkit-box-shadow: -3px 0px 10px 2px;
+box-shadow: -3px 0px 10px 2px;
 overflow: hidden;
 }
 
@@ -1182,17 +1185,15 @@ float: right;
    float: right;
    margin-right: 15px;
 }
-footer{
-   background-color: #EEEEEE;
-   margin-left: 0px;
-   margin-right: 0px;
-   width: 100%;
+footer {
+background-color: #EEEEEE!important;
+margin-left: 0px!important;
+margin-right: 0!important;
+width: 100%!important;
+opacity:1.0!important;
 }
 .footer-nav{
-   float: right;
-   margin-right: 7%;
-   margin-top: 1%;
-   width: 100%;
+
 }
 #menu-primary-navigation-1>li>a{
    font-family: "omnes-pro",sans-serif;
@@ -1200,6 +1201,23 @@ footer{
    color: #A3A3A3;
 }
 
+.mailing-list {background-color:#FFF;}
+
+.join-list {
+font-size: 24px;
+color: #C8C8C8;
+font-weight: 100;
+margin-bottom: -10px;
+}
+
+.e2ma_signup_form_element>input {
+width: 90%;
+border: 1px solid #CCC;
+height: 35px;
+border-radius: 2px;
+margin: 0px;
+margin-bottom: 20px;
+}
 
 /* ==========================================================================
    WordPress Generated Classes

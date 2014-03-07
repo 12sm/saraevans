@@ -1,13 +1,16 @@
-
-
 <?php while (have_posts()) : the_post(); ?>
 
 <div class="col">
   <article <?php post_class(); ?>>
-    <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
-    </header>
+    
+    <div class="row">
+    	<div class="col-md-12 col-sm-12 col-xs-12">
+            <header>
+              <h1 class="entry-title"><?php the_title(); ?></h1>
+              <?php get_template_part('templates/entry-meta'); ?>
+            </header>
+        </div>
+    </div>
     
     <div class="row blog-post-content">
     	<div class="col-md-4 col-sm-4">

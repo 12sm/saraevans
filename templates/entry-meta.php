@@ -1,6 +1,6 @@
 <div class="row meta-date-share">
 	<div class="col-md-6 col-sm-6 col-xs-6">
-        <time class="published" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date(); ?></time>
+        <time class="published" datetime="<?php echo get_the_time('c'); ?>"><i class="fa fa-calendar"></i> <?php echo get_the_date(); ?></time>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6">
         <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
