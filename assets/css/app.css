@@ -1154,8 +1154,6 @@ font-size: 10px;
 text-transform: uppercase;
 }
 
-.individual-post .post-footer .addthis_toolbox {float:right;}
-
 #respond > h3 {
 font-family: "omnes-pro",sans-serif;
 text-transform: uppercase!important;
@@ -1380,7 +1378,7 @@ background: rgba(205,130,185, 1);
 }
 
 body.archive .addthis_toolbox a {
-width:60%
+width: 20px;
 }
 
 .individual-post .excerpt {
@@ -1389,6 +1387,16 @@ height: auto;
 
 .individual-post {
 margin-bottom:30px;
+}
+
+.individual-post .post-footer .post-date {
+font-size: 14px;
+padding: 2.2%;
+}
+
+.individual-post .post-footer .addthis_toolbox {
+float: right;
+padding: 4%;
 }
 
 }
