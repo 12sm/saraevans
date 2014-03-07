@@ -1069,7 +1069,11 @@ background-color:#FFF;
 background-color: #FFF;
 display: block;
 width: 100%;
-opacity:.7;
+opacity: .7;
+}
+
+.meta-date-share .addthis_toolbox {
+width:250px;	
 }
 
 .blog-top{
