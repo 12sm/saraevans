@@ -21,6 +21,7 @@
                     <div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1758490/7712/?v=a"> Sign up here</a> instead </div>
 					<script type="text/javascript">signupFormObj.drawForm();</script>
               	   </div>
+                   </div>
                 <div class="col-md-4 col-sm-4 footer-nav">
               	<?php
 					if (has_nav_menu('footer_navigation')) :
