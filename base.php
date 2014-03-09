@@ -20,12 +20,12 @@
   	<div id="scroller"></div>
   </div>
   
-  <div id="left-container" class="left-container">
-  	<div id="shape-left" class="shapes shape-left"></div>
+  <div id="left-container" class="left-container shapes">
+  	<div id="shape-left" class="shape-left"></div>
   </div>
  
-  <div id="right-container" class="right-container">
- 	 <div id="shape-right" class="shapes shape-right"></div>
+  <div id="right-container" class="right-container shapes">
+ 	 <div id="shape-right" class="shape-right"></div>
   </div>
 
   <div class="wrap container-fluid" role="document">
