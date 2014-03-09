@@ -47,7 +47,7 @@ var Roots = {
 				   el: document.getElementById('right-container'),
 				   resize: false,
 				   ignoreBoundaries: true,
-				   speedRatioY: 0.2
+				   speedRatioY: 0.3
 				}]
 			});
 
