@@ -42,12 +42,12 @@ var Roots = {
 			      el: document.getElementById('left-container'),
 			      resize: false,
 			      ignoreBoundaries: true,
-			      speedRatioY: 0.4
+			      speedRatioY: 0.2
 			   }, {
 				   el: document.getElementById('right-container'),
 				   resize: false,
 				   ignoreBoundaries: true,
-				   speedRatioY: 0.3
+				   speedRatioY: 0.2
 				}]
 			});
 
