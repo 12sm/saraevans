@@ -54,9 +54,9 @@ text-decoration: none;
 	position: fixed;
 	width: 150px;
 	top: 0;
-	left: 0;
 	bottom: 0;
 	overflow: hidden;
+	display:none;
 }
 
 
@@ -1502,6 +1502,8 @@ nav .navbar{
 .vid-title h4{
 font-size: 18px;
 }
+
+.shapes {display:block;}
 
 }
 
