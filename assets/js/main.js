@@ -40,12 +40,12 @@ var Roots = {
 	      myScroll = new IScroll('#scroll-wrapper', {
 		      mouseWheel: true,
 		      indicators: [{
-			      el: document.getElementById('shape-left'),
+			      el: document.getElementById('left-container'),
 			      resize: false,
 			      ignoreBoundaries: true,
 			      speedRatioY: 0.4
 			   }, {
-				   el: document.getElementById('shape-right'),
+				   el: document.getElementById('right-container'),
 				   resize: false,
 				   ignoreBoundaries: true,
 				   speedRatioY: 0.2

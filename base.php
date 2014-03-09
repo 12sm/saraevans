@@ -17,10 +17,16 @@
     }
   ?>
   <div id="scroll-wrapper">
-  	<div class="scroller">
+  	<div id="scroller">
   </div>
-  <div id="shape-left" class="shapes shape-left"></div>
-  <div id="shape-left" class="shapes shape-right"></div>
+  
+  <div id="left-container" class="left-container">
+  	<div id="shape-left" class="shapes shape-left"></div>
+  </div>
+ 
+  <div id="right-container" class="right-container">
+ 	 <div id="shape-right" class="shapes shape-right"></div>
+  </div>
 
   <div class="wrap container-fluid" role="document">
     <div class="content row">
