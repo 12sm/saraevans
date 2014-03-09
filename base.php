@@ -6,8 +6,10 @@
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
     </div>
   <![endif]-->
-
-  <?php
+  <div id="scroll-wrapper">
+  	<div id="scroller">
+  	
+  	<?php
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
@@ -16,10 +18,6 @@
       get_template_part('templates/header');
     }
   ?>
-  <div id="scroll-wrapper">
-  	<div id="scroller"></div>
-  </div>
-  
   <div id="left-container" class="left-container shapes">
   	<div id="shape-left" class="shape-left"></div>
   </div>
@@ -37,6 +35,10 @@
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
+  
+  </div>
+  </div>
+
 
 </body>
 </html>

@@ -36,7 +36,7 @@ var Roots = {
       // iScroll Parallax
       var myScroll;
 
-	      myScroll = new IScroll('#wrap', {
+	      myScroll = new IScroll('#scroll-wrapper', {
 		      mouseWheel: true,
 		      indicators: [{
 			      el: document.getElementById('left-container'),
