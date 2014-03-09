@@ -17,7 +17,7 @@
     }
   ?>
   <div id="scroll-wrapper">
-  	<div id="scroller">
+  	<div id="scroller"></div>
   </div>
   
   <div id="left-container" class="left-container">
