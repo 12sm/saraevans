@@ -36,7 +36,6 @@ var Roots = {
       // iScroll Parallax
       var myScroll;
 
-      function loaded () {
 	      myScroll = new IScroll('#scroll-wrapper', {
 		      mouseWheel: true,
 		      indicators: [{
@@ -51,7 +50,6 @@ var Roots = {
 				   speedRatioY: 0.2
 				}]
 			});
-		}
 
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 		
