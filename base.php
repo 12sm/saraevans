@@ -16,9 +16,11 @@
       get_template_part('templates/header');
     }
   ?>
-  
-  <div class="shapes shape-left"></div>
-  <div class="shapes shape-right"></div>
+  <div id="scroll-wrapper">
+  	<div class="scroller">
+  </div>
+  <div id="shape-left" class="shapes shape-left"></div>
+  <div id="shape-left" class="shapes shape-right"></div>
 
   <div class="wrap container-fluid" role="document">
     <div class="content row">

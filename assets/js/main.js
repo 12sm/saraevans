@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       
-      // Parallax
+      /* Parallax
       function parallax(){
       	var scrolled = $(window).scrollTop();
       	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
@@ -31,7 +31,37 @@ var Roots = {
       
       $(window).scroll(function(e){
       	parallax();
-      });
+      }); */
+      
+      // iScroll Parallax
+      var myScroll;
+
+      function loaded () {
+	      myScroll = new IScroll('#scroll-wrapper', {
+		      mouseWheel: true,
+		      indicators: [{
+			      el: document.getElementById('shape-left'),
+			      resize: false,
+			      ignoreBoundaries: true,
+			      speedRatioY: 0.4
+			   }, {
+				   el: document.getElementById('shape-right'),
+				   resize: false,
+				   ignoreBoundaries: true,
+				   speedRatioY: 0.2
+				}]
+			});
+		}
+
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		
+      
+      //Inject values into mail button
+      $("#e2ma_signup_submit_button" ).ready(function(){
+	    $("#e2ma_signup_submit_button" ).val( "JOIN" );
+	    $("#e2ma_signup_submit_button" ).addClass( "btn btn-default" );
+	  });
+
 
       //ImgLiquid
       $(".blog-img-container").imgLiquid();
@@ -40,20 +70,6 @@ var Roots = {
       // FitVids init
       $(".fitvids").fitVids();
   
-	   // Video Gallery Carousel
-	   var owl = $("#gallery-carousel");
-	   owl.owlCarousel({
-		   itemsCustom : [
-		   [0, 4],
-		   [480, 4],
-		   [768, 4],
-		   [1200, 4],
-		   [1600, 4]
-		   ],
-		   navigation : false,
-		   scrollPerPage : true
-      });
-	   
 	   
 	 // Music Album Carousel  
      var owl = $("#album-carousel");
@@ -159,12 +175,12 @@ var Roots = {
 	
 	// Move audio player	
 	$(function(){
-    var c=-460;
-    $(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
-    $(".music-btn").click(function(){
-        $(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
-    });  
-}); 	
+    	var c=-460;
+    	$(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
+    	$(".music-btn").click(function(){
+        	$(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
+        });  
+    }); 	
       
 
     }
@@ -178,12 +194,11 @@ var Roots = {
        	instagram_id: 185380813,
        	thumb_width: 306,
        	limit: 5
-       });
-      
+       });      
     
-  //Jquery hover
-  $('nav>li>a').hover(function(){$(this).toggleClass('nav-hover');});
-    }
+       //Jquery hover to fix nav
+       $('nav>li>a').hover(function(){$(this).toggleClass('nav-hover');});
+   }
   },
   // Photos Page.
   photos: {
@@ -218,17 +233,14 @@ var UTIL = {
   }
 };
 
-//Inject values into mail button
+
 $(document).ready(UTIL.loadEvents);
 })(jQuery); // Fully reference jQuery after this point.
-$("#e2ma_signup_submit_button" ).ready(function(){
-  $("#e2ma_signup_submit_button" ).val( "JOIN" );
-  $("#e2ma_signup_submit_button" ).addClass( "btn btn-default" );
-});
 
 
 
 
+/** audio.js **/
 (function(h,o,g){var p=function(){for(var b=/audio(.min)?.js.*/,a=document.getElementsByTagName("script"),c=0,d=a.length;c<d;c++){var e=a[c].getAttribute("src");if(b.test(e))return e.replace(b,"")}}();g[h]={instanceCount:0,instances:{},flashSource:'      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="$1" width="1" height="1" name="$1" style="position: absolute; left: -1px;">         <param name="movie" value="$2?playerInstance='+h+'.instances[\'$1\']&datetime=$3">         <param name="allowscriptaccess" value="always">         <embed name="$1" src="$2?playerInstance='+
 h+'.instances[\'$1\']&datetime=$3" width="1" height="1" allowscriptaccess="always">       </object>',settings:{autoplay:false,loop:false,preload:true,imageLocation:"../assets/js/player-graphics.gif",swfLocation:"../assets/js/audiojs.swf",useFlash:function(){var b=document.createElement("audio");return!(b.canPlayType&&b.canPlayType("audio/mpeg;").replace(/no/,""))}(),hasFlash:function(){if(navigator.plugins&&navigator.plugins.length&&navigator.plugins["Shockwave Flash"])return true;else if(navigator.mimeTypes&&navigator.mimeTypes.length){var b=
 navigator.mimeTypes["application/x-shockwave-flash"];return b&&b.enabledPlugin}else try{new ActiveXObject("ShockwaveFlash.ShockwaveFlash");return true}catch(a){}return false}(),createPlayer:{markup:'          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div>',
