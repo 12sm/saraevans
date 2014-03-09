@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       
-      /* Parallax
+      /* Parallax */
       function parallax(){
       	var scrolled = $(window).scrollTop();
       	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
@@ -31,9 +31,9 @@ var Roots = {
       
       $(window).scroll(function(e){
       	parallax();
-      }); */
+      }); 
       
-      // iScroll Parallax
+      /* iScroll Parallax
       var myScroll;
 
 	      myScroll = new IScroll('#scroll-wrapper', {
@@ -51,7 +51,7 @@ var Roots = {
 				}]
 			});
 
-		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false); */
 		
       
       //Inject values into mail button
