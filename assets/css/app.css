@@ -117,6 +117,10 @@ background-color: transparent;
 border-color: transparent;
 }
 
+/* Fixes horizontal nav in IE*/
+.nav-stacked>li{
+clear: both;
+}
 /* Top Slider */
 
 .top-slider {
