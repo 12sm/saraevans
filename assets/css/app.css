@@ -1524,6 +1524,10 @@ font-size:32px!important;
 font-weight:300;
 }
 
+body.archive .addthis_toolbox a {
+width: auto;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
