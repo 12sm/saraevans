@@ -25,6 +25,7 @@ if ( !is_admin() ) {
 global $WP_Views;
 remove_action('wp_print_styles', array($WP_Views, 'add_render_css'));
 remove_action('wp_head', 'wpv_add_front_end_js');
+remove_action('wp_footer', 'wpcf_access_dependencies_render_js');
 wp_dequeue_style( 'views-pagination-style' );
 wp_dequeue_script( 'views-pagination-script' );
 wp_dequeue_script( 'wpv-date-front-end-script' );
