@@ -1005,13 +1005,17 @@ opacity: 0.5;
    min-height: 137px;
 }
 
+.buy-links {text-align:center; padding:10px 0px;}
+
 .buy-links a {}
 
-.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 0px 0px;}
+.buy-links li {display:inline-block;}
+
+.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 0px 0px; text-indent:-99999px; overflow:hidden; display: block; width:62px;}
 .buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 0px -50px;}
-.buy-links .amazon {background: transparent url(../img/album-buy-links.png) 0px -100px;}
+.buy-links .amazon {background: transparent url(../img/album-buy-links.png) 0px -100px; text-indent:-99999px; overflow:hidden; display: block; width:77px;}
 .buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
-.buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 0px -100px;}
+.buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 0px -100px; text-indent:-99999px; overflow:hidden; display: block;}
 .buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
 
 
