@@ -1005,7 +1005,14 @@ opacity: 0.5;
    min-height: 137px;
 }
 
+.buy-links a {}
 
+.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 0px 0px;}
+.buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 0px -50px;}
+.buy-links .amazon {background: transparent url(../img/album-buy-links.png) 0px -100px;}
+.buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
+.buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 0px -100px;}
+.buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
 
 
 /* ==========================================================================
@@ -1456,8 +1463,6 @@ border: 0px solid transparent;
    font-size: 24px;
 }
 body.photos .insta-grid li a {width: 33.333%;}
-
-.shapes {display:block;}
 
 #social-float>ul{
    float: right;
