@@ -741,7 +741,7 @@ color:#70bcbf;
 .timeline {margin-bottom:50px;}
 
 .vco-slider .slider-item {
-margin-left: 60px;
+margin-left: 60px!important;
 }
 
 .vco-slider .nav-previous {
