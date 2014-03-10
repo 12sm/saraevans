@@ -186,7 +186,6 @@ margin-left: 20px;
 .nav-pills>li.active>a, 
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
-color: #fff!important;
 margin-right: -5px!important;
 }
 
@@ -1510,6 +1509,11 @@ body.home h1.instagram-h1,
 body.home h2.video-h2,
 .join-list {
 font-weight:300!important;
+}
+
+.song a.sm2_playing {
+background: rgba(205,130,185, 0.7)!important;
+color: #fff;
 }
 
 }
