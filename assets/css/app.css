@@ -1009,7 +1009,12 @@ opacity: 0.5;
 
 .buy-links a {margin-left:10px;}
 
-.buy-links li {display:inline-flex;}
+.buy-links li {
+display: inline-flex;
+margin: 0px 10px;
+border: 1px solid #ededed;
+padding: 5px;
+}
 
 .buy-links li.buy-now {
 font-size: 20px;
@@ -1017,12 +1022,32 @@ text-transform: uppercase;
 margin: 0px 0px;
 }
 
-.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 0px 0px; overflow:hidden; display: block; width:62px; padding:2px}
-.buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 0px -50px;}
-.buy-links .amazon {background: transparent url(../img/album-buy-links.png) 0px -100px; overflow:hidden; display: block; width:77px; padding:2px;}
-.buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
-.buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 0px -100px; overflow:hidden; display: block; width:77px; padding:2px;}
-.buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 0px -150px;}
+.buy-links .buy-the-cd {
+font-weight: 600;
+font-size: 20px;
+}
+
+.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 53px 0px; overflow:hidden; display: block; width:62px; padding:2px}
+.buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 53px -50px;}
+
+.buy-links .amazon {
+background: transparent url(../img/album-buy-links.png) 53px -95px no-repeat;
+overflow: hidden;
+display: block;
+width: 132px;
+padding: 4px;
+text-align:left;
+}
+.buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 53px -145px;}
+
+.buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 53px -95px no-repeat;
+overflow: hidden;
+display: block;
+width: 132px;
+padding: 4px;
+text-align:left;
+}
+.buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 53px -145px;}
 
 
 /* ==========================================================================
