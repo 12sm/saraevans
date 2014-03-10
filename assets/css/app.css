@@ -1011,6 +1011,7 @@ opacity: 0.5;
 display: inline-flex;
 margin: 0px 10px;
 border: 1px solid #ededed;
+background:#ededed;
 }
 
 .buy-links li:hover {background:#D46685}
@@ -1021,9 +1022,11 @@ text-transform: uppercase;
 margin: 0px 0px;
 }
 
+
 .buy-links .buy-the-cd {
 font-weight: 600;
 font-size: 20px;
+padding:10px;
 }
 .buy-links .buy-the-cd:hover {color:#fff;}
 
