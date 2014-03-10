@@ -1512,7 +1512,7 @@ body.tour h1 {
 font-weight:300!important;
 }
 
-body.tour h1 {text-align:center;font-size:40px;}
+body.tour h1 {text-align:center;font-size:40px!important;}
 
 .song a.sm2_playing {
 background: rgba(205,130,185, 0.7)!important;
