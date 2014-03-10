@@ -1556,6 +1556,14 @@ text-align:center!important;
 -webkit-column-count: auto;
 }
 
+button.player-buy-now {
+display: block;
+right: 0;
+text-align: right;
+margin-left: 300px;
+margin-top: -30px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
