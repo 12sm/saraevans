@@ -1615,6 +1615,22 @@ font-size: 14px;
 .vid-title{
    padding-bottom: 30%;
 }
+
+.audio-player button {
+display: block;
+right: 0;
+text-align: right;
+text-align: right;
+margin-left: 0px;
+margin-top: 4px;
+background-color: #81194a;
+border: none;
+color: #FFF!important;
+border-radius: 15px;
+padding: 8px;
+font-size: 10px;
+}
+
 }
 
 
