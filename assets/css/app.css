@@ -287,6 +287,8 @@ box-shadow: -3px 0px 10px 2px;
 overflow: hidden;
 }
 
+.audio-player button {margin: 7px 0px;}
+
 .audio-player ol,
 .audio-player ol li {padding:0px; margin:0px; width:100%;}
 
