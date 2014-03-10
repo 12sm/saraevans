@@ -293,10 +293,10 @@ overflow: hidden;
 .audio-player ol li {padding:0px; margin:0px; width:100%;}
 
 .audio-player ol li {
-height:40px;
-border-bottom:1px solid #e9e9e9;
+height: 40px;
+border-bottom: 1px solid #e9e9e9;
 width: 100%;
-display:inline;
+display: block;
 }
 
 .audio-player ol li a {
