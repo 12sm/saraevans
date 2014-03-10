@@ -1631,6 +1631,10 @@ padding: 8px;
 font-size: 10px;
 }
 
+.audio-player button:hover {
+background-color:#878787;
+}
+
 }
 
 
