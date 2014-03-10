@@ -1030,7 +1030,13 @@ padding:10px;
 }
 .buy-links .buy-the-cd:hover {color:#fff;}
 
-.buy-links .itunes {background: transparent url(../img/album-buy-links.png) 53px 0px no-repeat; overflow:hidden; display: block; width:62px; padding:2px}
+.buy-links .itunes {
+background: transparent url(../img/album-buy-links.png) 53px 0px no-repeat;
+overflow: hidden;
+display: block;
+width: 150px;
+padding: 17px 10px 10px 10px;
+text-align: left;}
 .buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 53px -50px no-repeat; color:#fff;}
 
 .buy-links .amazon {
@@ -1044,11 +1050,12 @@ text-align: left;
 .buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
 
 .buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 60px -82px no-repeat;
+background: transparent url(../img/album-buy-links.png) 60px -82px no-repeat;
 overflow: hidden;
 display: block;
-width: 132px;
-padding: 4px;
-text-align:left;
+width: 150px;
+padding: 17px 10px 10px 10px;
+text-align: left;
 }
 .buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
 
