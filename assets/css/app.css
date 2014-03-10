@@ -460,7 +460,7 @@ height:auto;
    ========================================================================== */
 
 .bit-events th, .bit-events td {
-padding: 1%!important;
+padding: 5px !important;
 }
 
 #bit-events[data-bit-widget-id='1394133542711'] .bit-events td {
