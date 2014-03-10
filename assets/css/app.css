@@ -1487,7 +1487,8 @@ padding: 4%;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.col {margin:0 10%;}
+.col,
+.post-nav {margin:0 10%;}
 
 .col-video {margin:0 14%;}
 
