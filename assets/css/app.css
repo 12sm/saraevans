@@ -22,7 +22,7 @@ ul{
    list-style-type: none;
 }
 a{
-   outline: none;
+   outline: none!important;
 }
 a, button {
 color: #70bcbf;
