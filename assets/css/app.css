@@ -180,13 +180,10 @@ background-color: #DEA4CB!important;
 border: solid 0px #fff!important;
 margin-left: 20px;
 }
-<<<<<<< HEAD
 
  
-=======
 .nav-pills>li.active:hover,
 .nav-pills>li.active>a, 
->>>>>>> FETCH_HEAD
 .nav-pills>li.active>a:hover, 
 .nav-pills>li.active>a:focus {
 color: #fff!important;
@@ -1500,10 +1497,19 @@ text-align: center;
 }
 
 .credits {
-text-align: center;
-text-align: center;
 font-size: 10px;
 color: #CCC;
+}
+
+.join-list {
+	text-align:center;
+}
+
+body.home h1.bands-in-town-h1,
+body.home h1.instagram-h1,
+body.home h2.video-h2,
+.join-list {
+font-weight:300!important;
 }
 
 }
@@ -1528,6 +1534,7 @@ border: 0px solid transparent;
 }
 .join-list{
    font-size: 24px;
+   
 }
 body.photos .insta-grid li a {width: 33.333%;}
 
