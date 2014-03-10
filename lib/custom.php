@@ -19,7 +19,7 @@ return yoast_breadcrumb('<div class="breadcrumbs">','</div>');
 add_shortcode('breadcrumbs', 'bread_crumbs');
 
 
-add_action( 'init', 'my_cleanup', 11 ); // after they are registered
+add_action( 'plugins_loaded', 'my_cleanup', 12 ); // after they are registered
 function my_cleanup() {
 if ( !is_admin() ) {
 global $WP_Views;
