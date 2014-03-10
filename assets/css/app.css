@@ -1507,9 +1507,12 @@ color: #CCC;
 body.home h1.bands-in-town-h1,
 body.home h1.instagram-h1,
 body.home h2.video-h2,
-.join-list {
+.join-list,
+body.tour h1 {
 font-weight:300!important;
 }
+
+body.tour h1 {text-align:center;font-size:40px;}
 
 .song a.sm2_playing {
 background: rgba(205,130,185, 0.7)!important;
