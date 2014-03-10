@@ -1548,6 +1548,11 @@ margin-bottom:20px!important;
 text-align:center!important;
 }
 
+.two-col {
+-moz-column-count: auto;
+-webkit-column-count: auto;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
