@@ -1010,11 +1010,13 @@ opacity: 0.5;
 .buy-links li {
 display: inline-flex;
 margin: 0px 10px;
-border: 1px solid #ededed;
-background:#ededed;
+border: 2px solid #70bcbf;
+background: #ededed;
 }
 
-.buy-links li:hover {background:#D46685}
+.buy-links li:hover {background:#D46685;}
+.buy-links li:hover a {color:#fff;}
+
 
 .buy-links li.buy-now {
 font-size: 20px;
@@ -1038,7 +1040,8 @@ width: 135px;
 padding: 17px 10px 10px 10px;
 text-align: left;
 }
-.buy-links .itunes:hover {background: transparent url(../img/album-buy-links.png) 63px -34px no-repeat; color:#fff;}
+.buy-links .itunes:hover,
+.buy-links li:hover .itunes {background: transparent url(../img/album-buy-links.png) 63px -36px no-repeat; color:#fff;}
 
 .buy-links .amazon {
 background: transparent url(../img/album-buy-links.png) 60px -82px no-repeat;
@@ -1048,7 +1051,8 @@ width: 150px;
 padding: 17px 10px 10px 10px;
 text-align: left;
 }
-.buy-links .amazon:hover {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
+.buy-links .amazon:hover,
+.buy-links li:hover .amazon {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
 
 .buy-links .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 60px -82px no-repeat;
 background: transparent url(../img/album-buy-links.png) 60px -82px no-repeat;
@@ -1058,7 +1062,8 @@ width: 150px;
 padding: 17px 10px 10px 10px;
 text-align: left;
 }
-.buy-links .amazon-mp3:hover {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
+.buy-links .amazon-mp3:hover,
+.buy-links li:hover .amazon-mp3 {background: transparent url(../img/album-buy-links.png) 60px -132px no-repeat; color:#fff;}
 
 
 /* ==========================================================================
@@ -1429,23 +1434,6 @@ margin-bottom: 30px;
 
 .album-image {
 margin:0 15px;
-}
-
-.buy-links a {
-margin-top: 10px!important;
-text-align: center;
-display: block;
-background: #81194a;
-border: none;
-color: #FFF;
-font-family: "museo-sans",sans-serif;
-font-size: 14px;
-width: 100%;
-padding: 1%;
-}
-
-.buy-links a:hover {
-background-color:#898989;
 }
 
 .navbar-default .navbar-brand {
