@@ -740,6 +740,14 @@ color:#70bcbf;
 
 .timeline {margin-bottom:50px;}
 
+.vco-slider .slider-item {
+margin-left: 60px;
+}
+
+.vco-slider .nav-previous {
+margin-left: 90px;
+}
+
 .books-section img {
 height: auto!important;
 text-align: center;
