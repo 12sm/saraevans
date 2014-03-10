@@ -1565,7 +1565,7 @@ margin-left: 0px;
 margin-top: 4px;
 background-color: #81194a;
 border: none;
-color: #FFF;
+color: #FFF!important;
 border-radius: 15px;
 padding: 8px;
 font-size: 10px;
