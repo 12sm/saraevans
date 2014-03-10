@@ -1602,7 +1602,25 @@ font-size: 14px;
 }
 }
 
+/*Ipad Landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+.music-btn{
+   display:none;
+}
+}
 
+/*Ipad Portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+.music-btn{
+   display: none;
+}
+}
 /*either tell this to be collapsed under 992, or change to min-width 768 to say uncolapse*/
  @media (min-width: 845px){
 
