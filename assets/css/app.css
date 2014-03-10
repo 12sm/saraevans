@@ -1519,6 +1519,11 @@ background: rgba(205,130,185, 0.7)!important;
 color: #fff;
 }
 
+h1.entry-title {
+font-size:32px!important;
+font-weight:300;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
