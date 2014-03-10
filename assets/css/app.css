@@ -1381,6 +1381,8 @@ color: #fff;
 background-color: #FFF;
 }
 
+.music-btn {display:none;}
+
 .top-slider h1, .top-slider h2, .top-slider h3, .top-slider h4 {
 background: #fff;
 opacity: 0.8;

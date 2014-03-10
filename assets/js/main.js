@@ -22,6 +22,10 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+    
+    	function opentab(url) {
+	    	window.open(url, '_blank');
+	    }
       
       /* Parallax */
       function parallax(){
