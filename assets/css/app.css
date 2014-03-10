@@ -1560,8 +1560,19 @@ button.player-buy-now {
 display: block;
 right: 0;
 text-align: right;
-margin-left: 300px;
-margin-top: -30px;
+text-align: right;
+margin-left: 380px;
+margin-top: -32px;
+background-color: #81194a;
+border: none;
+color: #FFF;
+border-radius: 15px;
+padding: 8px;
+font-size: 10px;
+}
+
+button.player-buy-now:hover {
+background-color:#878787;
 }
 
 }
