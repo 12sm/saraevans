@@ -1504,6 +1504,13 @@ color: #CCC;
 	text-align:center;
 }
 
+body.home h1.bands-in-town-h1,
+body.home h1.bands-in-town-h1,
+body.home h2.video-h2,
+.join-list {
+font-weight:300;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
