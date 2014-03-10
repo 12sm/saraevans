@@ -719,6 +719,9 @@ display: none;
 -webkit-column-gap : 50px;
 }
 
+.vco-toolbar{
+   display: none;
+}
 blockquote {
 padding: 10px 0px;
 margin: 0;
