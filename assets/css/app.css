@@ -273,6 +273,8 @@ height:28px;
    Audio Player [Home]
    ========================================================================== */
 
+.pop-btn {display: none;}
+
 .audio-player {
 position: fixed;
 top: 0px;
