@@ -1528,6 +1528,10 @@ body.archive .addthis_toolbox a {
 width: auto;
 }
 
+.meta-date-share {
+padding: 3% 1%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
