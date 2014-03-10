@@ -22,7 +22,7 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-          
+      
       /* Parallax */
       function parallax(){
       	var scrolled = $(window).scrollTop();
@@ -145,7 +145,7 @@ var Roots = {
         audio.load(first);
 
         // Load in a track on click
-        $('ol li a').click(function(e) {
+        $('ol li').click(function(e) {
           e.preventDefault();
           $(this).addClass('playing').siblings().removeClass('playing');
           audio.load($('a', this).attr('data-src'));
