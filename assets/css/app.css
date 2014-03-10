@@ -1556,23 +1556,19 @@ text-align:center!important;
 -webkit-column-count: auto;
 }
 
-button.player-buy-now {
+.audio-player button {
 display: block;
 right: 0;
 text-align: right;
 text-align: right;
-margin-left: 380px;
-margin-top: -32px;
+margin-left: 0px;
+margin-top: 4px;
 background-color: #81194a;
 border: none;
 color: #FFF;
 border-radius: 15px;
 padding: 8px;
 font-size: 10px;
-}
-
-button.player-buy-now:hover {
-background-color:#878787;
 }
 
 }
