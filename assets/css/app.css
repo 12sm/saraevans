@@ -1512,6 +1512,11 @@ body.home h2.video-h2,
 font-weight:300!important;
 }
 
+.song a.sm2_playing {
+background: rgba(205,130,185, 0.7)!important;
+color: #fff;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
