@@ -28,4 +28,16 @@ http://12southmusic.com/
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
   <link rel="shortcut icon" href="<?php echo of_get_option('favicon_upload'); ?>" />
+  <script>
+var _prum = [['id', '532bcd22abe53daa069dfa3d'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script>
+    
 </head>
