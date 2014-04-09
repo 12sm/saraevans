@@ -140,6 +140,10 @@ padding-bottom: 58%;
 .top-slider h3,
 .top-slider h4 {background:#fff; opacity:0.8; font-weight:100; padding:15px!important; color: #802e59; letter-spacing: -2px;}
 
+
+.slider-p{
+   font-size: 36px;
+}
 /* ==========================================================================
    Man Nav
    ========================================================================== */
