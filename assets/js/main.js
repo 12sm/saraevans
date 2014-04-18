@@ -67,7 +67,7 @@ var Roots = {
 
       // FitVids init
       $(".fitvids").fitVids();
-        $(".fitvids").fitVids({ customSelector: "iframe[src^='http://music.yahoo.com'], iframe[src^='http://screen.yahoo.com']"});
+      $(".fitvids").fitVids({ customSelector: "iframe[src^='http://music.yahoo.com'], iframe[src^='http://screen.yahoo.com']"});
   
 	   
 	 // Music Album Carousel  
