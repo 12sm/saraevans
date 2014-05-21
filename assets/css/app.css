@@ -30,7 +30,11 @@ text-decoration: none;
 outline:none;
 }
 
-
+.hentry .entry-content iframe {
+-webkit-column-span:all;
+-moz-column-span:all;
+column-span:all;
+}
 a:hover {
 color: #D46685;
 text-decoration: none;
