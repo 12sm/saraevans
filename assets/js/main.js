@@ -137,11 +137,6 @@ var Roots = {
 			window.location = $(this).attr("href");
 		});   
 		    
-        /** Fix weird nav click issue **/
-		$('.nav li a').on('click', function(event){
-			window.location = $(this).attr("href");
-		}); 
-		
 		
 		// ** Audio Player  ** //
 		
