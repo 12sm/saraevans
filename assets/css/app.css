@@ -1382,6 +1382,7 @@ background: rgba(205,130,185, 0.9);
 padding: 10px;
 margin-bottom: 0px!important;
 border-bottom: none;
+font-weight: 300;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
