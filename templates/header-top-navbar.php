@@ -15,7 +15,7 @@
 <li class="menu-"><a href="https://twitter.com/saraevansmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 <li class="menu-"><a href="http://instagram.com/saraevansmusic" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
 <li class="menu-"><a href="http://www.pinterest.com/saraevansmusic" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a></li>
-<li class="menu-"><a href="http://www.youtube.com/subscription_center?add_user=saraevansfanclub" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+<li class="menu-"><a href="http://www.youtube.com/subscription_center?add_user=saraevans" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 </ul>
               </div>
 
