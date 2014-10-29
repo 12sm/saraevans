@@ -29,6 +29,23 @@
 
   <?php get_template_part('templates/footer'); ?>
 
-
+<!-- Google Code for Sara Evans - 365 Day Site Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 947941608;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "RxVdCOi0kSAQ6OGBxAM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/947941608/?value=0&label=RxVdCOi0kSAQ6OGBxAM&guid=ON&script=0"/>
+</div>
+</noscript>
 </body>
 </html>
