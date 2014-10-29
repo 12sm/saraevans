@@ -39,5 +39,30 @@ var _prum = [['id', '532bcd22abe53daa069dfa3d'],
     s.parentNode.insertBefore(p, s);
 })();
 </script>
-<meta name="google-site-verification" content="ehfvEOwf6wcx3dOsiEFZvlKYTai74LlRVojNio3tAko" />    
+<meta name="google-site-verification" content="ehfvEOwf6wcx3dOsiEFZvlKYTai74LlRVojNio3tAko" />  
+<script type="text/javascript">(function(){
+
+  window._fbds = window._fbds || {};
+
+  _fbds.pixelId = 603231546396886;
+
+  var fbds = document.createElement('script');
+
+  fbds.async = true;
+
+  fbds.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//connect.facebook.net/en_US/fbds.js';
+
+  var s = document.getElementsByTagName('script')[0];
+
+  s.parentNode.insertBefore(fbds, s);
+
+})();
+
+window._fbq = window._fbq || [];
+
+window._fbq.push(["track", "PixelInitialized", {}]);
+
+</script>
+
+<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=603231546396886&amp;ev=NoScript" /></noscript>  
 </head>
