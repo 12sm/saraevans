@@ -1277,7 +1277,9 @@ padding: 1%;
 body.category-news .addthis_default_style .at15t_compact {
 display: none;
 }
-
+#comments img {
+   width: auto;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
