@@ -51,7 +51,6 @@ text-decoration: none;
    display: none;}
 .btn-default{
    color: #70bcbf;
-   border-color: #D46685;
 }
 .btn-default:hover{
    background: #fff;
