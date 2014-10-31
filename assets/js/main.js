@@ -218,6 +218,11 @@ var Roots = {
     });
       
     }
+  },
+  single_photo_galleries: {
+    init: function(){
+      $('.img-thhumbnail').colorbox();
+    }
   }
 };
 
