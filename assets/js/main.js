@@ -221,10 +221,14 @@ var Roots = {
   },
   single_photo_galleries: {
     init: function(){
+      if ($(window).width() >= 768){  
       $('.img-thumbnail').colorbox({
         maxWidth: '80%',
         maxHeight: '575px'
       });
+    }
+     if ($(window).width() >= 768){
+      $('.img-thumbnail').swipebox()
       $('.img-thumbnail').attr('rel', 'gal');
     }
   }
