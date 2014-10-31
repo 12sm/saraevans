@@ -222,6 +222,7 @@ var Roots = {
   single_photo_galleries: {
     init: function(){
       $('.img-thumbnail').colorbox();
+      $('.img-thumbnail').attr('rel', 'gal');
     }
   }
 };
