@@ -457,7 +457,7 @@ body.home .insta-grid li:nth-child(3) a {width:100%;}
 
 body.photos .insta-grid {padding:0px;}
 
-body.photos .insta-grid li a {
+body.photos .insta-grid li a, .archive .insta-grid li a {
 display: block;
 float: left;
 width: 50%;
