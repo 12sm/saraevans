@@ -466,6 +466,10 @@ height:auto;
  -webkit-column-count: 1;
  }
  .single-photos time.published {display: none!important;}
+ .single-photo-galleries .hentry .entry-content {
+-moz-column-count:1;
+-webkit-column-count:1;
+}
 
 /* ==========================================================================
    Bands in Town [Home]
