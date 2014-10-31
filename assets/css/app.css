@@ -49,7 +49,15 @@ text-decoration: none;
 /*Kill page header*/
 .page-header{
    display: none;}
-
+.btn-default{
+   color: #70bcbf;
+   border-color: #D46685;
+}
+.btn-default:hover{
+   background: #fff;
+   color: #D46685;
+   border-color: #70bcbf;
+}
 
 /* ==========================================================================
    Scrollers
