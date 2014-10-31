@@ -205,12 +205,17 @@ var Roots = {
   // Photos Page.
   photos: {
     init: function() {
-     
-     $('.insta-grid').embedagram({
-       	instagram_id: 185380813,
-       	thumb_width: 306,
-       	limit: 20
+    $('.entry-content').css({
+      '-webkit-column-count': '1',
+      'moz-column-count': '1'
       });
+    $('.entry-content').children().children('iframe').wrap("<div class='fitvids'></div>");
+    $('.entry-content-asset').fitVids();
+    $('.insta-grid').embedagram({
+     	instagram_id: 185380813,
+     	thumb_width: 306,
+     	limit: 20
+    });
       
     }
   }
