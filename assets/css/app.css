@@ -437,8 +437,9 @@ padding: 4%;
 background-color: #c9c9c9;
 }
 
-.insta-grid {
-
+.archive .insta-grid, .photos .insta-grid {
+   padding-left: 0px;
+   margin-top: 15px;
 }
 
 body.home .insta-grid li a {
