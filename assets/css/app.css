@@ -463,7 +463,7 @@ float: left;
 width: 50%;
 }
 
-body.photos .insta-grid li a img {
+body.photos .insta-grid li a img, .archive .insta-grid li a img  {
 width:100%;
 max-width:100%;
 height:auto;
