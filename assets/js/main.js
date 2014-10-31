@@ -227,7 +227,7 @@ var Roots = {
         maxHeight: '575px'
       });
     }
-     if ($(window).width() >= 768){
+     if ($(window).width() <= 768){
       $('.img-thumbnail').swipebox()
       $('.img-thumbnail').attr('rel', 'gal');
       }
