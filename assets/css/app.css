@@ -1695,7 +1695,7 @@ border: 0px solid transparent;
    font-size: 24px;
 
 }
-body.photos .insta-grid li a {width: 33.333%;}
+body.photos .insta-grid li a, .archive .insta-grid li a {width: 33.333%;}
 
 #social-float>ul{
    float: right;
@@ -1797,7 +1797,7 @@ font-size: 18px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-body.photos .insta-grid li a {width: 25%;}
+body.photos .insta-grid li a, .archive .insta-grid li a {width: 25%;}
 
 #lyrics-base {
 display: block;
