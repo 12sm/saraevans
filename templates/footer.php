@@ -72,3 +72,18 @@
 	  	})();
 	</script>
   <!-- End 12SM Network Analytics <!--> 
+  <script type='text/javascript'>
+var _vmass = {};
+_vmass['profile'] = 1375;
+_vmass['website'] = window.location.hostname;
+_vmass['_setHost'] = window.location.hostname;
+_vmass['_setHref'] = window.location.href;
+(function() {
+var v = document.createElement('script');
+v.type = 'text/javascript';
+v.async = true;
+v.src = document.location.protocol + '//track.verticalmass.com/js/pixel.js';
+var m = document.getElementsByTagName('script')[0];
+m.parentNode.insertBefore(v, m);
+})();
+</script>
