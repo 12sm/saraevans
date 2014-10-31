@@ -221,7 +221,10 @@ var Roots = {
   },
   single_photo_galleries: {
     init: function(){
-      $('.img-thumbnail').colorbox();
+      $('.img-thumbnail').colorbox({
+        maxWidth: 80%,
+        maxHeight: 768px
+      });
       $('.img-thumbnail').attr('rel', 'gal');
     }
   }
