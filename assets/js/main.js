@@ -230,6 +230,7 @@ var Roots = {
      if ($(window).width() >= 768){
       $('.img-thumbnail').swipebox()
       $('.img-thumbnail').attr('rel', 'gal');
+      }
     }
   }
 };
