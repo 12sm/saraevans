@@ -216,7 +216,21 @@ var Roots = {
      	thumb_width: 306,
      	limit: 20
     });
-      
+    }
+  },
+  post_type_archive_photo_galleries: {
+    init: function(){
+    $('.entry-content').css({
+    '-webkit-column-count': '1',
+    'moz-column-count': '1'
+    });
+    $('.entry-content').children().children('iframe').wrap("<div class='fitvids'></div>");
+    $('.entry-content-asset').fitVids();
+    $('.insta-grid').embedagram({
+      instagram_id: 185380813,
+      thumb_width: 306,
+      limit: 20
+    });
     }
   },
   single_photo_galleries: {
