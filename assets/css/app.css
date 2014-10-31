@@ -52,7 +52,7 @@ text-decoration: none;
 .btn-default{
    color: #70bcbf;
 }
-.btn-default:hover{
+.btn-default:hover, .btn-default:hover a{
    background: #fff;
    color: #D46685;
    border-color: #70bcbf;
