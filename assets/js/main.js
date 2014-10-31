@@ -223,7 +223,7 @@ var Roots = {
     init: function(){
       $('.img-thumbnail').colorbox({
         maxWidth: '80%',
-        maxHeight: '768px'
+        maxHeight: '500px'
       });
       $('.img-thumbnail').attr('rel', 'gal');
     }
