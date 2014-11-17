@@ -1,6 +1,6 @@
 <div class="row">
 <div class="col-md-12 tk-omnes-pro top-slider">
-<?php echo do_shortcode( '[layerslider id="1"]') ?>
+<?php echo do_shortcode( '[rev_slider home]') ?>
 </div>
 </div>
 
