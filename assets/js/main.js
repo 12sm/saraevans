@@ -6,7 +6,7 @@
  * replace the dash with an underscore when adding it to the object below.
  *
  * .noConflict()
- * The routing is enclosed within an anonymous function so that you can 
+ * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  *
  * Google CDN, Latest jQuery
@@ -16,13 +16,13 @@
 
 (function($) {
 
-// Use this variable to set up the common and page specific functions. If you 
+// Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
   // All pages
   common: {
     init: function() {
-      
+
   soundManager.setup({
   // disable or enable debug output
   debugMode: true,
@@ -39,18 +39,18 @@ var Roots = {
   soundManager.onready(function() {
   	// soundManager.createSound() etc. may now be called
   	inlinePlayer = new InlinePlayer();
-  });   
-      
+  });
+
       /* Parallax */
       function parallax(){
       	var scrolled = $(window).scrollTop();
       	$('.shapes').css('background-position-y', -(scrolled * 0.4) + 'px');
       }
-      
+
       $(window).scroll(function(e){
       	parallax();
-      }); 
-      
+      });
+
       /* iScroll Parallax
       var myScroll;
 
@@ -70,8 +70,8 @@ var Roots = {
 			});
 
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false); */
-		
-      
+
+
       //Inject values into mail button
       $("#e2ma_signup_submit_button" ).ready(function(){
 	    $("#e2ma_signup_submit_button" ).val( "JOIN" );
@@ -84,11 +84,12 @@ var Roots = {
       $(".gal-thumb").imgLiquid();
 
       // FitVids init
+      $(".content").fitVids();
       $(".fitvids").fitVids();
       $(".fitvids").fitVids({ customSelector: "iframe[src^='http://music.yahoo.com'], iframe[src^='http://screen.yahoo.com']"});
-  
-	   
-	 // Music Album Carousel  
+
+
+	 // Music Album Carousel
      var owl = $("#album-carousel");
      owl.owlCarousel({
        itemsCustom : [
@@ -103,7 +104,7 @@ var Roots = {
        pagination: false,
        scrollPerPage : true
       });
-      
+
        /** Lyrics display **/
         $('.play').on('click', function(e){
             var lyrics = $(this).find('.lyric-output').clone();
@@ -127,20 +128,20 @@ var Roots = {
                 };
             }
         });
-        
+
         /** Load first lyric **/
         var lyrics = $(".songs-list:first-child").find('.lyric-output').clone();
         $("#lyrics-base").html(lyrics);
-        
+
         /** Make album click work **/
 		$('.album-link').on('click', function(event){
 			window.location = $(this).attr("href");
-		});   
-		    
-		
+		});
+
+
 		// ** Audio Player  ** //
-		
-		$(function() { 
+
+		$(function() {
         // Setup the player to autoplay the next track
         var a = audiojs.createAll({
           trackEnded: function() {
@@ -151,7 +152,7 @@ var Roots = {
             audio.play();
           }
         });
-        
+
         // Load in the first track
         var audio = a[0];
             first = $('ol a').attr('data-src');
@@ -174,30 +175,30 @@ var Roots = {
           }
         })
       });
-	
-	// Move audio player	
+
+	// Move audio player
 	$(function(){
     	var c=-460;
     	$(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
     	$(".music-btn").click(function(){
         	$(".audio-player").stop().animate({left: ++c%2*460 }, 'fast');
-        });  
-    }); 	
-      
+        });
+    });
+
 
     }
   },
   // Home page
   home: {
     init: function() {
-      // JavaScript to be fired on the home page  
-      
+      // JavaScript to be fired on the home page
+
       $('.insta-grid').embedagram({
        	instagram_id: 185380813,
        	thumb_width: 306,
        	limit: 5
-       });      
-    
+       });
+
        //Jquery hover to fix nav
        $('nav>li>a').hover(function(){$(this).toggleClass('nav-hover');});
    }
@@ -235,7 +236,7 @@ var Roots = {
   },
   single_photo_galleries: {
     init: function(){
-      if ($(window).width() >= 768){  
+      if ($(window).width() >= 768){
       $('.img-thumbnail').colorbox({
         maxWidth: '80%',
         maxHeight: '575px'
@@ -558,7 +559,7 @@ function IScroll (el, options) {
 
 		snapThreshold: 0.334,
 
-// INSERT POINT: OPTIONS 
+// INSERT POINT: OPTIONS
 
 		startX: 0,
 		startY: 0,
@@ -615,7 +616,7 @@ function IScroll (el, options) {
 
 // INSERT POINT: NORMALIZATION
 
-	// Some defaults	
+	// Some defaults
 	this.x = 0;
 	this.y = 0;
 	this.directionX = 0;
@@ -2162,7 +2163,7 @@ Indicator.prototype = {
 				this.maxBoundaryX = this.maxPosX;
 			}
 
-			this.sizeRatioX = this.options.speedRatioX || (this.scroller.maxScrollX && (this.maxPosX / this.scroller.maxScrollX));	
+			this.sizeRatioX = this.options.speedRatioX || (this.scroller.maxScrollX && (this.maxPosX / this.scroller.maxScrollX));
 		}
 
 		if ( this.options.listenY ) {
