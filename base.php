@@ -1,3 +1,7 @@
+<?php 
+  if (!is_page('splash')) {
+  ?>
+
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
@@ -49,3 +53,10 @@ var google_conversion_value = 0;
 </noscript>
 </body>
 </html>
+<?php } ?>
+
+<?php  
+  if (is_page('splash')){
+    get_template_part('templates/content', 'page-splash');
+  } 
+?>
