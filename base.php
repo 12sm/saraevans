@@ -1,5 +1,5 @@
 <?php
-  if (!is_page('splash') || (!is_page('stagecoach'))  {
+  if (!is_page('splash')) {
 ?>
 
 <?php get_template_part('templates/head'); ?>
