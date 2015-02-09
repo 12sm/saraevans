@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Tour Template try again
+Template Name: Tour Template for Songkick Tourbox
 */
 ?>
 
