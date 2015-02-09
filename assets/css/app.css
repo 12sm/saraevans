@@ -1181,6 +1181,39 @@ color: #919191!important;
 font-family: "museo-sans",sans-serif!important;
 }
 
+.results a.ticket-link {
+color: #FFF!Important;
+background-color: #70bcbf!important;
+text-transform: uppercase!important;
+font-family: "museo-sans",sans-serif!important;
+border: none!important;
+border-radius: 0!important;
+}
+
+.results a.additional-link {
+color: #FFF!Important;
+background-color: #EBD1E3!important;
+text-transform: uppercase!important;
+font-family: "museo-sans",sans-serif!important;
+border: none!important;
+border-radius: 0!important;
+}
+
+.results .location span.city {
+text-align: center;
+color: #81194a!important;
+font-weight: bold;
+}
+
+span#cta-text {
+color: #A6A6A6;
+font-size: 12px;
+}
+
+.light #track-cta {
+background-color: none!important;
+}
+
 
 /* ==========================================================================
    Blog Posts
