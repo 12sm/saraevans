@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="col-md-12 bands-in-town-embed">
 				<a href="http://www.songkick.com/artists/16594" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-font-color="#808080" data-background-color="#ffffff">Sara Evans Tour Dates</a>
-				<script src="//widget.songkick.com/widget.js"></script>
+				<script src="//widget.songkick.com/widget.js"></script> 
 			</div>
 		</div>
         <div class="row">
